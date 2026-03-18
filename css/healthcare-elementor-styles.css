@@ -1,0 +1,395 @@
+/*
+ * healthcare-elementor-styles.css
+ * Custom stylesheet for the Healthcare Platform Elementor Templates
+ * Version: 1.0.0
+ *
+ * USAGE: Paste this CSS in Elementor > Site Settings > Custom CSS
+ *        or enqueue it via your child theme's functions.php
+ */
+
+/* ============================================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   ============================================================ */
+:root {
+  --hc-bg:           #f6f8fb;
+  --hc-surface:      #ffffff;
+  --hc-text:         #1f2937;
+  --hc-muted:        #6b7280;
+  --hc-primary:      #2563eb;
+  --hc-primary-dark: #1d4ed8;
+  --hc-secondary:    #0f766e;
+  --hc-soft-blue:    #eff6ff;
+  --hc-soft-teal:    #ecfeff;
+  --hc-border:       #e5e7eb;
+  --hc-shadow:       0 18px 40px rgba(15, 23, 42, 0.08);
+  --hc-radius:       22px;
+  --hc-max:          1180px;
+}
+
+
+/* ============================================================
+   GLOBAL PAGE BACKGROUND
+   ============================================================ */
+.hc-page-bg {
+  background-color: var(--hc-bg);
+}
+
+
+/* ============================================================
+   SECTION BACKGROUNDS
+   ============================================================ */
+.hc-section-light {
+  background-color: var(--hc-surface) !important;
+}
+
+.hc-section-soft {
+  background: linear-gradient(180deg, #f8fbff 0%, #f4f8fc 100%) !important;
+}
+
+
+/* ============================================================
+   EYEBROW LABEL
+   ============================================================ */
+.hc-eyebrow,
+.elementor-widget-heading .hc-eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--hc-primary);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hc-eyebrow-inverted {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+}
+
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+.hc-h2 {
+  font-size: clamp(1.9rem, 2.8vw, 2.8rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--hc-text);
+  margin-bottom: 14px;
+}
+
+.hc-h3 {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: var(--hc-text);
+  margin-bottom: 10px;
+}
+
+.hc-lead {
+  color: var(--hc-muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hc-muted,
+.hc-muted p {
+  color: var(--hc-muted) !important;
+}
+
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+.hc-card,
+.elementor-element.hc-card {
+  background: var(--hc-surface);
+  border: 1px solid var(--hc-border);
+  border-radius: var(--hc-radius);
+  padding: 28px;
+  box-shadow: var(--hc-shadow);
+}
+
+
+/* ============================================================
+   ICON BOX
+   ============================================================ */
+.hc-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  background: linear-gradient(145deg, #dbeafe 0%, #ccfbf1 100%);
+  margin-bottom: 16px;
+}
+
+
+/* ============================================================
+   STEP NUMBER (How It Works)
+   ============================================================ */
+.hc-step-number {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--hc-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+
+/* ============================================================
+   PROVIDER CARD
+   ============================================================ */
+.hc-provider-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hc-provider-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hc-avatar,
+.hc-avatar img,
+img.hc-avatar {
+  width: 68px !important;
+  height: 68px !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ============================================================
+   BADGE
+   ============================================================ */
+.hc-badge {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: var(--hc-soft-blue);
+  color: var(--hc-primary-dark);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.hc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 20px;
+  border-radius: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.hc-btn-primary,
+.elementor-button.hc-btn-primary {
+  background: var(--hc-primary) !important;
+  color: #fff !important;
+  border-color: var(--hc-primary) !important;
+}
+
+.hc-btn-primary:hover,
+.elementor-button.hc-btn-primary:hover {
+  background: var(--hc-primary-dark) !important;
+  border-color: var(--hc-primary-dark) !important;
+}
+
+.hc-btn-secondary,
+.elementor-button.hc-btn-secondary {
+  background: #fff !important;
+  color: var(--hc-text) !important;
+  border-color: var(--hc-border) !important;
+}
+
+.hc-btn-secondary:hover,
+.elementor-button.hc-btn-secondary:hover {
+  background: #f9fafb !important;
+}
+
+
+/* ============================================================
+   SERVICE LIST
+   ============================================================ */
+.hc-service-list,
+ul.hc-service-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+}
+
+.hc-service-list li,
+ul.hc-service-list li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 12px;
+  color: var(--hc-muted);
+  line-height: 1.65;
+}
+
+.hc-service-list li::before,
+ul.hc-service-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--hc-primary);
+}
+
+
+/* ============================================================
+   STATS BAR
+   ============================================================ */
+.hc-statbar {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f766e 100%);
+  color: #fff;
+  border-radius: 28px;
+  padding: 26px;
+  box-shadow: var(--hc-shadow);
+}
+
+.hc-stat {
+  text-align: center;
+  padding: 10px 12px;
+}
+
+.hc-stat-number {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.hc-stat-label {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.95rem;
+}
+
+
+/* ============================================================
+   TESTIMONIALS — decorative opening quote
+   ============================================================ */
+.hc-testimonial {
+  position: relative;
+  padding-top: 42px !important;
+}
+
+.hc-testimonial::before {
+  content: "\201C";
+  position: absolute;
+  top: 4px;
+  left: 28px;
+  font-size: 3rem;
+  line-height: 1;
+  color: rgba(37, 99, 235, 0.2);
+  font-weight: 700;
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   CTA BOX
+   ============================================================ */
+.hc-cta-box {
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #0f766e 100%);
+  color: #fff;
+  padding: 46px 30px;
+  border-radius: 30px;
+  box-shadow: var(--hc-shadow);
+}
+
+.hc-cta-box p {
+  max-width: 720px;
+  margin: 0 auto 26px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hc-cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+
+/* ============================================================
+   RESPONSIVE — TABLET (≤ 980px)
+   ============================================================ */
+@media (max-width: 980px) {
+  .hc-grid-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .hc-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hc-grid-2,
+  .hc-split-panel {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+/* ============================================================
+   RESPONSIVE — MOBILE (≤ 640px)
+   ============================================================ */
+@media (max-width: 640px) {
+  .hc-section {
+    padding-top: 58px !important;
+    padding-bottom: 58px !important;
+  }
+
+  .hc-grid-4 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hc-card {
+    padding: 22px !important;
+  }
+
+  .hc-statbar {
+    padding: 20px !important;
+  }
+
+  .hc-cta-box {
+    padding: 36px 20px !important;
+  }
+
+  .hc-stat-number {
+    font-size: 1.6rem;
+  }
+}

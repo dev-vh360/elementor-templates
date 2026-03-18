@@ -1,0 +1,148 @@
+{
+  "version": "0.4",
+  "title": "CTA Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "cta_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f8fc",
+        "_background_gradient_angle": {"unit": "deg", "size": 180},
+        "padding": {"unit": "px", "top": "76", "right": "16", "bottom": "76", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "cta_box",
+          "elType": "container",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#0f172a",
+            "background_color_b": "#0f766e",
+            "background_gradient_angle": {"unit": "deg", "size": 135},
+            "background_gradient_position": "55% 100%",
+            "border_radius": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true},
+            "padding": {"unit": "px", "top": "46", "right": "30", "bottom": "46", "left": "30", "isLinked": false},
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "width": {"unit": "%", "size": 100}
+          },
+          "elements": [
+            {
+              "id": "cta_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get Started",
+                "header_size": "p",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 13},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "em", "size": 0.08},
+                "typography_text_transform": "uppercase",
+                "title_color": "#ffffff",
+                "background_background": "classic",
+                "background_color": "rgba(255, 255, 255, 0.12)",
+                "border_radius": {"unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true},
+                "padding": {"unit": "px", "top": "8", "right": "14", "bottom": "8", "left": "14", "isLinked": false},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "cta_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Start Your Care Journey Today",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 2.4},
+                "typography_font_weight": "700",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "cta_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Find the right provider, schedule a virtual appointment, and take the next step toward better mental health, better physical health, and more convenient care.</p>",
+                "align": "center",
+                "text_color": "rgba(255, 255, 255, 0.86)",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 1.05},
+                "margin": {"unit": "px", "top": "0", "right": "auto", "bottom": "26", "left": "auto", "isLinked": false},
+                "max_width": {"unit": "px", "size": 720}
+              }
+            },
+            {
+              "id": "cta_actions",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "justify_content": "center",
+                "flex_wrap": "wrap",
+                "gap": {"unit": "px", "size": 14}
+              },
+              "elements": [
+                {
+                  "id": "cta_btn1",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Find a Provider",
+                    "link": {"url": "#"},
+                    "background_color": "#2563eb",
+                    "button_text_color": "#ffffff",
+                    "border_radius": {"unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true},
+                    "typography_typography": "custom",
+                    "typography_font_weight": "700",
+                    "padding": {"unit": "px", "top": "14", "right": "24", "bottom": "14", "left": "24", "isLinked": false},
+                    "hover_background_color": "#1d4ed8"
+                  }
+                },
+                {
+                  "id": "cta_btn2",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Book Appointment",
+                    "link": {"url": "#"},
+                    "background_color": "#ffffff",
+                    "button_text_color": "#1f2937",
+                    "border_border": "solid",
+                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_color": "#e5e7eb",
+                    "border_radius": {"unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true},
+                    "typography_typography": "custom",
+                    "typography_font_weight": "700",
+                    "padding": {"unit": "px", "top": "14", "right": "24", "bottom": "14", "left": "24", "isLinked": false}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "CTA Section - dark gradient box with centered heading, body text, and two call-to-action buttons.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}
