@@ -1,0 +1,349 @@
+{
+  "version": "0.4",
+  "title": "Why Choose Us Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "wcu_section",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {"unit": "px", "top": "76", "right": "16", "bottom": "76", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "wcu_head",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "width": {"unit": "%", "size": 100},
+            "max_width": {"unit": "px", "size": 760},
+            "margin": {"unit": "px", "top": "0", "right": "auto", "bottom": "34", "left": "auto", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "wcu_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why Choose Us",
+                "header_size": "p",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 13},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "em", "size": 0.08},
+                "typography_text_transform": "uppercase",
+                "title_color": "#2563eb",
+                "background_background": "classic",
+                "background_color": "rgba(37, 99, 235, 0.08)",
+                "border_radius": {"unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true},
+                "padding": {"unit": "px", "top": "8", "right": "14", "bottom": "8", "left": "14", "isLinked": false},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "wcu_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Care That Fits Modern Life",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 2.4},
+                "typography_font_weight": "700",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "wcu_lead",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Our platform is designed to make quality care easier to access, easier to manage, and more comfortable for patients and providers alike.</p>",
+                "align": "center",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 1.05}
+              }
+            }
+          ]
+        },
+        {
+          "id": "wcu_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {"size": 4, "unit": "fr"},
+            "gap": {"unit": "px", "column": "24", "row": "24"},
+            "width": {"unit": "%", "size": 100},
+            "_tablet_grid_columns_grid": {"size": 2, "unit": "fr"},
+            "_mobile_grid_columns_grid": {"size": 1, "unit": "fr"}
+          },
+          "elements": [
+            {
+              "id": "wcu_card1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "wcu_icon1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "🌍",
+                    "header_size": "p",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#ccfbf1",
+                    "background_gradient_angle": {"unit": "deg", "size": 145},
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "width": {"unit": "px", "size": 56},
+                    "height": {"unit": "px", "size": 56},
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 26},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_title1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Accessible Anywhere",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_text1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Connect with providers from home, at work, or wherever life takes you.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcu_card2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "wcu_icon2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "🧩",
+                    "header_size": "p",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#ccfbf1",
+                    "background_gradient_angle": {"unit": "deg", "size": 145},
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "width": {"unit": "px", "size": 56},
+                    "height": {"unit": "px", "size": 56},
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 26},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_title2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "All-in-One Platform",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_text2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Support both mental health and medical care through one connected virtual experience.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcu_card3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "wcu_icon3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "📅",
+                    "header_size": "p",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#ccfbf1",
+                    "background_gradient_angle": {"unit": "deg", "size": 145},
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "width": {"unit": "px", "size": 56},
+                    "height": {"unit": "px", "size": 56},
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 26},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_title3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Flexible Scheduling",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_text3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Choose appointment times that fit your routine and reduce the stress of in-person visits.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcu_card4",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "wcu_icon4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "🔒",
+                    "header_size": "p",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#ccfbf1",
+                    "background_gradient_angle": {"unit": "deg", "size": 145},
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "width": {"unit": "px", "size": 56},
+                    "height": {"unit": "px", "size": 56},
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 26},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_title4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Secure and Private",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "wcu_text4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Attend virtual sessions through a professional environment built around privacy and trust.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "Why Choose Us - 4-column grid of feature cards with emoji icons and short descriptions.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}

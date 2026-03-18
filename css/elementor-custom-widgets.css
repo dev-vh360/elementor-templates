@@ -1,0 +1,209 @@
+/*
+ * elementor-custom-widgets.css
+ * Extended widget overrides for Healthcare Platform Elementor Templates
+ * Version: 1.0.0
+ *
+ * USAGE: Enqueue alongside healthcare-elementor-styles.css
+ *        or append to Elementor > Site Settings > Custom CSS
+ */
+
+/* ============================================================
+   ELEMENTOR CONTAINER OVERRIDES
+   ============================================================ */
+
+/* Ensure containers that serve as section wrappers inherit
+   the correct max-width for the 1180px content grid */
+.elementor-section.hc-section-wrapper > .elementor-container,
+.e-con.hc-section-wrapper {
+  max-width: var(--hc-max, 1180px);
+  width: calc(100% - 32px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ============================================================
+   HEADING WIDGET — eyebrow style applied via CSS class
+   ============================================================ */
+.elementor-widget-heading .elementor-heading-title.hc-eyebrow-tag {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: #2563eb;
+  font-size: 13px !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.elementor-widget-heading .elementor-heading-title.hc-eyebrow-inverted-tag {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: 13px !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* ============================================================
+   IMAGE WIDGET — circular avatar
+   ============================================================ */
+.elementor-widget-image.hc-avatar-widget .elementor-image img {
+  width: 68px !important;
+  height: 68px !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: block;
+}
+
+
+/* ============================================================
+   BUTTON WIDGET — primary style
+   ============================================================ */
+.elementor-widget-button.hc-btn-primary-widget .elementor-button {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+  border: 1px solid #2563eb !important;
+  border-radius: 14px !important;
+  font-weight: 700 !important;
+  min-height: 48px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.elementor-widget-button.hc-btn-primary-widget .elementor-button:hover {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+}
+
+
+/* ============================================================
+   BUTTON WIDGET — secondary style
+   ============================================================ */
+.elementor-widget-button.hc-btn-secondary-widget .elementor-button {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 14px !important;
+  font-weight: 700 !important;
+  min-height: 48px;
+  transition: background-color 0.2s ease;
+}
+
+.elementor-widget-button.hc-btn-secondary-widget .elementor-button:hover {
+  background-color: #f9fafb !important;
+}
+
+
+/* ============================================================
+   TEXT EDITOR — service list styling
+   ============================================================ */
+.elementor-widget-text-editor .hc-service-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 18px 0 0 !important;
+}
+
+.elementor-widget-text-editor .hc-service-list li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 12px;
+  color: #6b7280;
+  line-height: 1.65;
+}
+
+.elementor-widget-text-editor .hc-service-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2563eb;
+}
+
+
+/* ============================================================
+   PROVIDER CARD — top row layout
+   ============================================================ */
+.hc-provider-top-row.e-con {
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+@media (max-width: 480px) {
+  .hc-provider-top-row.e-con {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+
+/* ============================================================
+   STATS BAR — number + label pairs
+   ============================================================ */
+.hc-stat-widget-number .elementor-heading-title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  color: #ffffff !important;
+  margin-bottom: 8px;
+}
+
+.hc-stat-widget-label .elementor-heading-title {
+  color: rgba(255, 255, 255, 0.86) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+}
+
+
+/* ============================================================
+   TESTIMONIAL — quote mark
+   ============================================================ */
+.e-con.hc-testimonial,
+.elementor-element.hc-testimonial {
+  position: relative;
+}
+
+.e-con.hc-testimonial::before,
+.elementor-element.hc-testimonial::before {
+  content: "\201C";
+  position: absolute;
+  top: 4px;
+  left: 28px;
+  font-size: 3rem;
+  line-height: 1;
+  color: rgba(37, 99, 235, 0.2);
+  font-weight: 700;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+/* ============================================================
+   RESPONSIVE HELPERS
+   ============================================================ */
+@media (max-width: 980px) {
+  .hc-hide-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .hc-hide-mobile {
+    display: none !important;
+  }
+
+  .hc-full-width-mobile {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
