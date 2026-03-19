@@ -1,0 +1,159 @@
+{
+  "version": "0.4",
+  "title": "About Page - Mission & Vision Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "ab_mv_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {"unit": "deg", "size": 180},
+        "padding": {"unit": "px", "top": "32", "right": "16", "bottom": "72", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "ab_mv_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {"size": 2, "unit": "fr"},
+            "gap": {"unit": "px", "column": "22", "row": "22"},
+            "width": {"unit": "%", "size": 100},
+            "_tablet_grid_columns_grid": {"size": 1, "unit": "fr"},
+            "_mobile_grid_columns_grid": {"size": 1, "unit": "fr"}
+          },
+          "elements": [
+            {
+              "id": "ab_mission_card",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_mission_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Mission",
+                    "header_size": "h2",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1.15},
+                    "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_mission_p1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Our mission is to make quality care easier to access by connecting people with trusted providers through secure virtual services. We believe healthcare should be approachable, supportive, and built around the realities of modern life.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1},
+                    "typography_line_height": {"unit": "em", "size": 1.65}
+                  }
+                },
+                {
+                  "id": "ab_mission_p2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>By combining mental health care and medical care on one platform, we create a more complete wellness experience that supports both mind and body.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1},
+                    "typography_line_height": {"unit": "em", "size": 1.65}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_vision_card",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_vision_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Vision",
+                    "header_size": "h2",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1.15},
+                    "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_vision_p1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We envision a digital healthcare experience where patients can find the right provider, schedule care with confidence, and receive meaningful support without unnecessary barriers.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1},
+                    "typography_line_height": {"unit": "em", "size": 1.65}
+                  }
+                },
+                {
+                  "id": "ab_vision_p2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>This demo reflects a future-forward model of care that values accessibility, professionalism, and human connection.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1},
+                    "typography_line_height": {"unit": "em", "size": 1.65}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "About Page Mission & Vision - two equal-width cards side by side with large H2 headings and descriptive paragraphs. Responsive: stacks to single column on tablet and mobile.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}

@@ -1,6 +1,6 @@
 # Healthcare Platform — Elementor Templates
 
-A complete set of Elementor page templates for a virtual healthcare platform. The package includes a full homepage template, seven modular section templates, custom CSS stylesheets, and comprehensive documentation.
+A complete set of Elementor page templates for a virtual healthcare platform. The package includes a full homepage template, a complete About page template, fifteen modular section templates, custom CSS stylesheets, and comprehensive documentation.
 
 ---
 
@@ -17,9 +17,20 @@ A complete set of Elementor page templates for a virtual healthcare platform. Th
   section-testimonials.json     ← Patient testimonials grid
   section-cta.json              ← Call-to-Action dark gradient box
 
+  /about-page/
+    about-page-complete.json    ← Full About page (all sections combined)
+    about-hero.json             ← Hero section (two-column layout + hero card)
+    about-stats.json            ← Stats grid (white cards, teal numbers)
+    about-services.json         ← Care services split (Mental Health + Medical)
+    about-benefits.json         ← Why Virtual Services Matter (3 cards)
+    about-team.json             ← Team grid (6 providers with avatar initials)
+    about-mission-vision.json   ← Mission & Vision 2-column cards
+    about-cta.json              ← CTA gradient banner
+
 /css/
   healthcare-elementor-styles.css    ← Main stylesheet (CSS variables + components)
   elementor-custom-widgets.css       ← Elementor-specific widget overrides
+  about-page-styles.css              ← About page-specific components
 
 /images/
   README.md                          ← Image requirements & placeholder guide
@@ -29,18 +40,27 @@ A complete set of Elementor page templates for a virtual healthcare platform. Th
   INSTALLATION-GUIDE.md              ← Step-by-step setup instructions
   DESIGN-SPECS.md                    ← Colors, typography, spacing reference
   CUSTOMIZATION-GUIDE.md             ← How to adapt the templates
+  ABOUT-PAGE-GUIDE.md                ← About page structure & customization
 ```
 
 ---
 
 ## Quick Start
 
+### Homepage
 1. **Import** `templates/homepage-complete.json` via Elementor > Templates > Import
 2. **Add CSS** from `css/healthcare-elementor-styles.css` to Elementor > Site Settings > Custom CSS
 3. **Add provider images** to the Featured Providers section
 4. **Update links** on all buttons to point to your actual pages
 
+### About Page
+1. **Import** `templates/about-page/about-page-complete.json` via Elementor > Templates > Import
+2. **Add CSS** — paste both `css/healthcare-elementor-styles.css` and `css/about-page-styles.css` to Elementor > Site Settings > Custom CSS
+3. **Update team members** — edit avatar initials, names, and descriptions in the Team section
+4. **Update links** on all buttons to point to your actual pages
+
 See [INSTALLATION-GUIDE.md](INSTALLATION-GUIDE.md) for full step-by-step instructions.
+See [ABOUT-PAGE-GUIDE.md](ABOUT-PAGE-GUIDE.md) for About page customization.
 
 ---
 

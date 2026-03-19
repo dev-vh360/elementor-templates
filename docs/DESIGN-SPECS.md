@@ -319,3 +319,95 @@ Heading color:  #ffffff
 Body text:      rgba(255,255,255,0.86), max-width 720px
 Button gap:     14px
 ```
+
+---
+
+## About Page — Specific Components
+
+### Hero Card
+
+Right-column card in the About page hero:
+
+```
+Background:     linear-gradient(145deg, #ffffff 0%, #f0f7ff 100%)
+Border:         1px solid #dce8f8
+Border radius:  28px
+Padding:        28px
+Shadow:         0 18px 40px rgba(15, 23, 42, 0.08)
+```
+
+**Mini-cards (2×2 grid inside hero card):**
+
+```
+Background:     rgba(255,255,255,0.95)
+Border:         1px solid #e5e7eb
+Border radius:  18px
+Padding:        16px
+
+Title:          1.05rem, weight 700, color #1f2937
+Description:    0.9rem, color #6b7280
+```
+
+---
+
+### About Page Stat Boxes
+
+Different from the homepage gradient stats bar — uses white cards with teal numbers:
+
+```
+Background:     #ffffff
+Border:         1px solid #e5e7eb
+Border radius:  22px
+Padding:        26px 18px
+Shadow:         0 18px 40px rgba(15, 23, 42, 0.08)
+Text align:     center
+
+Number size:    2rem, weight 700, color #0f766e (secondary/teal)
+Label size:     0.95rem, color #6b7280 (muted)
+Number margin:  0 0 8px 0
+```
+
+---
+
+### Avatar Circles (Team Section)
+
+Text-based initials in a circular gradient badge:
+
+```
+Width/Height:   72px × 72px
+Border radius:  50% (full circle)
+Background:     linear-gradient(145deg, #dbeafe 0%, #d1fae5 100%)
+Display:        inline-flex, align-items center, justify-content center
+
+Initials font:  24px, weight 700
+Initials color: #1d4ed8 (primary-dark)
+```
+
+---
+
+### About Page CTA Box
+
+Left-aligned variant of the CTA (vs. centered on the homepage):
+
+```
+Background:     linear-gradient(135deg, #1e3a8a 0%, #0f766e 100%)
+Border radius:  30px
+Padding:        42px (desktop), 28px (mobile)
+Text align:     left
+
+Heading color:  #ffffff
+Body text:      rgba(255,255,255,0.86), max-width 760px
+Button row:     flex-start, gap 14px, flex-wrap
+```
+
+---
+
+### Hero Grid Proportions
+
+The About page hero uses asymmetric column widths:
+
+```
+Desktop:   grid-template-columns: 1.15fr 0.85fr
+Tablet:    grid-template-columns: 1fr 1fr
+Mobile:    grid-template-columns: 1fr
+```

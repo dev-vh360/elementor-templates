@@ -346,6 +346,53 @@ ul.hc-service-list li::before {
 
 
 /* ============================================================
+   ABOUT PAGE — AVATAR CIRCLES (INITIALS)
+   ============================================================ */
+
+/*
+ * Used for team member cards on the About page.
+ * Renders a 72×72 circular badge with gradient background and initials.
+ * Applied to the Elementor Heading widget acting as an avatar.
+ */
+.hc-about-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #dbeafe 0%, #d1fae5 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--hc-primary-dark);
+  flex-shrink: 0;
+}
+
+
+/* ============================================================
+   ABOUT PAGE — STAT BOXES (WHITE CARDS, TEAL NUMBERS)
+   ============================================================ */
+
+/*
+ * About page stats differ from the homepage gradient stats bar:
+ * these are white cards with teal-colored numbers.
+ */
+.hc-about-stat-number {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--hc-secondary);
+  margin-bottom: 8px;
+}
+
+.hc-about-stat-label {
+  color: var(--hc-muted);
+  font-size: 0.95rem;
+}
+
+
+/* ============================================================
    RESPONSIVE — TABLET (≤ 980px)
    ============================================================ */
 @media (max-width: 980px) {

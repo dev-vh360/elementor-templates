@@ -22,9 +22,11 @@ Before you begin, make sure you have:
 Clone or download this repository to your local computer. You will need the following files:
 
 ```
-templates/homepage-complete.json        (or individual section files)
+templates/homepage-complete.json         (or individual section files)
+templates/about-page/about-page-complete.json  (or individual about section files)
 css/healthcare-elementor-styles.css
 css/elementor-custom-widgets.css
+css/about-page-styles.css                (required for About page)
 ```
 
 ---
@@ -39,9 +41,19 @@ css/elementor-custom-widgets.css
 4. Click **Import Now**.
 5. The template will appear in your library under **Pages**.
 
-### Option B: Import Individual Section Templates
+### Option B: Import the Complete About Page
 
-Repeat the import steps above for each section file you want to use:
+1. In your WordPress dashboard, go to **Elementor > Templates**.
+2. Click the **Import Templates** button (folder icon).
+3. Choose `templates/about-page/about-page-complete.json`.
+4. Click **Import Now**.
+5. The template will appear in your library under **Pages**.
+
+### Option C: Import Individual Section Templates
+
+Repeat the import steps above for each section file you want to use.
+
+**Homepage sections:**
 
 | File                           | Section                  |
 |--------------------------------|--------------------------|
@@ -52,6 +64,18 @@ Repeat the import steps above for each section file you want to use:
 | `section-stats.json`           | Stats Bar                |
 | `section-testimonials.json`    | Testimonials             |
 | `section-cta.json`             | Call to Action           |
+
+**About page sections:**
+
+| File                              | Section                     |
+|-----------------------------------|-----------------------------|
+| `about-page/about-hero.json`      | Hero (two-column)           |
+| `about-page/about-stats.json`     | Stats (white cards)         |
+| `about-page/about-services.json`  | Services (split panel)      |
+| `about-page/about-benefits.json`  | Benefits (3 cards)          |
+| `about-page/about-team.json`      | Team (6 providers)          |
+| `about-page/about-mission-vision.json` | Mission & Vision       |
+| `about-page/about-cta.json`       | CTA (gradient banner)       |
 
 Imported sections will appear under **Elementor > Templates > Sections** and can be inserted into any page using the **My Templates** tab in the Elementor editor.
 
@@ -79,6 +103,9 @@ The CSS files provide the component styles, CSS custom properties, and responsiv
 4. Click **Save Changes**.
 5. Optionally, also paste the contents of `css/elementor-custom-widgets.css` (you can add it to the same field, below the first file).
 
+**For the About page, also add:**
+6. Paste the contents of `css/about-page-styles.css` into the same Custom CSS field (below the other stylesheets).
+
 ### Method B: Enqueue via Child Theme
 
 Add the following to your child theme's `functions.php`:
@@ -97,11 +124,17 @@ function hc_enqueue_elementor_styles() {
         ['healthcare-elementor-styles'],
         '1.0.0'
     );
+    wp_enqueue_style(
+        'about-page-styles',
+        get_stylesheet_directory_uri() . '/css/about-page-styles.css',
+        ['healthcare-elementor-styles'],
+        '1.0.0'
+    );
 }
 add_action( 'wp_enqueue_scripts', 'hc_enqueue_elementor_styles' );
 ```
 
-Then copy both CSS files into `your-child-theme/css/`.
+Then copy all three CSS files into `your-child-theme/css/`.
 
 ### Method C: Elementor Page-Level Custom CSS
 
@@ -125,6 +158,8 @@ The Featured Providers section uses placeholder image references. Replace them w
 
 See [images/README.md](../images/README.md) for image size and format specifications.
 
+> **About page team section:** The About page uses text-based avatar initials (not images), so no image uploads are required for the team section.
+
 ---
 
 ## Step 6 — Update Button Links
@@ -134,8 +169,10 @@ All buttons in the templates link to `#` by default. Update them to point to you
 1. Click a **Button** widget in the Elementor editor.
 2. In the left panel under **Content > Link**, replace `#` with the target URL.
 3. Common targets to update:
-   - "Find a Provider" → your provider directory page
+   - "Find a Provider" / "View Providers" → your provider directory page
    - "Book Session" / "Book Appointment" → your booking or contact page
+   - "Explore Services" → your services page
+   - "Meet Our Providers" → your providers page or About page provider section
 
 ---
 
@@ -143,11 +180,22 @@ All buttons in the templates link to `#` by default. Update them to point to you
 
 Update text content to match your actual platform:
 
+**Homepage:**
 - **Section headings and body text** — click any Heading or Text Editor widget
 - **Stats numbers** — update in the Stats Bar section (50+, 1,000+, etc.)
 - **Provider names and specialties** — update in the Featured Providers section
 - **Testimonial quotes and names** — update in the Testimonials section
 - **Service list items** — update in the Services section
+
+**About page:**
+- **Hero heading and lead text** — click the H1 and Text Editor widgets in the Hero section
+- **Stats** — update numbers (2, 8+, 100%, 1) and labels in the Stats section
+- **Team member names and descriptions** — update Heading and Text Editor widgets in the Team section
+- **Avatar initials** — update the two-letter Heading widget inside each team card
+- **Mission and Vision paragraphs** — update Text Editor widgets in the Mission & Vision section
+- **CTA heading and description** — update in the CTA section
+
+See [ABOUT-PAGE-GUIDE.md](ABOUT-PAGE-GUIDE.md) for detailed About page customization instructions.
 
 ---
 
@@ -163,6 +211,7 @@ Update text content to match your actual platform:
 
 ### Template imports but looks unstyled
 - Confirm the custom CSS has been added (Step 4).
+- For the About page, also confirm `about-page-styles.css` has been added.
 - Clear any caching plugins (e.g., W3 Total Cache, WP Rocket).
 - Check that the Elementor Flexbox Containers experiment is enabled: **Elementor > Settings > Experiments > Flexbox Container**.
 
@@ -178,6 +227,10 @@ Update text content to match your actual platform:
 - Ensure Elementor's **Container** layout type is set to **Grid** for the relevant containers.
 - The responsive breakpoints are built into the JSON — verify them under **Advanced > Responsive** for each grid container.
 
+### About page avatar initials not centered
+- Add `css/about-page-styles.css` to Elementor Site Settings > Custom CSS.
+- The avatar circles use `inline-flex` alignment that requires the CSS file to render correctly.
+
 ---
 
 ## Enabling Flexbox Containers (Required)
@@ -189,3 +242,4 @@ The templates use Elementor's modern **Flexbox Container** system. Enable it if 
 3. Save changes.
 
 > Note: In Elementor 3.16+ this feature is enabled by default.
+

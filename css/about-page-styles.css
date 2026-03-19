@@ -1,0 +1,277 @@
+/*
+ * about-page-styles.css
+ * About Page-specific styles for the Healthcare Platform Elementor Templates
+ * Version: 1.0.0
+ *
+ * USAGE: Paste this CSS alongside healthcare-elementor-styles.css in
+ *        Elementor > Site Settings > Custom CSS
+ *        or enqueue it via your child theme's functions.php
+ *
+ * DEPENDENCY: Requires healthcare-elementor-styles.css (CSS variables and
+ *             base components must be loaded first).
+ */
+
+
+/* ============================================================
+   HERO SECTION — HERO CARD
+   ============================================================ */
+
+/* Hero card gradient container */
+.hc-about-hero-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f0f7ff 100%);
+  border: 1px solid #dce8f8;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: var(--hc-shadow);
+}
+
+/* Mini-card inside the hero card 2×2 grid */
+.hc-mini-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--hc-border);
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.hc-mini-card strong {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--hc-text);
+  margin-bottom: 6px;
+}
+
+.hc-mini-card span,
+.hc-mini-card p {
+  color: var(--hc-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+/* ============================================================
+   STAT BOXES — WHITE CARDS WITH TEAL NUMBERS
+   ============================================================ */
+
+/* About page stat box (white card, unlike the homepage gradient bar) */
+.hc-about-stat-box {
+  text-align: center;
+  padding: 26px 18px;
+  background: var(--hc-surface);
+  border: 1px solid var(--hc-border);
+  border-radius: 22px;
+  box-shadow: var(--hc-shadow);
+}
+
+/* Large stat number — uses secondary (teal) color */
+.hc-about-stat-number {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--hc-secondary);
+  margin-bottom: 8px;
+}
+
+/* Stat label below the number */
+.hc-about-stat-label {
+  color: var(--hc-muted);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+
+/* ============================================================
+   AVATAR CIRCLES — TEAM MEMBER INITIALS
+   ============================================================ */
+
+/* Avatar circle container — gradient background with initials */
+.hc-about-avatar,
+.elementor-element.hc-about-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #dbeafe 0%, #d1fae5 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--hc-primary-dark);
+  flex-shrink: 0;
+}
+
+/* Elementor heading widget used as avatar — override display for centering */
+.elementor-widget-heading.hc-about-avatar .elementor-heading-title {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #dbeafe 0%, #d1fae5 100%);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--hc-primary-dark);
+  line-height: 1;
+}
+
+
+/* ============================================================
+   TEAM CARDS
+   ============================================================ */
+
+/* Team member card layout */
+.hc-about-team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Team card info block (name + description) */
+.hc-about-team-info h3,
+.hc-about-team-info .elementor-heading-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--hc-text);
+  margin-bottom: 6px;
+}
+
+.hc-about-team-info p {
+  color: var(--hc-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+
+/* ============================================================
+   HERO WRAP — TWO-COLUMN PROPORTIONAL LAYOUT
+   ============================================================ */
+
+/*
+ * The reference HTML uses grid-template-columns: 1.15fr 0.85fr.
+ * Elementor's grid container creates equal columns by default.
+ * Apply this class to the hero wrap container to replicate the
+ * slightly wider left column.
+ */
+.hc-about-hero-wrap.e-con,
+.hc-about-hero-wrap {
+  grid-template-columns: 1.15fr 0.85fr !important;
+}
+
+@media (max-width: 1024px) {
+  .hc-about-hero-wrap.e-con,
+  .hc-about-hero-wrap {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .hc-about-hero-wrap.e-con,
+  .hc-about-hero-wrap {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+/* ============================================================
+   SPLIT HIGHLIGHT — SERVICES LAYOUT
+   ============================================================ */
+
+/* Two-column services split (same as homepage but left-aligned header) */
+.hc-about-split-head {
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
+/* ============================================================
+   MISSION & VISION
+   ============================================================ */
+
+/* Mission / Vision heading inside card uses slightly smaller H2 */
+.hc-about-mv-card h2,
+.hc-about-mv-card .elementor-heading-title {
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--hc-text);
+  margin-bottom: 16px;
+}
+
+
+/* ============================================================
+   CTA BOX — ABOUT PAGE VARIANT
+   ============================================================ */
+
+/* About page CTA is left-aligned (vs. centered on homepage) */
+.hc-about-cta-box {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f766e 100%);
+  color: #fff;
+  border-radius: 30px;
+  padding: 42px;
+  box-shadow: var(--hc-shadow);
+  text-align: left;
+}
+
+.hc-about-cta-box h2,
+.hc-about-cta-box .elementor-heading-title {
+  color: #ffffff;
+}
+
+.hc-about-cta-box p {
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 760px;
+  margin-bottom: 26px;
+}
+
+/* Button row inside the about CTA (left-aligned, wraps on mobile) */
+.hc-about-cta-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+
+/* ============================================================
+   FOOTER NOTE
+   ============================================================ */
+
+.hc-about-footer-note {
+  padding: 0 0 32px;
+  text-align: center;
+  color: var(--hc-muted);
+  font-size: 0.95rem;
+}
+
+
+/* ============================================================
+   RESPONSIVE — TABLET (≤ 1024px)
+   ============================================================ */
+@media (max-width: 1024px) {
+  .hc-about-hero-card {
+    padding: 22px;
+  }
+}
+
+
+/* ============================================================
+   RESPONSIVE — MOBILE (≤ 760px)
+   ============================================================ */
+@media (max-width: 760px) {
+  .hc-about-cta-box {
+    padding: 28px;
+  }
+
+  .hc-about-hero-card {
+    padding: 20px;
+  }
+
+  .hc-about-stat-number {
+    font-size: 1.7rem;
+  }
+}
