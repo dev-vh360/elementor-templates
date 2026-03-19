@@ -1,0 +1,54 @@
+{
+  "version": "0.4",
+  "title": "Contact Page - Hero Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "ct_hero_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#f6f8fb",
+        "padding": {"unit": "px", "top": "70", "right": "16", "bottom": "40", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1100},
+        "flex_direction": "column",
+        "align_items": "center",
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "ct_hero_h1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact Our Care Team",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 3},
+            "typography_font_weight": "700",
+            "typography_line_height": {"unit": "em", "size": 1.2},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "ct_hero_desc",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Have questions about virtual appointments, connecting with a healthcare professional, or using this platform? Our team is here to help guide you to the right mental health or medical care provider.</p>",
+            "align": "center",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1.05},
+            "typography_line_height": {"unit": "em", "size": 1.6},
+            "width": {"unit": "px", "size": 650},
+            "margin": {"unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<label>Full Name</label>
+[text* your-name placeholder "Enter your name"]
+
+<label>Email Address</label>
+[email* your-email placeholder "Enter your email"]
+
+<label>What type of care are you looking for?</label>
+[select care-type "Mental Health Care" "Medical Care" "General Question" "Technical Support"]
+
+<label>Message</label>
+[textarea* your-message placeholder "Tell us how we can help..."]
+
+[submit "Send Message"]

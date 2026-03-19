@@ -1,0 +1,269 @@
+/*
+ * Contact Form 7 — Custom Styles
+ * Healthcare Platform — Virtual Health & Wellness
+ *
+ * Applies to: .wpcf7 (Contact Form 7 wrapper)
+ * Also styles the static fallback form via .contact-static-form
+ *
+ * Add these styles to:
+ *   Elementor > Site Settings > Custom CSS
+ *   — or —
+ *   Appearance > Customize > Additional CSS
+ */
+
+/* =====================================================
+   CSS Custom Properties (match site design tokens)
+   ===================================================== */
+:root {
+  --cf7-primary:      #2563eb;
+  --cf7-primary-dark: #1e4fd1;
+  --cf7-text:         #1f2937;
+  --cf7-muted:        #6b7280;
+  --cf7-border:       #e5e7eb;
+  --cf7-radius-field: 10px;
+  --cf7-radius-btn:   12px;
+}
+
+/* =====================================================
+   Labels
+   ===================================================== */
+.wpcf7 label,
+.contact-static-form label {
+  display: block;
+  font-weight: 600;
+  color: var(--cf7-text);
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* =====================================================
+   Text, Email, and URL inputs
+   ===================================================== */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="number"],
+.contact-static-form input[type="text"],
+.contact-static-form input[type="email"] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--cf7-radius-field);
+  border: 1px solid var(--cf7-border);
+  font-size: 14px;
+  color: var(--cf7-text);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+  line-height: 1.5;
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="url"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 input[type="number"]:focus,
+.contact-static-form input[type="text"]:focus,
+.contact-static-form input[type="email"]:focus {
+  border-color: var(--cf7-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* =====================================================
+   Textarea
+   ===================================================== */
+.wpcf7 textarea,
+.contact-static-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--cf7-radius-field);
+  border: 1px solid var(--cf7-border);
+  font-size: 14px;
+  color: var(--cf7-text);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  min-height: 130px;
+  resize: vertical;
+  margin-bottom: 18px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+  line-height: 1.5;
+  font-family: inherit;
+}
+
+.wpcf7 textarea:focus,
+.contact-static-form textarea:focus {
+  border-color: var(--cf7-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* =====================================================
+   Select / Dropdown
+   ===================================================== */
+.wpcf7 select,
+.contact-static-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--cf7-radius-field);
+  border: 1px solid var(--cf7-border);
+  font-size: 14px;
+  color: var(--cf7-text);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px;
+  padding-right: 40px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+  outline: none;
+  line-height: 1.5;
+}
+
+.wpcf7 select:focus,
+.contact-static-form select:focus {
+  border-color: var(--cf7-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* =====================================================
+   Submit Button
+   ===================================================== */
+.wpcf7 input[type="submit"],
+.wpcf7 .wpcf7-submit,
+.contact-static-form button[type="submit"] {
+  background: var(--cf7-primary);
+  color: #ffffff;
+  border: none;
+  padding: 14px 20px;
+  border-radius: var(--cf7-radius-btn);
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.wpcf7 input[type="submit"]:hover,
+.wpcf7 .wpcf7-submit:hover,
+.contact-static-form button[type="submit"]:hover {
+  background: var(--cf7-primary-dark);
+}
+
+.wpcf7 input[type="submit"]:active,
+.wpcf7 .wpcf7-submit:active,
+.contact-static-form button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+/* =====================================================
+   CF7 Span Wrappers
+   CF7 wraps each field in a <span>; we remove extra spacing
+   ===================================================== */
+.wpcf7 span.wpcf7-form-control-wrap {
+  display: block;
+  width: 100%;
+}
+
+/* =====================================================
+   Validation Error Styling
+   ===================================================== */
+.wpcf7 .wpcf7-not-valid-tip {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: -14px;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.wpcf7 input.wpcf7-not-valid,
+.wpcf7 textarea.wpcf7-not-valid,
+.wpcf7 select.wpcf7-not-valid {
+  border-color: #dc2626;
+}
+
+/* =====================================================
+   Success Message
+   ===================================================== */
+.wpcf7 .wpcf7-response-output {
+  margin: 16px 0 0;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+}
+
+.wpcf7 .wpcf7-mail-sent-ok {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.wpcf7 .wpcf7-mail-sent-ng,
+.wpcf7 .wpcf7-spam-blocked {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.wpcf7 .wpcf7-validation-errors {
+  background: #fef9c3;
+  color: #854d0e;
+  border: 1px solid #fef08a;
+}
+
+/* =====================================================
+   Loading / Spinner State
+   ===================================================== */
+.wpcf7-spinner {
+  display: none;
+}
+
+.wpcf7 form.submitting .wpcf7-submit {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* =====================================================
+   Placeholder Styling
+   ===================================================== */
+.wpcf7 input::placeholder,
+.wpcf7 textarea::placeholder,
+.contact-static-form input::placeholder,
+.contact-static-form textarea::placeholder {
+  color: var(--cf7-muted);
+  opacity: 1;
+}
+
+/* =====================================================
+   Responsive — Mobile (≤850px)
+   ===================================================== */
+@media (max-width: 850px) {
+  .wpcf7 input[type="text"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="url"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 textarea,
+  .wpcf7 select,
+  .contact-static-form input,
+  .contact-static-form textarea,
+  .contact-static-form select {
+    font-size: 16px; /* prevent iOS zoom on focus */
+  }
+
+  .wpcf7 input[type="submit"],
+  .wpcf7 .wpcf7-submit,
+  .contact-static-form button[type="submit"] {
+    width: 100%;
+    text-align: center;
+  }
+}

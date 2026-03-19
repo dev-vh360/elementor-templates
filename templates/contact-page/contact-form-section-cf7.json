@@ -1,0 +1,63 @@
+{
+  "version": "0.4",
+  "title": "Contact Page - Form Section (Contact Form 7)",
+  "type": "section",
+  "content": [
+    {
+      "id": "ct_form_cf7_card",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#ffffff",
+        "border_border": "solid",
+        "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+        "border_color": "#e5e7eb",
+        "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(0,0,0,0.08)"},
+        "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+        "flex_direction": "column",
+        "align_items": "flex-start"
+      },
+      "elements": [
+        {
+          "id": "ct_form_cf7_h2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Send Us a Message",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1.5},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "ct_form_cf7_intro",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Fill out the form below and our team will respond as soon as possible.</p>",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "ct_form_cf7_widget",
+          "elType": "widget",
+          "widgetType": "contact-form-7",
+          "settings": {
+            "contact_form_id": "0",
+            "_css_classes": "contact-cf7-form",
+            "width": {"unit": "%", "size": 100}
+          }
+        }
+      ]
+    }
+  ]
+}
