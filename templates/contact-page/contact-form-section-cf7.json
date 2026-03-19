@@ -50,9 +50,9 @@
         {
           "id": "ct_form_cf7_widget",
           "elType": "widget",
-          "widgetType": "contact-form-7",
+          "widgetType": "shortcode",
           "settings": {
-            "contact_form_id": "0",
+            "shortcode": "[contact-form-7 id=\"YOUR_FORM_ID\" title=\"Virtual Health Contact Form\"]",
             "_css_classes": "contact-cf7-form",
             "width": {"unit": "%", "size": 100}
           }

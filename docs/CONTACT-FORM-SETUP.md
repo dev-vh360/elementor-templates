@@ -143,18 +143,23 @@ The template will appear under **Pages** in your Elementor template library.
 
 ---
 
-## Part 6 — Connect CF7 Widget to Your Form
+## Part 6 — Update the CF7 Shortcode in Elementor
 
-### Step 6.1 — Locate the CF7 Widget
+The template uses Elementor's built-in **Shortcode** widget (available in Elementor Free) to embed the Contact Form 7 form. The widget is pre-filled with a placeholder shortcode — you need to replace `YOUR_FORM_ID` with your actual form ID.
 
-1. In the Elementor editor, scroll to the **Send Us a Message** card.
-2. Click on the Contact Form 7 widget placeholder.
+### Step 6.1 — Locate the Shortcode Widget
 
-### Step 6.2 — Select Your Form
+1. In the Elementor editor, scroll to the **Send Us a Message** card (left column).
+2. Click on the **Shortcode** widget. It shows the placeholder:
+   `[contact-form-7 id="YOUR_FORM_ID" title="Virtual Health Contact Form"]`
 
-1. In the left panel, find **Select Your Form**.
-2. Choose **Virtual Health Contact Form** from the dropdown.
-3. The form fields will appear in the editor preview.
+### Step 6.2 — Enter Your Form ID
+
+1. In the left panel, find the **Shortcode** text field.
+2. Replace `YOUR_FORM_ID` with the numeric ID of the CF7 form you created in Part 2.
+   - Find your form ID by going to **Contact > Contact Forms** — the ID is listed in the table, or shown in the shortcode at the top of the form editor (e.g. `[contact-form-7 id="123" ...]`).
+3. The final shortcode should look like:
+   `[contact-form-7 id="123" title="Virtual Health Contact Form"]`
 
 ### Step 6.3 — Save and Preview
 
@@ -234,7 +239,7 @@ If notification emails are not arriving, the most common cause is that WordPress
 
 | Problem | Cause | Solution |
 |---------|-------|----------|
-| Form does not appear | CF7 not installed, or wrong form ID | Install CF7; select correct form in widget |
+| Form does not appear | CF7 not installed, or wrong form ID in shortcode | Install CF7; update the Shortcode widget with your correct form ID |
 | Emails not received | PHP mail blocked by host | Install WP Mail SMTP |
 | Styles not applied | CSS not added | Paste `contact-form-styles.css` into Custom CSS |
 | Validation errors not styled | CSS specificity issue | Check `.wpcf7-not-valid-tip` rule in your CSS |

@@ -64,14 +64,18 @@ This guide walks you through installing, configuring, and connecting Contact For
 
 ---
 
-## Step 6 — Add the CF7 Widget to the Template
+## Step 6 — Update the Shortcode in Elementor
+
+The template includes a **Shortcode** widget (built into Elementor Free) pre-filled with a placeholder shortcode. You must update it with your actual form ID.
 
 1. Open the imported Contact page template in the Elementor editor.
-2. Locate the **Contact Form 7** widget inside the form card (left column).
-3. In the widget settings panel, change **Select Your Form** to the form you created in Step 2 (e.g. *Virtual Health Contact Form*).
-4. Save and publish the page.
+2. In the left-column form card, click on the **Shortcode** widget. It displays the placeholder text:
+   `[contact-form-7 id="YOUR_FORM_ID" title="Virtual Health Contact Form"]`
+3. In the widget settings panel on the left, replace `YOUR_FORM_ID` with the numeric ID of the form you created in Step 2 (e.g. `123`). The shortcode should look like:
+   `[contact-form-7 id="123" title="Virtual Health Contact Form"]`
+4. Click **Save** and publish the page.
 
-> **Tip:** The CF7 widget placeholder in the JSON template uses `contact_form_id: 0`. You must update this to your actual form ID after importing.
+> **Where to find your form ID:** Go to **Contact > Contact Forms**. The ID is shown in the form list or in the shortcode at the top of the form editor (e.g. `[contact-form-7 id="123" ...]`).
 
 ---
 
@@ -114,7 +118,7 @@ Install the **Contact Form 7 Honeypot** plugin and add `[honeypot honeypot-field
 
 | Issue | Solution |
 |-------|----------|
-| Form does not appear | Check that the correct form ID is selected in the CF7 widget settings |
+| Form does not appear | Verify the Shortcode widget contains your correct CF7 shortcode with the right form ID |
 | Emails not received | Check spam folder; verify server mail settings; install **WP Mail SMTP** plugin |
 | Styles not applying | Confirm `contact-form-styles.css` is added to Site Settings > Custom CSS |
 | Form submits but page reloads | Enable AJAX in CF7 form settings or check for JS conflicts |

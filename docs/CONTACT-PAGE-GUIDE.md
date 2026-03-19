@@ -237,10 +237,10 @@ On mobile, all form fields remain full-width. The button expands to full width v
 ```
 templates/
   contact-page/
-    contact-page-complete-cf7.json    ← Full page with CF7 widget (recommended)
+    contact-page-complete-cf7.json    ← Full page with Shortcode widget for CF7 (recommended)
     contact-page-complete-static.json ← Full page with static HTML form
     contact-hero.json                 ← Hero section only
-    contact-form-section-cf7.json     ← Form card with CF7 widget
+    contact-form-section-cf7.json     ← Form card with Shortcode widget for CF7
     contact-form-section-static.json  ← Form card with HTML form
     contact-info-sidebar.json         ← Contact info sidebar card
 
@@ -260,7 +260,7 @@ css/
 | Issue | Solution |
 |-------|----------|
 | Grid does not show two columns | Ensure the page uses Elementor Flexbox Containers; enable in **Elementor > Settings > Features** |
-| CF7 form not visible | Install and activate the Contact Form 7 plugin; update the widget's form ID |
+| CF7 form not visible | Install and activate the Contact Form 7 plugin; update the Shortcode widget with your correct form ID |
 | Form fields unstyled | Add `css/contact-form-styles.css` to Custom CSS |
 | Info box not blue | Check that the container background color is `#eef6ff` |
 | Mobile layout not stacking | Confirm the responsive overrides in the grid container settings |
