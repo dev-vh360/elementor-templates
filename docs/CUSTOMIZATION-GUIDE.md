@@ -208,6 +208,32 @@ This lets you reuse your customized template on other pages.
 
 ---
 
+## About Page Customization
+
+The About page has several unique components that differ from the homepage. For full About page customization instructions, see [ABOUT-PAGE-GUIDE.md](ABOUT-PAGE-GUIDE.md).
+
+### Quick Reference — About Page Unique Elements
+
+**Changing team member avatars:**
+The avatar circles use Heading widgets with a circular gradient background. To update:
+1. Click the Heading widget showing the initials (e.g., "JW")
+2. Update the **Title** field with the new initials
+3. The gradient background and circular shape are container settings — they remain unchanged
+
+**Changing stat numbers and labels:**
+The About page stats are white cards (not a gradient bar). Each stat box contains two Heading widgets:
+1. Click the large number Heading widget and update the **Title** (e.g., change "8+" to "20+")
+2. Click the label Heading widget and update the **Title**
+
+**Adding or removing team members:**
+- To add: Right-click any team card container → **Duplicate**, then edit the content
+- To remove: Click the team card container → Right-click → **Delete**
+
+**Updating the hero card mini-cards:**
+The hero card contains a 2×2 grid of mini-cards. Click any mini-card's Heading or Text Editor widget to edit the title and description.
+
+---
+
 ## Performance Tips
 
 - **Optimize provider images** before upload — aim for under 80 KB per avatar.

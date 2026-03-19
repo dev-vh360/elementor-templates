@@ -1,0 +1,3443 @@
+{
+  "version": "0.4",
+  "title": "About Page - Complete",
+  "type": "page",
+  "content": [
+    {
+      "id": "ab_hero_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "16",
+          "bottom": "48",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_hero_wrap",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "28",
+              "row": "28"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            },
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab_hero_left",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "ab_hero_eyebrow",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "About Our Platform",
+                    "header_size": "p",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.08
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2563eb",
+                    "background_background": "classic",
+                    "background_color": "rgba(37, 99, 235, 0.08)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "14",
+                      "bottom": "8",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_hero_h1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Virtual Care That Connects Patients With Trusted Mental Health and Medical Professionals",
+                    "header_size": "h1",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 3.2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.03
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_hero_lead",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Our demo platform was created to make care more accessible, convenient, and personal. We bring together licensed mental health professionals and medical care providers in one virtual space, helping individuals and families connect with the support they need from wherever they are.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.08
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "28",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_hero_actions",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ab_hero_btn1",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Services",
+                        "link": {
+                          "url": "#services"
+                        },
+                        "background_color": "#2563eb",
+                        "button_text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "22",
+                          "bottom": "14",
+                          "left": "22",
+                          "isLinked": false
+                        },
+                        "hover_background_color": "#1d4ed8",
+                        "min_height": {
+                          "unit": "px",
+                          "size": 50
+                        }
+                      }
+                    },
+                    {
+                      "id": "ab_hero_btn2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Meet Our Providers",
+                        "link": {
+                          "url": "#providers"
+                        },
+                        "background_color": "#ffffff",
+                        "button_text_color": "#1f2937",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#e5e7eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "14",
+                          "bottom": "14",
+                          "left": "14",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "700",
+                        "padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "22",
+                          "bottom": "14",
+                          "left": "22",
+                          "isLinked": false
+                        },
+                        "min_height": {
+                          "unit": "px",
+                          "size": 50
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ab_hero_card",
+              "elType": "container",
+              "settings": {
+                "background_background": "gradient",
+                "background_color": "#ffffff",
+                "background_color_b": "#f0f7ff",
+                "background_gradient_angle": {
+                  "unit": "deg",
+                  "size": 145
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#dce8f8",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_hcard_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "What We Offer",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_hcard_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>A modern virtual care experience designed for convenience, trust, and meaningful patient-provider connection.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_hcard_grid",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "grid",
+                    "grid_columns_grid": {
+                      "size": 2,
+                      "unit": "fr"
+                    },
+                    "gap": {
+                      "unit": "px",
+                      "column": "14",
+                      "row": "14"
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "_mobile_grid_columns_grid": {
+                      "size": 1,
+                      "unit": "fr"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ab_mini1",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "rgba(255, 255, 255, 0.95)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#e5e7eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "ab_mini1_title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Mental Health Care",
+                            "header_size": "h4",
+                            "title_color": "#1f2937",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.05
+                            },
+                            "typography_font_weight": "700",
+                            "margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "6",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "ab_mini1_text",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Therapy, emotional wellness support, addiction recovery, and relationship counseling.</p>",
+                            "text_color": "#6b7280",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ab_mini2",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "rgba(255, 255, 255, 0.95)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#e5e7eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "ab_mini2_title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Medical Care",
+                            "header_size": "h4",
+                            "title_color": "#1f2937",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.05
+                            },
+                            "typography_font_weight": "700",
+                            "margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "6",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "ab_mini2_text",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Preventive care, primary care, internal medicine, and heart health support.</p>",
+                            "text_color": "#6b7280",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ab_mini3",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "rgba(255, 255, 255, 0.95)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#e5e7eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "ab_mini3_title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Virtual Visits",
+                            "header_size": "h4",
+                            "title_color": "#1f2937",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.05
+                            },
+                            "typography_font_weight": "700",
+                            "margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "6",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "ab_mini3_text",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Secure online appointments that make care easy to access from home.</p>",
+                            "text_color": "#6b7280",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ab_mini4",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "rgba(255, 255, 255, 0.95)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#e5e7eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "flex_direction": "column"
+                      },
+                      "elements": [
+                        {
+                          "id": "ab_mini4_title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Trusted Professionals",
+                            "header_size": "h4",
+                            "title_color": "#1f2937",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 1.05
+                            },
+                            "typography_font_weight": "700",
+                            "margin": {
+                              "unit": "px",
+                              "top": "0",
+                              "right": "0",
+                              "bottom": "6",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "ab_mini4_text",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Connect with experienced providers across both mental and physical healthcare.</p>",
+                            "text_color": "#6b7280",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_stats_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "16",
+          "bottom": "72",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_stats_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 4,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_stat1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "18",
+                  "bottom": "26",
+                  "left": "18",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat1_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_stat1_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Care Categories",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "18",
+                  "bottom": "26",
+                  "left": "18",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat2_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "8+",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_stat2_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Sample Professionals",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "18",
+                  "bottom": "26",
+                  "left": "18",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat3_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "100%",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_stat3_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Virtual Access",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat4",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "18",
+                  "bottom": "26",
+                  "left": "18",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat4_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_stat4_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Connected Care Experience",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.95
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_svc_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "16",
+          "bottom": "72",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_svc_head",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 760
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "26",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_svc_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Care Designed Around Real Life",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ab_svc_lead",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>We understand that healthcare is not one-size-fits-all. Some people need support for anxiety, relationships, or emotional well-being. Others need preventive care, chronic condition management, or expert medical guidance. Our virtual platform supports both.</p>",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.08
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ab_svc_split",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_svc_mental",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_svc_icon1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\ud83e\udde0",
+                    "header_size": "p",
+                    "title_color": "#1f2937",
+                    "background_background": "gradient",
+                    "background_color": "#e0ecff",
+                    "background_color_b": "#d7f2ef",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_title1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Mental Health Care",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_desc1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Our mental health professionals help individuals, couples, and families navigate emotional and behavioral challenges with compassionate, accessible online care.</p>",
+                    "text_color": "#6b7280",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_list1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul class=\"hc-service-list\"><li>Anxiety, stress, and burnout support</li><li>Trauma-informed care and emotional wellness</li><li>Teen and adolescent counseling</li><li>Addiction recovery and behavioral support</li><li>Relationship and couples counseling</li></ul>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_svc_medical",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_svc_icon2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\ud83e\ude7a",
+                    "header_size": "p",
+                    "title_color": "#1f2937",
+                    "background_background": "gradient",
+                    "background_color": "#e0ecff",
+                    "background_color_b": "#d7f2ef",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_title2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Medical Care",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_desc2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Our medical providers offer a virtual-first experience for routine care, preventive services, and health education that supports long-term wellness.</p>",
+                    "text_color": "#6b7280",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_svc_list2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul class=\"hc-service-list\"><li>Family medicine and routine checkups</li><li>Internal medicine consultations</li><li>Preventive care and screenings</li><li>Blood pressure and chronic condition guidance</li><li>Heart health education and cardiology support</li></ul>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_ben_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "16",
+          "bottom": "72",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_ben_head",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 760
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "26",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_ben_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why Virtual Services Matter",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ab_ben_lead",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Virtual care helps reduce barriers that often keep people from getting help. Whether someone is managing a busy schedule, balancing family responsibilities, or simply prefers the comfort of home, online appointments create a more flexible path to care.</p>",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.08
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ab_ben_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 3,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_ben_card1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_ben_icon1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\u23f1\ufe0f",
+                    "header_size": "p",
+                    "title_color": "#1f2937",
+                    "background_background": "gradient",
+                    "background_color": "#e0ecff",
+                    "background_color_b": "#d7f2ef",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_title1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Convenience",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_text1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Book appointments, attend sessions, and stay connected to providers without commuting or sitting in waiting rooms.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_ben_card2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_ben_icon2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\ud83c\udfe0",
+                    "header_size": "p",
+                    "title_color": "#1f2937",
+                    "background_background": "gradient",
+                    "background_color": "#e0ecff",
+                    "background_color_b": "#d7f2ef",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_title2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Comfort",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_text2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Receive care from a familiar setting that can help patients feel more relaxed, open, and supported.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_ben_card3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_ben_icon3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "\ud83e\udd1d",
+                    "header_size": "p",
+                    "title_color": "#1f2937",
+                    "background_background": "gradient",
+                    "background_color": "#e0ecff",
+                    "background_color_b": "#d7f2ef",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 52
+                    },
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_title3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Connection",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_ben_text3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Create meaningful relationships with trusted providers through secure, accessible video-based care.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_team_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "16",
+          "bottom": "72",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_team_head",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 760
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "26",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_team_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Meet the Professionals Featured in This Demo",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ab_team_lead",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>This website demo highlights a diverse group of providers across mental health care and medical care, showing how one platform can support multiple service areas while still feeling cohesive and personal.</p>",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.08
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "ab_team_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 3,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_team1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team1_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "JW",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team1_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. James Walker",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team1_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Addiction Recovery Specialist focused on behavioral health, recovery support, and emotional resilience.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_team2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team2_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "OB",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team2_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. Olivia Bennett",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team2_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Adolescent therapist helping teens and young adults manage anxiety, stress, and personal growth.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_team3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team3_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "DB",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team3_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. Daniel Brooks",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team3_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Couples therapist specializing in communication, trust-building, and healthy relationship patterns.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_team4",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team4_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "AP",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team4_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. Andrew Patel",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team4_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Family medicine physician focused on preventive care, wellness, and long-term patient health.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_team5",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team5_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MG",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team5_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. Melissa Grant",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team5_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Internal medicine physician helping adults manage blood pressure, chronic conditions, and overall wellness.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_team6",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_team6_avatar",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "RC",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#1d4ed8",
+                    "background_background": "gradient",
+                    "background_color": "#dbeafe",
+                    "background_color_b": "#d1fae5",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 145
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 72
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "ab_team6_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dr. Robert Chen",
+                    "header_size": "h3",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.2
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_team6_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Cardiologist focused on preventive heart care, cardiovascular health, and patient education.</p>",
+                    "text_color": "#6b7280"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_mv_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "16",
+          "bottom": "72",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_mv_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "size": 2,
+              "unit": "fr"
+            },
+            "gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22"
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_tablet_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            },
+            "_mobile_grid_columns_grid": {
+              "size": 1,
+              "unit": "fr"
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_mission_card",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_mission_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Mission",
+                    "header_size": "h2",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_mission_p1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Our mission is to make quality care easier to access by connecting people with trusted providers through secure virtual services. We believe healthcare should be approachable, supportive, and built around the realities of modern life.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                },
+                {
+                  "id": "ab_mission_p2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>By combining mental health care and medical care on one platform, we create a more complete wellness experience that supports both mind and body.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_vision_card",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e5e7eb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 18,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(15, 23, 42, 0.08)"
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "ab_vision_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Vision",
+                    "header_size": "h2",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "ab_vision_p1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We envision a digital healthcare experience where patients can find the right provider, schedule care with confidence, and receive meaningful support without unnecessary barriers.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                },
+                {
+                  "id": "ab_vision_p2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>This demo reflects a future-forward model of care that values accessibility, professionalism, and human connection.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab_cta_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "16",
+          "bottom": "80",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "ab_cta_box",
+          "elType": "container",
+          "settings": {
+            "background_background": "gradient",
+            "background_color": "#1e3a8a",
+            "background_color_b": "#0f766e",
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "42",
+              "right": "42",
+              "bottom": "42",
+              "left": "42",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 18,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(15, 23, 42, 0.08)"
+            },
+            "flex_direction": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "ab_cta_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Support for Mind and Body, Wherever You Are",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ab_cta_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Whether someone is looking for therapy, preventive care, chronic condition guidance, or virtual access to trusted professionals, this platform is designed to help them feel supported every step of the way.</p>",
+                "text_color": "rgba(255, 255, 255, 0.86)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.05
+                },
+                "max_width": {
+                  "unit": "px",
+                  "size": 760
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "26",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "ab_cta_actions",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "ab_cta_btn1",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Providers",
+                    "link": {
+                      "url": "#providers"
+                    },
+                    "background_color": "#2563eb",
+                    "button_text_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_weight": "700",
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "22",
+                      "bottom": "14",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "hover_background_color": "#1d4ed8",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 50
+                    }
+                  }
+                },
+                {
+                  "id": "ab_cta_btn2",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Learn More",
+                    "link": {
+                      "url": "#services"
+                    },
+                    "background_color": "#ffffff",
+                    "button_text_color": "#1f2937",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e5e7eb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_weight": "700",
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "22",
+                      "bottom": "14",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "min_height": {
+                      "unit": "px",
+                      "size": 50
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#f6f8fb"
+  },
+  "metadata": {
+    "template_type": "page",
+    "description": "Complete About Us page template for a virtual healthcare platform. Includes Hero, Stats, Services, Benefits, Team, Mission/Vision, and CTA sections.",
+    "elementor_pro_required": false,
+    "version": "1.0.0",
+    "sections_included": [
+      "Hero",
+      "Stats",
+      "Services (Care Designed Around Real Life)",
+      "Benefits (Why Virtual Services Matter)",
+      "Team (Meet the Professionals)",
+      "Mission & Vision",
+      "CTA"
+    ],
+    "css_required": [
+      "css/healthcare-elementor-styles.css",
+      "css/about-page-styles.css"
+    ]
+  }
+}

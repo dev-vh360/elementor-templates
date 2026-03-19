@@ -1,0 +1,239 @@
+{
+  "version": "0.4",
+  "title": "About Page - Stats Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "ab_stats_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "gradient",
+        "_background_color": "#f8fbff",
+        "_background_color_b": "#f4f7fb",
+        "_background_gradient_angle": {"unit": "deg", "size": 180},
+        "padding": {"unit": "px", "top": "32", "right": "16", "bottom": "72", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "ab_stats_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {"size": 4, "unit": "fr"},
+            "gap": {"unit": "px", "column": "22", "row": "22"},
+            "width": {"unit": "%", "size": 100},
+            "_tablet_grid_columns_grid": {"size": 2, "unit": "fr"},
+            "_mobile_grid_columns_grid": {"size": 1, "unit": "fr"}
+          },
+          "elements": [
+            {
+              "id": "ab_stat1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "18", "bottom": "26", "left": "18", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat1_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_stat1_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Care Categories",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "18", "bottom": "26", "left": "18", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat2_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "8+",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_stat2_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Sample Professionals",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "18", "bottom": "26", "left": "18", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat3_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "100%",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_stat3_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Virtual Access",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab_stat4",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "padding": {"unit": "px", "top": "26", "right": "18", "bottom": "26", "left": "18", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab_stat4_num",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#0f766e",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 2},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ab_stat4_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Connected Care Experience",
+                    "header_size": "p",
+                    "align": "center",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "About Page Stats - 4 white stat boxes with teal numbers and muted labels. Responsive: 2 columns on tablet, 1 column on mobile.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}
