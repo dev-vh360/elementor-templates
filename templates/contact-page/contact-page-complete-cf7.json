@@ -1,0 +1,354 @@
+{
+  "version": "0.4",
+  "title": "Contact Page - Complete (Contact Form 7)",
+  "type": "page",
+  "content": [
+    {
+      "id": "ct_hero_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#f6f8fb",
+        "padding": {"unit": "px", "top": "70", "right": "16", "bottom": "40", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1100},
+        "flex_direction": "column",
+        "align_items": "center",
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "ct_hero_h1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact Our Care Team",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 3},
+            "typography_font_weight": "700",
+            "typography_line_height": {"unit": "em", "size": 1.2},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "ct_hero_desc",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Have questions about virtual appointments, connecting with a healthcare professional, or using this platform? Our team is here to help guide you to the right mental health or medical care provider.</p>",
+            "align": "center",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1.05},
+            "typography_line_height": {"unit": "em", "size": 1.6},
+            "width": {"unit": "px", "size": 650},
+            "margin": {"unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false}
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct_grid_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#f6f8fb",
+        "padding": {"unit": "px", "top": "40", "right": "16", "bottom": "80", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1100}
+      },
+      "elements": [
+        {
+          "id": "ct_grid_wrap",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "1.2fr 0.8fr",
+            "gap": {"unit": "px", "column": "30", "row": "30"},
+            "width": {"unit": "%", "size": 100},
+            "_tablet_container_type": "flex",
+            "_tablet_flex_direction": "column",
+            "_mobile_container_type": "flex",
+            "_mobile_flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "ct_form_cf7_card",
+              "elType": "container",
+              "settings": {
+                "_background_background": "classic",
+                "_background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(0,0,0,0.08)"},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "ct_form_cf7_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Send Us a Message",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.5},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_form_cf7_intro",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Fill out the form below and our team will respond as soon as possible.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_form_cf7_widget",
+                  "elType": "widget",
+                  "widgetType": "shortcode",
+                  "settings": {
+                    "shortcode": "[contact-form-7 id=\"YOUR_FORM_ID\" title=\"Virtual Health Contact Form\"]",
+                    "_css_classes": "contact-cf7-form",
+                    "width": {"unit": "%", "size": 100}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ct_info_card",
+              "elType": "container",
+              "settings": {
+                "_background_background": "classic",
+                "_background_color": "#ffffff",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "#e5e7eb",
+                "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(0,0,0,0.08)"},
+                "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "ct_info_h2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Information",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.5},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_email_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Email",
+                    "header_size": "h6",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.9},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_email_val",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>support@virtualhealthdemo.com</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_phone_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Phone",
+                    "header_size": "h6",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.9},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_phone_val",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>(800) 555&#8209;2038</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_hours_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Virtual Office Hours",
+                    "header_size": "h6",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.9},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_hours_val",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Monday – Friday<br>9:00 AM – 6:00 PM</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_services_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Platform Services",
+                    "header_size": "h6",
+                    "align": "left",
+                    "title_color": "#1f2937",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.9},
+                    "typography_font_weight": "700",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_services_val",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Mental Health Therapy<br>Medical Consultations<br>Virtual Appointments</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ct_info_emergency_box",
+                  "elType": "container",
+                  "settings": {
+                    "_background_background": "classic",
+                    "_background_color": "#eef6ff",
+                    "border_border": "solid",
+                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_color": "#dbeafe",
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "padding": {"unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true},
+                    "margin": {"unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+                    "width": {"unit": "%", "size": 100},
+                    "flex_direction": "column",
+                    "align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "ct_info_emergency_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Need Immediate Help?",
+                        "header_size": "h6",
+                        "align": "left",
+                        "title_color": "#1f2937",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "rem", "size": 0.95},
+                        "typography_font_weight": "700",
+                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "ct_info_emergency_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>If you are experiencing a medical or mental health emergency, please contact your local emergency services or call your healthcare provider immediately.</p>",
+                        "text_color": "#6b7280",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "rem", "size": 0.9},
+                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ct_footer_note",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#f6f8fb",
+        "padding": {"unit": "px", "top": "0", "right": "16", "bottom": "40", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1100},
+        "flex_direction": "column",
+        "align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "ct_footer_text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Demo platform connecting patients with mental health and medical professionals through virtual care.</p>",
+            "align": "center",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.9}
+          }
+        }
+      ]
+    }
+  ]
+}

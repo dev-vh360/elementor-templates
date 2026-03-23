@@ -1,0 +1,50 @@
+===================================================
+CONTACT FORM 7 — MAIL TEMPLATE CONFIGURATION
+===================================================
+
+Paste the following settings into Contact Form 7 > Mail tab.
+
+---------------------------------------------------
+TO
+---------------------------------------------------
+[your-email-goes-here]
+
+Replace [your-email-goes-here] with your actual recipient email address,
+e.g. info@yoursite.com
+
+---------------------------------------------------
+FROM
+---------------------------------------------------
+[your-name] <[your-email]>
+
+---------------------------------------------------
+SUBJECT
+---------------------------------------------------
+New Contact Form Submission - [care-type]
+
+---------------------------------------------------
+ADDITIONAL HEADERS (optional)
+---------------------------------------------------
+Reply-To: [your-email]
+
+---------------------------------------------------
+MESSAGE BODY
+---------------------------------------------------
+Name: [your-name]
+Email: [your-email]
+Care Type: [care-type]
+
+Message:
+[your-message]
+
+---------------------------------------------------
+SUCCESS MESSAGE (set in Messages tab in CF7)
+---------------------------------------------------
+Thank you for contacting us! We will respond to your inquiry as soon as possible.
+
+---------------------------------------------------
+VALIDATION ERROR MESSAGES (Messages tab)
+---------------------------------------------------
+This field is required.            → Please fill in this field.
+Please enter a valid email.        → Please enter a valid email address.
+Your message was not sent.         → Something went wrong. Please try again later.
