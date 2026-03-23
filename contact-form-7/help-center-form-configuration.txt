@@ -1,0 +1,32 @@
+== Help Center Support Form — Contact Form 7 Configuration ==
+
+Paste this code into the "Form" tab when creating your CF7 form.
+Name the form: Help Center Support Form
+
+------------------------------------------------------------------
+
+<label> Your Name (required)
+    [text* your-name placeholder "Enter your name"] </label>
+
+<label> Email Address (required)
+    [email* your-email placeholder "Enter your email address"] </label>
+
+<label> Username or Profile Name
+    [text your-username placeholder "Your Videohub360 username"] </label>
+
+<label> Issue Type (required)
+    [select* issue-type "Account Access" "Profile Setup" "Community Features" "Live Streaming" "Session Join Issue" "Messages & Notifications" "Content Uploads" "Technical Support" "General Question"] </label>
+
+<label> Page or Feature Related To
+    [select page-feature "Dashboard" "Activity Feed" "Members Directory" "Profile Page" "Direct Messages" "Live Room" "Content Upload" "Mobile / PWA" "Other"] </label>
+
+<label> Describe Your Issue (required)
+    [textarea* your-message placeholder "Please describe the issue you are experiencing in as much detail as possible..."] </label>
+
+[submit "Submit Support Request"]
+
+------------------------------------------------------------------
+Notes:
+- Fields marked with * are required
+- The issue-type and page-feature dropdowns help route tickets efficiently
+- The your-username field is optional but helps the team locate the account

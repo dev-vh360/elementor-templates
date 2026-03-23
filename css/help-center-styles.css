@@ -1,0 +1,138 @@
+/* ==========================================================
+   Help Center — Component Styles
+   Videohub360 Community & Streaming Demo
+   ==========================================================
+   Requires: healthcare-elementor-styles.css (base tokens)
+   Requires: contact-form-styles.css (form field styling)
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   Help Center Category Cards
+   ---------------------------------------------------------- */
+
+.hc-help-category-card {
+    background: var(--hc-surface, #ffffff);
+    border: 1px solid var(--hc-border, #e5e7eb);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hc-help-category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.hc-help-category-icon {
+    font-size: 2.5rem;
+    color: var(--hc-primary, #2563eb);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.hc-help-category-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--hc-text, #1f2937);
+    margin-bottom: 0.5rem;
+}
+
+.hc-help-category-desc {
+    font-size: 0.95rem;
+    color: var(--hc-muted, #6b7280);
+    line-height: 1.6;
+}
+
+/* ----------------------------------------------------------
+   FAQ Section Styling
+   ---------------------------------------------------------- */
+
+.hc-faq-section .elementor-accordion-item {
+    border: 1px solid var(--hc-border, #e5e7eb);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: var(--hc-surface, #ffffff);
+    overflow: hidden;
+}
+
+.hc-faq-section .elementor-tab-title {
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+    color: var(--hc-text, #1f2937);
+    cursor: pointer;
+}
+
+.hc-faq-section .elementor-tab-title.elementor-active {
+    color: var(--hc-primary, #2563eb);
+}
+
+.hc-faq-section .elementor-tab-content {
+    padding: 0 1.5rem 1.5rem;
+    color: var(--hc-muted, #6b7280);
+    line-height: 1.65;
+}
+
+/* ----------------------------------------------------------
+   Support Info Sidebar
+   ---------------------------------------------------------- */
+
+.hc-support-info-card {
+    background: var(--hc-surface, #ffffff);
+    border: 1px solid var(--hc-border, #e5e7eb);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.hc-support-info-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--hc-muted, #6b7280);
+    margin-bottom: 0.5rem;
+}
+
+.hc-support-info-value {
+    font-size: 1rem;
+    color: var(--hc-text, #1f2937);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* ----------------------------------------------------------
+   Demo Note Box
+   ---------------------------------------------------------- */
+
+.hc-demo-note {
+    background: var(--hc-soft-blue, #eff6ff);
+    border-left: 3px solid var(--hc-primary, #2563eb);
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: var(--hc-text, #1f2937);
+    margin-top: 1.5rem;
+    line-height: 1.6;
+}
+
+/* ----------------------------------------------------------
+   Responsive Adjustments
+   ---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .hc-help-category-card {
+        padding: 1.5rem;
+    }
+
+    .hc-support-info-card {
+        margin-top: 2rem;
+    }
+
+    .hc-faq-section .elementor-tab-title {
+        padding: 1rem 1.25rem;
+        font-size: 0.95rem;
+    }
+
+    .hc-faq-section .elementor-tab-content {
+        padding: 0 1.25rem 1.25rem;
+    }
+}
