@@ -24,9 +24,12 @@ Clone or download this repository to your local computer. You will need the foll
 ```
 templates/homepage-complete.json         (or individual section files)
 templates/about-page/about-page-complete.json  (or individual about section files)
+templates/help-center/help-center-complete-cf7.json  (or individual help center section files)
 css/healthcare-elementor-styles.css
 css/elementor-custom-widgets.css
 css/about-page-styles.css                (required for About page)
+css/contact-form-styles.css              (required for Contact and Help Center pages)
+css/help-center-styles.css               (required for Help Center page)
 ```
 
 ---
@@ -49,7 +52,15 @@ css/about-page-styles.css                (required for About page)
 4. Click **Import Now**.
 5. The template will appear in your library under **Pages**.
 
-### Option C: Import Individual Section Templates
+### Option C: Import the Complete Help Center Page
+
+1. In your WordPress dashboard, go to **Elementor > Templates**.
+2. Click the **Import Templates** button (folder icon).
+3. Choose `templates/help-center/help-center-complete-cf7.json`.
+4. Click **Import Now**.
+5. The template will appear in your library under **Pages**.
+
+### Option D: Import Individual Section Templates
 
 Repeat the import steps above for each section file you want to use.
 
@@ -76,6 +87,16 @@ Repeat the import steps above for each section file you want to use.
 | `about-page/about-team.json`      | Team (6 providers)          |
 | `about-page/about-mission-vision.json` | Mission & Vision       |
 | `about-page/about-cta.json`       | CTA (gradient banner)       |
+
+**Help Center sections:**
+
+| File                                          | Section                          |
+|-----------------------------------------------|----------------------------------|
+| `help-center/help-center-hero.json`           | Hero (centered H1)               |
+| `help-center/help-center-categories.json`     | Support Categories (6-card grid) |
+| `help-center/help-center-faq.json`            | FAQ Accordion                    |
+| `help-center/help-center-form-cf7.json`       | Support Request Form (CF7)       |
+| `help-center/help-center-support-sidebar.json`| Support Info Sidebar             |
 
 Imported sections will appear under **Elementor > Templates > Sections** and can be inserted into any page using the **My Templates** tab in the Elementor editor.
 
@@ -105,6 +126,12 @@ The CSS files provide the component styles, CSS custom properties, and responsiv
 
 **For the About page, also add:**
 6. Paste the contents of `css/about-page-styles.css` into the same Custom CSS field (below the other stylesheets).
+
+**For the Contact page or Help Center page, also add:**
+7. Paste the contents of `css/contact-form-styles.css` into the same Custom CSS field.
+
+**For the Help Center page, also add:**
+8. Paste the contents of `css/help-center-styles.css` into the same Custom CSS field.
 
 ### Method B: Enqueue via Child Theme
 
@@ -196,6 +223,16 @@ Update text content to match your actual platform:
 - **CTA heading and description** — update in the CTA section
 
 See [ABOUT-PAGE-GUIDE.md](ABOUT-PAGE-GUIDE.md) for detailed About page customization instructions.
+
+**Help Center:**
+- **Hero heading and description** — click the H1 and Text Editor widgets in the Hero section
+- **Support category titles and descriptions** — update Heading and Text Editor widgets in each category card
+- **FAQ questions and answers** — click the Accordion widget and edit items in the left panel
+- **Support request form** — replace `YOUR_FORM_ID` in the Shortcode widget with your actual CF7 form ID
+- **Sidebar contact details** — click each value widget (email, response time, best for)
+
+See [HELP-CENTER-GUIDE.md](HELP-CENTER-GUIDE.md) for detailed Help Center customization instructions.
+See [HELP-CENTER-SETUP.md](HELP-CENTER-SETUP.md) for Help Center CF7 setup instructions.
 
 ---
 

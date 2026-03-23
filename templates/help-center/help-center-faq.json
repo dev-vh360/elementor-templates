@@ -1,0 +1,120 @@
+{
+  "version": "0.4",
+  "title": "Help Center - FAQ Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "hc_faq_outer",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#f6f8fb",
+        "padding": {"unit": "px", "top": "60", "right": "16", "bottom": "60", "left": "16", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 820},
+        "flex_direction": "column",
+        "align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "hc_faq_eyebrow",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "h6",
+            "align": "center",
+            "title_color": "#0f766e",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "px", "size": 13},
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {"unit": "px", "size": 1.2},
+            "typography_text_transform": "uppercase",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_faq_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 2.2},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "36", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_faq_accordion",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "hc_faq_q1",
+                "tab_title": "How do I start a live stream?",
+                "tab_content": "<p>To start a live stream, go to your Dashboard and click <strong>Go Live</strong>. Make sure your browser has camera and microphone permissions enabled. Select your stream settings, add a title, and click <strong>Start Stream</strong>. Your community members will be notified when you go live.</p>"
+              },
+              {
+                "_id": "hc_faq_q2",
+                "tab_title": "Why can't I join a session?",
+                "tab_content": "<p>If you're having trouble joining a live session, try the following: refresh your browser, clear your cache, or try a different browser. Make sure you have a stable internet connection. If the session is at capacity, you may need to wait for a spot to open. Contact support if the issue persists.</p>"
+              },
+              {
+                "_id": "hc_faq_q3",
+                "tab_title": "How do I update my profile?",
+                "tab_content": "<p>Navigate to your <strong>Profile Page</strong> and click <strong>Edit Profile</strong>. You can update your display name, bio, avatar, and social links from this page. Changes are saved automatically when you click <strong>Save Changes</strong>.</p>"
+              },
+              {
+                "_id": "hc_faq_q4",
+                "tab_title": "Why am I not getting notifications?",
+                "tab_content": "<p>Check your notification settings under <strong>Settings &gt; Notifications</strong>. Make sure notifications are enabled for the activities you want to be alerted about. Also check that your browser permissions allow notifications from this site, and that notifications are not blocked by your device settings.</p>"
+              },
+              {
+                "_id": "hc_faq_q5",
+                "tab_title": "How do I message another member?",
+                "tab_content": "<p>Visit the member's profile page and click <strong>Send Message</strong>, or go to the <strong>Members Directory</strong> and use the message icon next to their name. You can also access all your conversations from the <strong>Direct Messages</strong> section in your navigation menu.</p>"
+              },
+              {
+                "_id": "hc_faq_q6",
+                "tab_title": "How do I upload or publish content?",
+                "tab_content": "<p>Go to the <strong>Content Upload</strong> section from your Dashboard. Click <strong>Upload New</strong>, select your file, and fill in the title and description. Choose your visibility settings (public, community, or private) and click <strong>Publish</strong> when ready.</p>"
+              },
+              {
+                "_id": "hc_faq_q7",
+                "tab_title": "What browsers are supported?",
+                "tab_content": "<p>Videohub360 works best on the latest versions of <strong>Chrome</strong>, <strong>Firefox</strong>, <strong>Edge</strong>, and <strong>Safari</strong>. For live streaming, we recommend Chrome or Edge for the most reliable experience. Internet Explorer is not supported.</p>"
+              },
+              {
+                "_id": "hc_faq_q8",
+                "tab_title": "How do I report a technical issue?",
+                "tab_content": "<p>Use the <strong>Support Request form</strong> below to report technical issues. Include as much detail as possible: the browser and device you're using, what you were trying to do, and any error messages you saw. Our support team will review your report and respond within 24–48 hours.</p>"
+              }
+            ],
+            "title_html_tag": "div",
+            "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+            "border_color": "#e5e7eb",
+            "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true},
+            "title_color": "#1f2937",
+            "title_active_color": "#2563eb",
+            "icon_color": "#6b7280",
+            "icon_active_color": "#2563eb",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1},
+            "typography_font_weight": "600",
+            "content_color": "#6b7280",
+            "content_typography_typography": "custom",
+            "content_typography_font_size": {"unit": "rem", "size": 0.98},
+            "content_typography_line_height": {"unit": "em", "size": 1.65},
+            "width": {"unit": "%", "size": 100},
+            "_css_classes": "hc-faq-section"
+          }
+        }
+      ]
+    }
+  ]
+}
