@@ -1,0 +1,43 @@
+== Help Center Support Form — Mail Template Configuration ==
+
+Configure these settings in the "Mail" tab of your CF7 form.
+
+------------------------------------------------------------------
+
+TO:
+[your-email-goes-here]
+(Replace with your actual support email address)
+
+FROM:
+[your-name] <[your-email]>
+
+SUBJECT:
+[your-site] Help Center Support Request - [issue-type]
+
+ADDITIONAL HEADERS:
+Reply-To: [your-name] <[your-email]>
+
+MESSAGE BODY:
+---
+From: [your-name] <[your-email]>
+Username: [your-username]
+Issue Type: [issue-type]
+Page / Feature: [page-feature]
+
+Message:
+[your-message]
+
+---
+This message was sent from the Help Center contact form on [your-site]
+
+------------------------------------------------------------------
+
+CONFIRMATION MESSAGE (shown to user after submission):
+Thank you for contacting us! We have received your support request and will respond within 24–48 hours.
+
+------------------------------------------------------------------
+
+Notes:
+- [your-site] is automatically replaced by CF7 with your site name
+- The Reply-To header lets you reply directly to the user's email
+- You may add additional notification recipients by CC-ing in the headers

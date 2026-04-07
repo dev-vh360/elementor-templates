@@ -1,0 +1,169 @@
+{
+  "version": "0.4",
+  "title": "Help Center - Support Info Sidebar",
+  "type": "section",
+  "content": [
+    {
+      "id": "hc_sidebar_card",
+      "elType": "container",
+      "settings": {
+        "_background_background": "classic",
+        "_background_color": "#ffffff",
+        "border_border": "solid",
+        "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+        "border_color": "#e5e7eb",
+        "border_radius": {"unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true},
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(0,0,0,0.08)"},
+        "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+        "flex_direction": "column",
+        "align_items": "flex-start"
+      },
+      "elements": [
+        {
+          "id": "hc_sidebar_h2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Support Information",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 1.5},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_email_label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Support Email",
+            "header_size": "h6",
+            "align": "left",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.9},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_email_val",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>support@videohub360.com</p>",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.95},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_response_label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Response Time",
+            "header_size": "h6",
+            "align": "left",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.9},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_response_val",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Within 24–48 hours</p>",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.95},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "22", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_bestfor_label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Best For",
+            "header_size": "h6",
+            "align": "left",
+            "title_color": "#1f2937",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.9},
+            "typography_font_weight": "700",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_bestfor_val",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Account issues<br>Streaming support<br>Community assistance<br>Technical troubleshooting</p>",
+            "text_color": "#6b7280",
+            "typography_typography": "custom",
+            "typography_font_size": {"unit": "rem", "size": 0.95},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "hc_sidebar_demo_box",
+          "elType": "container",
+          "settings": {
+            "_background_background": "classic",
+            "_background_color": "#eff6ff",
+            "border_border": "solid",
+            "border_width": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "3", "isLinked": false},
+            "border_color": "#2563eb",
+            "border_radius": {"unit": "px", "top": "6", "right": "6", "bottom": "6", "left": "6", "isLinked": true},
+            "padding": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+            "margin": {"unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+            "width": {"unit": "%", "size": 100},
+            "flex_direction": "column",
+            "align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "hc_sidebar_demo_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Demo Note",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 0.95},
+                "typography_font_weight": "700",
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "hc_sidebar_demo_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>This is a demo support form. In production, submissions would be routed to your support team.</p>",
+                "text_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 0.9},
+                "typography_line_height": {"unit": "em", "size": 1.6},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Healthcare Platform — Elementor Templates
 
-A complete set of Elementor page templates for a virtual healthcare platform. Includes a full homepage template, a complete About page template, a Contact Us page template with Contact Form 7 integration, modular section templates, custom CSS, and comprehensive documentation.
+A complete set of Elementor page templates for a virtual healthcare platform and Videohub360 community/streaming demo. Includes a full homepage template, a complete About page template, a Contact Us page template, a Help Center page template with Contact Form 7 integration, modular section templates, custom CSS, and comprehensive documentation.
 
 ---
 
@@ -15,13 +15,19 @@ A complete set of Elementor page templates for a virtual healthcare platform. In
 | `templates/contact-page/contact-page-complete-cf7.json` | Full Contact page with Contact Form 7 integration |
 | `templates/contact-page/contact-page-complete-static.json` | Full Contact page with static HTML form (reference) |
 | `templates/contact-page/contact-*.json` | 4 individual Contact page section templates |
+| `templates/help-center/help-center-complete-cf7.json` | Full Help Center page with Contact Form 7 integration |
+| `templates/help-center/help-center-*.json` | 5 individual Help Center section templates |
 | `css/healthcare-elementor-styles.css` | Main stylesheet with CSS variables |
 | `css/elementor-custom-widgets.css` | Elementor widget-specific overrides |
 | `css/about-page-styles.css` | About page-specific component styles |
 | `css/contact-form-styles.css` | Contact Form 7 and static form styling |
-| `contact-form-7/form-configuration.txt` | CF7 form code to paste into Contact Form 7 |
-| `contact-form-7/mail-template.txt` | Email template configuration for CF7 |
-| `contact-form-7/setup-instructions.md` | Step-by-step CF7 setup guide |
+| `css/help-center-styles.css` | Help Center-specific component styles |
+| `contact-form-7/form-configuration.txt` | CF7 form code for Contact page |
+| `contact-form-7/mail-template.txt` | Email template configuration for Contact page CF7 |
+| `contact-form-7/setup-instructions.md` | Step-by-step CF7 setup guide for Contact page |
+| `contact-form-7/help-center-form-configuration.txt` | CF7 form code for Help Center support form |
+| `contact-form-7/help-center-mail-template.txt` | Email template configuration for Help Center |
+| `contact-form-7/help-center-setup-instructions.md` | Step-by-step Help Center CF7 setup guide |
 | `images/README.md` | Image requirements and placeholder guide |
 | `docs/README.md` | Overview, color palette, typography |
 | `docs/INSTALLATION-GUIDE.md` | Step-by-step setup instructions |
@@ -31,6 +37,8 @@ A complete set of Elementor page templates for a virtual healthcare platform. In
 | `docs/CONTACT-PAGE-GUIDE.md` | Contact page structure and customization guide |
 | `docs/CONTACT-FORM-SETUP.md` | Detailed CF7 setup instructions |
 | `docs/ALTERNATIVE-FORM-PLUGINS.md` | WPForms, Elementor Pro, Gravity Forms guides |
+| `docs/HELP-CENTER-GUIDE.md` | Help Center structure and customization guide |
+| `docs/HELP-CENTER-SETUP.md` | Detailed Help Center setup instructions |
 
 ---
 
@@ -63,6 +71,15 @@ A complete set of Elementor page templates for a virtual healthcare platform. In
 3. **Form Card (Static)** — Card with static HTML form (visual reference)
 4. **Info Sidebar** — Contact information card with emergency info box
 
+### Help Center Sections (6 templates)
+
+1. **Hero** — Centered H1 and introduction for the Help Center
+2. **Support Categories** — 6-card grid: Account & Login, Profiles & Community, Streaming & Live Sessions, Messages & Notifications, Content & Uploads, Technical Support
+3. **FAQ** — Accordion widget with 8 common platform questions
+4. **Form Card (CF7)** — Support request form with Contact Form 7 integration
+5. **Support Info Sidebar** — Contact information, response time, and demo note
+6. **Complete Page** — Full Help Center combining all sections
+
 ---
 
 ## Quick Start
@@ -90,6 +107,17 @@ A complete set of Elementor page templates for a virtual healthcare platform. In
 See [`docs/CONTACT-FORM-SETUP.md`](docs/CONTACT-FORM-SETUP.md) for complete CF7 setup instructions.
 See [`docs/CONTACT-PAGE-GUIDE.md`](docs/CONTACT-PAGE-GUIDE.md) for Contact page customization.
 See [`docs/ALTERNATIVE-FORM-PLUGINS.md`](docs/ALTERNATIVE-FORM-PLUGINS.md) for WPForms, Elementor Pro, and Gravity Forms guides.
+
+### Help Center
+1. Install the **Contact Form 7** plugin
+2. Create a form using the code in `contact-form-7/help-center-form-configuration.txt`
+3. Import `templates/help-center/help-center-complete-cf7.json` via **Elementor > Templates > Import**
+4. Add CSS from `css/contact-form-styles.css` and `css/help-center-styles.css` to **Elementor > Site Settings > Custom CSS**
+5. Replace `YOUR_FORM_ID` in the Shortcode widget with your actual CF7 form ID
+6. Update support contact information in the sidebar
+
+See [`docs/HELP-CENTER-SETUP.md`](docs/HELP-CENTER-SETUP.md) for complete setup instructions.
+See [`docs/HELP-CENTER-GUIDE.md`](docs/HELP-CENTER-GUIDE.md) for Help Center customization.
 
 See [`docs/INSTALLATION-GUIDE.md`](docs/INSTALLATION-GUIDE.md) for full setup instructions.
 See [`docs/ABOUT-PAGE-GUIDE.md`](docs/ABOUT-PAGE-GUIDE.md) for About page customization.

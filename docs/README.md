@@ -27,10 +27,28 @@ A complete set of Elementor page templates for a virtual healthcare platform. Th
     about-mission-vision.json   ← Mission & Vision 2-column cards
     about-cta.json              ← CTA gradient banner
 
+  /help-center/
+    help-center-complete-cf7.json    ← Full Help Center page with CF7
+    help-center-hero.json            ← Hero section
+    help-center-categories.json      ← 6 support category cards
+    help-center-faq.json             ← FAQ accordion section
+    help-center-form-cf7.json        ← Support request form card
+    help-center-support-sidebar.json ← Support info sidebar
+
+/contact-form-7/
+  form-configuration.txt             ← CF7 form code for Contact page
+  mail-template.txt                  ← Email template for Contact page
+  setup-instructions.md              ← CF7 setup guide for Contact page
+  help-center-form-configuration.txt ← CF7 form code for Help Center
+  help-center-mail-template.txt      ← Email template for Help Center
+  help-center-setup-instructions.md  ← CF7 setup guide for Help Center
+
 /css/
   healthcare-elementor-styles.css    ← Main stylesheet (CSS variables + components)
   elementor-custom-widgets.css       ← Elementor-specific widget overrides
   about-page-styles.css              ← About page-specific components
+  contact-form-styles.css            ← CF7 and static form styling
+  help-center-styles.css             ← Help Center component styles
 
 /images/
   README.md                          ← Image requirements & placeholder guide
@@ -41,6 +59,11 @@ A complete set of Elementor page templates for a virtual healthcare platform. Th
   DESIGN-SPECS.md                    ← Colors, typography, spacing reference
   CUSTOMIZATION-GUIDE.md             ← How to adapt the templates
   ABOUT-PAGE-GUIDE.md                ← About page structure & customization
+  CONTACT-PAGE-GUIDE.md              ← Contact page structure & customization
+  CONTACT-FORM-SETUP.md              ← Detailed CF7 setup for Contact page
+  ALTERNATIVE-FORM-PLUGINS.md        ← WPForms, Elementor Pro, Gravity Forms
+  HELP-CENTER-GUIDE.md               ← Help Center structure & customization
+  HELP-CENTER-SETUP.md               ← Help Center setup instructions
 ```
 
 ---
@@ -58,6 +81,17 @@ A complete set of Elementor page templates for a virtual healthcare platform. Th
 2. **Add CSS** — paste both `css/healthcare-elementor-styles.css` and `css/about-page-styles.css` to Elementor > Site Settings > Custom CSS
 3. **Update team members** — edit avatar initials, names, and descriptions in the Team section
 4. **Update links** on all buttons to point to your actual pages
+
+### Help Center
+1. **Install Contact Form 7** plugin
+2. **Create form** — paste code from `contact-form-7/help-center-form-configuration.txt` into a new CF7 form named **Help Center Support Form**
+3. **Import** `templates/help-center/help-center-complete-cf7.json` via Elementor > Templates > Import
+4. **Add CSS** — paste `css/contact-form-styles.css` and `css/help-center-styles.css` to Elementor > Site Settings > Custom CSS
+5. **Replace form ID** — update `YOUR_FORM_ID` in the Shortcode widget with your actual CF7 form ID
+6. **Update sidebar** — replace placeholder contact details with your support email and information
+
+See [HELP-CENTER-SETUP.md](HELP-CENTER-SETUP.md) for full step-by-step instructions.
+See [HELP-CENTER-GUIDE.md](HELP-CENTER-GUIDE.md) for Help Center customization.
 
 See [INSTALLATION-GUIDE.md](INSTALLATION-GUIDE.md) for full step-by-step instructions.
 See [ABOUT-PAGE-GUIDE.md](ABOUT-PAGE-GUIDE.md) for About page customization.
