@@ -4,9 +4,21 @@ This folder contains 12 Elementor JSON templates for a dark-themed creator platf
 
 ## Usage
 
-### Option 1: Import Individual Sections (Recommended)
+### Option 1: Import Complete Homepage (Quickest)
 
-Import each section separately via **Elementor > Templates > Import**:
+Import the full homepage in one go:
+
+1. Go to **Elementor > Templates > Import**
+2. Upload `creator-homepage-complete.json`
+3. Apply the CSS from `css/creator-demo-styles.css` to **Elementor > Site Settings > Custom CSS**
+4. Add body class `creator-demo-page` to your page (**Settings > Advanced > CSS Classes**)
+5. Customize content and images
+
+**Note:** The complete homepage includes 9 sections (hero through CTA). Header and footer are separate templates you can add as needed.
+
+### Option 2: Import Individual Sections (For Customization)
+
+Import each section separately via **Elementor > Templates > Import** for more control:
 
 1. `creator-header.json` — Sticky navigation
 2. `creator-hero.json` — Hero with live stream preview
@@ -21,13 +33,6 @@ Import each section separately via **Elementor > Templates > Import**:
 11. `creator-footer.json` — Footer
 
 Then drag and drop the imported sections onto your page in Elementor.
-
-### Option 2: Build Complete Homepage
-
-1. Create a new page in Elementor
-2. Import and add sections in this order (above list)
-3. Apply the CSS from `css/creator-demo-styles.css`
-4. Add body class `creator-demo-page`
 
 ## Setup
 
