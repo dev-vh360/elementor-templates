@@ -1,0 +1,256 @@
+{
+  "version": "0.4",
+  "title": "Creator Demo - Why Jay Built This Platform",
+  "type": "section",
+  "content": [
+    {
+      "id": "why_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0b1020",
+        "padding": {"unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "why_header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "why_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why Jay Built This Platform",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 2.8},
+                "typography_font_size_mobile": {"unit": "rem", "size": 1.9},
+                "typography_font_weight": "800",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "why_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Tired of algorithms deciding who sees your content? This platform gives creators and fans a direct connection without the noise.</p>",
+                "align": "center",
+                "text_color": "#b6c2d9",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 1.05},
+                "typography_line_height": {"unit": "em", "size": 1.65}
+              }
+            }
+          ]
+        },
+        {
+          "id": "feature_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": {"size": 3, "unit": "fr"},
+            "gap": {"unit": "px", "column": "24", "row": "24"},
+            "_tablet_grid_columns_grid": {"size": 2, "unit": "fr"},
+            "_mobile_grid_columns_grid": {"size": 1, "unit": "fr"}
+          },
+          "elements": [
+            {
+              "id": "feature1",
+              "elType": "container",
+              "settings": {
+                "background_background": "gradient",
+                "background_gradient_type": "linear",
+                "background_gradient_angle": {"unit": "deg", "size": 180},
+                "background_color": "rgba(255,255,255,0.07)",
+                "background_color_b": "rgba(255,255,255,0.04)",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "rgba(255,255,255,0.12)",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "feature1_icon",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "🎯",
+                    "header_size": "p",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 42},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature1_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "No Algorithm BS",
+                    "header_size": "h3",
+                    "title_color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1.3},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature1_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Your content reaches everyone who joined. No views hidden, no shadow bans.</p>",
+                    "text_color": "#b6c2d9",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "typography_line_height": {"unit": "em", "size": 1.6}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "feature2",
+              "elType": "container",
+              "settings": {
+                "background_background": "gradient",
+                "background_gradient_type": "linear",
+                "background_gradient_angle": {"unit": "deg", "size": 180},
+                "background_color": "rgba(255,255,255,0.07)",
+                "background_color_b": "rgba(255,255,255,0.04)",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "rgba(255,255,255,0.12)",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "feature2_icon",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "💰",
+                    "header_size": "p",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 42},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature2_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Direct Revenue",
+                    "header_size": "h3",
+                    "title_color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1.3},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature2_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Members pay you directly. No platform taking 50% of your earnings.</p>",
+                    "text_color": "#b6c2d9",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "typography_line_height": {"unit": "em", "size": 1.6}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "feature3",
+              "elType": "container",
+              "settings": {
+                "background_background": "gradient",
+                "background_gradient_type": "linear",
+                "background_gradient_angle": {"unit": "deg", "size": 180},
+                "background_color": "rgba(255,255,255,0.07)",
+                "background_color_b": "rgba(255,255,255,0.04)",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                "border_color": "rgba(255,255,255,0.12)",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "feature3_icon",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "🔥",
+                    "header_size": "p",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 42},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature3_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Real Community",
+                    "header_size": "h3",
+                    "title_color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.3},
+                    "typography_font_weight": "700",
+                    "typography_line_height": {"unit": "em", "size": 1.3},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "feature3_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Build a loyal fanbase that actually cares. Not just passive scrollers.</p>",
+                    "text_color": "#b6c2d9",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 0.95},
+                    "typography_line_height": {"unit": "em", "size": 1.6}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
