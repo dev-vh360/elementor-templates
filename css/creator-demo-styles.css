@@ -1,0 +1,404 @@
+/*
+ * creator-demo-styles.css
+ * Custom stylesheet for Creator Demo Platform Elementor Templates
+ * Version: 1.0.0
+ *
+ * USAGE: Paste this CSS in Elementor > Site Settings > Custom CSS
+ *        or enqueue it via your child theme's functions.php
+ */
+
+/* ============================================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   ============================================================ */
+:root {
+  --cd-bg:        #0b1020;
+  --cd-text:      #f8fafc;
+  --cd-muted:     #b6c2d9;
+  --cd-primary:   #7c3aed;
+  --cd-secondary: #06b6d4;
+  --cd-accent:    #f59e0b;
+  --cd-border:    rgba(255,255,255,0.12);
+  --cd-shadow:    0 24px 60px rgba(0,0,0,0.35);
+  --cd-radius:    24px;
+  --cd-max:       1180px;
+}
+
+
+/* ============================================================
+   BODY BACKGROUND WITH MULTI-LAYER RADIAL GRADIENTS
+   ============================================================ */
+body.creator-demo-page {
+  background-color: var(--cd-bg);
+  background-image: 
+    radial-gradient(circle at 20% 10%, rgba(124, 58, 237, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.05) 0%, transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+/* ============================================================
+   STICKY HEADER WITH BACKDROP BLUR
+   ============================================================ */
+.creator-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(11, 16, 32, 0.72) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--cd-border);
+}
+
+
+/* ============================================================
+   GLASSMORPHISM CARDS
+   ============================================================ */
+.creator-card,
+.creator-feature-card,
+.creator-pricing-card,
+.creator-testimonial-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.04) 100%) !important;
+  border: 1px solid var(--cd-border) !important;
+  border-radius: var(--cd-radius) !important;
+  box-shadow: var(--cd-shadow) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+
+/* ============================================================
+   GRADIENT BUTTONS WITH HOVER LIFT
+   ============================================================ */
+.creator-btn-gradient {
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.4) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.creator-btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(124, 58, 237, 0.5) !important;
+}
+
+.creator-btn-secondary {
+  background: rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+  transition: background 0.2s ease;
+}
+
+.creator-btn-secondary:hover {
+  background: rgba(255,255,255,0.12) !important;
+}
+
+
+/* ============================================================
+   STREAM PREVIEW CARD WITH 4:3 ASPECT RATIO
+   ============================================================ */
+.creator-stream-preview {
+  position: relative;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  border-radius: var(--cd-radius);
+  padding: 16px;
+  box-shadow: var(--cd-shadow);
+}
+
+.creator-stream-preview img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.creator-stream-overlay {
+  background: rgba(255,255,255,0.07) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--cd-border);
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+
+/* ============================================================
+   LIVE INDICATOR PILL WITH RED DOT ANIMATION
+   ============================================================ */
+.creator-live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #dc2626 !important;
+  color: #ffffff !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.creator-live-pill::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+  animation: live-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+
+/* ============================================================
+   PRICING TIER CARDS WITH "MOST POPULAR" RIBBON
+   ============================================================ */
+.creator-pricing-card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Popular tier styling */
+.creator-pricing-card.popular,
+#popular {
+  border: 2px solid var(--cd-primary) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.06) 100%) !important;
+  box-shadow: 0 32px 80px rgba(124, 58, 237, 0.25) !important;
+}
+
+/* Most Popular Ribbon */
+.creator-pricing-card.popular::before,
+#popular::before {
+  content: 'MOST POPULAR';
+  position: absolute;
+  top: 24px;
+  right: -36px;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 6px 40px;
+  transform: rotate(36deg);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+  z-index: 10;
+}
+
+
+/* ============================================================
+   CREATOR AVATAR STYLING (96px square with gradient)
+   ============================================================ */
+.creator-avatar {
+  width: 96px;
+  height: 96px;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 auto 24px;
+}
+
+.creator-avatar-circle {
+  border-radius: 50% !important;
+  border: 3px solid #ffffff;
+}
+
+
+/* ============================================================
+   STATS BAND WITH GRADIENT BACKGROUND
+   ============================================================ */
+.creator-stats-band {
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%) !important;
+  border-radius: var(--cd-radius);
+  padding: 40px;
+  box-shadow: var(--cd-shadow);
+}
+
+
+/* ============================================================
+   TESTIMONIAL QUOTE MARKS (large, low opacity)
+   ============================================================ */
+.creator-testimonial-quote {
+  position: relative;
+  font-style: italic;
+}
+
+.creator-testimonial-quote::before {
+  content: '"';
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--cd-primary);
+  opacity: 0.2;
+  line-height: 1;
+}
+
+
+/* ============================================================
+   FEATURE LIST CUSTOM BULLETS (cyan dots)
+   ============================================================ */
+.creator-feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.creator-feature-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  color: var(--cd-muted);
+}
+
+.creator-feature-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: var(--cd-secondary);
+  border-radius: 50%;
+}
+
+.creator-pricing-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.creator-pricing-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  color: var(--cd-muted);
+}
+
+.creator-pricing-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--cd-secondary);
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   NUMBERED STEP CIRCLES
+   ============================================================ */
+.creator-step-number {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 auto 20px;
+}
+
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS
+   ============================================================ */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .creator-4col-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .creator-3col-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .creator-stats-band {
+    padding: 32px 24px;
+  }
+}
+
+/* Mobile (≤760px) */
+@media (max-width: 760px) {
+  .creator-4col-grid,
+  .creator-3col-grid,
+  .creator-2col-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .creator-card,
+  .creator-feature-card,
+  .creator-pricing-card,
+  .creator-testimonial-card {
+    padding: 24px 20px !important;
+  }
+  
+  .creator-stats-band {
+    padding: 24px 20px;
+  }
+  
+  .creator-pricing-card.popular::before,
+  #popular::before {
+    top: 20px;
+    right: -40px;
+    font-size: 10px;
+    padding: 5px 36px;
+  }
+  
+  body.creator-demo-page {
+    background-attachment: scroll;
+  }
+}
+
+
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+.creator-text-gradient {
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.creator-border-gradient {
+  border: 2px solid transparent;
+  background-image: linear-gradient(var(--cd-bg), var(--cd-bg)), 
+                    linear-gradient(135deg, var(--cd-primary), var(--cd-secondary));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.creator-glow {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.3);
+}
+
+
+/* ============================================================
+   BROWSER COMPATIBILITY NOTES
+   ============================================================ */
+/*
+ * backdrop-filter is supported in:
+ * - Chrome 76+
+ * - Edge 79+
+ * - Safari 9+ (with -webkit- prefix)
+ * - Firefox 103+
+ * 
+ * Fallback: semi-transparent backgrounds will still work
+ * in older browsers, just without the blur effect.
+ */
