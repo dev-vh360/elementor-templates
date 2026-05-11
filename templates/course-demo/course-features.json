@@ -32,7 +32,7 @@
                 "title": "Platform Features",
                 "header_size": "p",
                 "align": "center",
-                "title_color": "#0f3f23",
+                "title_color": "#14532d",
                 "typography_typography": "custom",
                 "typography_font_size": {"unit": "px", "size": 12},
                 "typography_font_weight": "700",
@@ -130,7 +130,7 @@
                         "title": "▶",
                         "header_size": "p",
                         "align": "center",
-                        "title_color": "#0f3f23",
+                        "title_color": "#14532d",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "px", "size": 20}
                       }
@@ -430,7 +430,7 @@
                         "title": "◉",
                         "header_size": "p",
                         "align": "center",
-                        "title_color": "#0f3f23",
+                        "title_color": "#14532d",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "px", "size": 20}
                       }
