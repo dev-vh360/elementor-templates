@@ -2,7 +2,8 @@
 
 A complete set of Elementor page templates including:
 - **Healthcare Platform** — Virtual healthcare platform with light theme (blue/teal)
-- **Creator Demo Platform** — Personal creator platform with dark theme (purple/cyan gradients)
+- **Creator Platform Demo** — Clean creator platform with light theme (blue/purple accent)
+- **Online Course / Coaching Demo** — Warm academy-style course and coaching platform (cream / deep green / gold)
 - Videohub360 community/streaming templates
 
 Includes full page templates, modular section templates, custom CSS, and comprehensive documentation.
@@ -30,13 +31,13 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 | `css/contact-form-styles.css` | Contact Form 7 and static form styling |
 | `css/help-center-styles.css` | Help Center-specific component styles |
 
-### Creator Demo Platform Templates (Dark Theme)
+### Creator Demo Platform Templates (Light Theme)
 
 | Path | Contents |
 |------|----------|
 | `templates/creator-demo/creator-homepage-complete.json` | Full homepage combining all sections |
-| `templates/creator-demo/creator-header.json` | Sticky navigation header with glassmorphism |
-| `templates/creator-demo/creator-hero.json` | Hero with creator photo and live stream preview |
+| `templates/creator-demo/creator-header.json` | Sticky navigation header |
+| `templates/creator-demo/creator-hero.json` | Hero with creator photo and platform preview card |
 | `templates/creator-demo/creator-stats.json` | 4-column stats band with gradient background |
 | `templates/creator-demo/creator-why.json` | "Why Jay Built This" with 3 feature cards |
 | `templates/creator-demo/creator-features.json` | "What You Can Do" with 2x2 grid |
@@ -46,7 +47,28 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 | `templates/creator-demo/creator-testimonials.json` | 3-column testimonial grid |
 | `templates/creator-demo/creator-cta.json` | Final CTA with gradient background |
 | `templates/creator-demo/creator-footer.json` | Simple footer with links |
-| `css/creator-demo-styles.css` | Dark theme stylesheet with gradients & glassmorphism |
+| `css/creator-demo-styles.css` | Light theme stylesheet (blue/purple, white cards) |
+
+### Online Course / Coaching Demo Templates (Warm Academy Style)
+
+| Path | Contents |
+|------|----------|
+| `templates/course-demo/course-homepage-complete.json` | Full homepage — Pathway Academy demo |
+| `templates/course-demo/course-header.json` | Sticky navigation header — Pathway Academy, "Browse Courses" CTA |
+| `templates/course-demo/course-hero.json` | Academy hero with curriculum module preview card |
+| `templates/course-demo/course-stats.json` | Solid deep green academy highlights strip |
+| `templates/course-demo/course-featured-courses.json` | 4-column grid of featured course cards |
+| `templates/course-demo/course-learning-path.json` | 4-module curriculum roadmap cards (Module 01–04) |
+| `templates/course-demo/course-coaching.json` | Weekly coaching schedule (Tue group call / Thu office hours / Monthly workshop) |
+| `templates/course-demo/course-features.json` | 6-column platform features grid |
+| `templates/course-demo/course-instructor.json` | Dr. Jordan Ellis — faculty/educator profile with credentials |
+| `templates/course-demo/course-membership.json` | 3-tier enrollment options (Free Preview / Self-Paced / Coaching Program) |
+| `templates/course-demo/course-testimonials.json` | Student outcome testimonials section |
+| `templates/course-demo/course-cta.json` | Deep green academy CTA band (no gradient) |
+| `templates/course-demo/course-footer.json` | Footer with 5 link columns |
+| `css/course-demo-styles.css` | Warm academy stylesheet (cream/green/gold), `.course-*` class prefix |
+| `docs/COURSE-DEMO-GUIDE.md` | Design philosophy, customization tips, safe wording rules |
+| `docs/COURSE-DEMO-SETUP.md` | Step-by-step import and configuration instructions |
 
 ### Shared Resources
 
@@ -114,10 +136,10 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 
 ### Creator Demo Platform Sections (12 templates)
 
-**Dark Theme with Purple/Cyan Gradients and Glassmorphism**
+**Light Theme with Blue/Purple Gradients and White Cards**
 
-1. **Header** — Sticky navigation with backdrop blur, brand mark, nav links, CTA button
-2. **Hero** — Two-column layout: creator photo, headline, description, buttons, proof points, live stream preview card
+1. **Header** — Sticky navigation with frosted background, brand mark, nav links, CTA button
+2. **Hero** — Two-column layout: creator photo, headline, description, buttons, proof points, platform preview card
 3. **Stats Band** — 4-column stats with gradient background (members, streams, hours, rating)
 4. **Why Section** — "Why Jay Built This Platform" with 3-column feature cards (No Algorithm, Direct Revenue, Real Community)
 5. **Features** — "What You Can Do Here" with 2x2 grid of feature cards with bulleted lists (Streams, Community, Content, Interaction)
@@ -128,6 +150,23 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 10. **CTA** — Final call-to-action section with gradient background box
 11. **Footer** — Simple footer with brand, links, copyright
 12. **Complete Homepage** — Full page combining all sections
+
+### Online Course / Coaching Demo Sections (Warm Academy)
+
+**Light Theme — Blue/Purple, White Cards, Professional Education Style**
+
+1. **Header** — Sticky navigation with "Creator Academy" brand and "Start Learning" CTA
+2. **Hero** — Two-column layout: academy headline, two CTA buttons, curriculum module preview card
+3. **Stats Band** — 4-column gradient band (40+ Video Lessons, 12 Learning Tracks, Weekly Live Sessions, 4.9★)
+4. **Featured Courses** — 4-column course catalog cards with level and access labels
+5. **Learning Path** — 3-step process (Watch the Lessons, Join Live Coaching, Engage With the Community)
+6. **Live Coaching** — Two-column section with coaching features list and session preview card
+7. **Platform Features** — 6-column feature grid (Video Library, Paid Membership, Live Sessions, Community, Coach Profile, Mobile)
+8. **Instructor Profile** — Full-width coach card with avatar, bio, stats, and action buttons
+9. **Enrollment Options** — 3-tier enrollment (Free Preview $0, Self-Paced Course $29, Coaching Program $99) with highlighted middle plan
+10. **Testimonials** — 3-column testimonial grid with star ratings and reviewer initials
+11. **CTA** — Blue-to-purple gradient CTA band with two buttons
+12. **Footer** — Dark forest green footer with course link columns
 
 ---
 
@@ -170,7 +209,7 @@ See [`docs/ALTERNATIVE-FORM-PLUGINS.md`](docs/ALTERNATIVE-FORM-PLUGINS.md) for W
 See [`docs/HELP-CENTER-SETUP.md`](docs/HELP-CENTER-SETUP.md) for complete setup instructions.
 See [`docs/HELP-CENTER-GUIDE.md`](docs/HELP-CENTER-GUIDE.md) for Help Center customization.
 
-### Creator Demo Platform (Dark Theme)
+### Creator Demo Platform (Light Theme)
 
 **Quick Start:**
 
@@ -187,11 +226,35 @@ See [`docs/HELP-CENTER-GUIDE.md`](docs/HELP-CENTER-GUIDE.md) for Help Center cus
 - [`docs/CREATOR-DEMO-GUIDE.md`](docs/CREATOR-DEMO-GUIDE.md) — Design philosophy, customization tips, and content strategy
 
 **Key Features:**
-- ✨ Dark theme with purple/cyan gradients
-- 🎨 Glassmorphism cards with backdrop blur
-- 📍 Sticky header with semi-transparent background
-- 🎬 Live stream preview with 4:3 aspect ratio
+- ✨ Light theme with blue/purple gradients
+- 🎨 White cards with soft border and shadow
+- 📍 Sticky header with frosted background
+- 🎬 Platform preview with 4:3 aspect ratio
 - 💳 3-tier pricing with "Most Popular" ribbon (CSS-only)
+- 📱 Fully responsive (desktop → tablet → mobile breakpoints)
+
+### Online Course / Coaching Demo (Warm Academy)
+
+**Quick Start:**
+
+1. Import `templates/course-demo/course-homepage-complete.json` via **Elementor > Templates > Import**
+2. Add CSS from `css/course-demo-styles.css` to **Elementor > Site Settings > Custom CSS**
+3. Add body class `course-demo-page` to your page (**Settings > Advanced > CSS Classes**)
+4. Replace sample course content and instructor profile with real content
+5. Update pricing tiers with your actual plans and prices
+6. Replace placeholder images with real course thumbnails and coach photo
+7. Update all button links to your actual pages
+
+**See detailed guides:**
+- [`docs/COURSE-DEMO-SETUP.md`](docs/COURSE-DEMO-SETUP.md) — Complete step-by-step setup instructions
+- [`docs/COURSE-DEMO-GUIDE.md`](docs/COURSE-DEMO-GUIDE.md) — Design philosophy, customization tips, and safe wording rules
+
+**Key Features:**
+- ✨ Light theme — clean, professional education/coaching platform style
+- 🎓 4 featured course cards with access type badges
+- 👤 Instructor/coach profile with bio and credentials
+- 💳 3-tier enrollment options (Free Preview, Self-Paced Course, Coaching Program)
+- 🎬 Live coaching section with session preview card
 - 📱 Fully responsive (desktop → tablet → mobile breakpoints)
 
 See [`docs/INSTALLATION-GUIDE.md`](docs/INSTALLATION-GUIDE.md) for full setup instructions.
@@ -222,18 +285,29 @@ See [`docs/ABOUT-PAGE-GUIDE.md`](docs/ABOUT-PAGE-GUIDE.md) for About page custom
 | Surface | `#ffffff` | Card backgrounds |
 | Border | `#e5e7eb` | Borders, dividers |
 
-### Creator Demo Platform (Dark Theme)
+### Creator Demo Platform (Light Theme)
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Primary (Purple) | `#7c3aed` | Gradients, accents, buttons |
-| Secondary (Cyan) | `#06b6d4` | Gradients, links, highlights |
-| Accent (Amber) | `#f59e0b` | Optional accent color |
-| Background | `#0b1020` | Page background (dark navy) |
-| Text | `#f8fafc` | Body text, headings (off-white) |
-| Muted | `#b6c2d9` | Secondary text (blue-gray) |
-| Border | `rgba(255,255,255,0.12)` | Card borders, dividers |
-| Shadow | `0 24px 60px rgba(0,0,0,0.35)` | Card shadows |
+| Primary (Blue) | `#2563eb` | Gradients, accents, buttons |
+| Accent (Purple) | `#7c3aed` | Gradients, highlights |
+| Background | `#f8fafc` | Page background (light) |
+| Text | `#0f172a` | Body text, headings |
+| Muted | `#64748b` | Secondary text |
+| Border | `#e2e8f0` | Card borders, dividers |
+
+### Online Course / Coaching Demo (Warm Academy)
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Primary (Blue) | `#2563eb` | Buttons, links, accents |
+| Primary Dark | `#1d4ed8` | Hover states |
+| Accent (Purple) | `#7c3aed` | Gradients, badges |
+| Success (Green) | `#16a34a` | Checkmarks, success states |
+| Warning (Amber) | `#f59e0b` | Star ratings |
+| Background | `#f8fafc` | Page background |
+| Surface | `#ffffff` | Card backgrounds |
+| Border | `#e2e8f0` | Borders, dividers |
 
 ---
 

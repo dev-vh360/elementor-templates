@@ -1,0 +1,289 @@
+{
+  "version": "0.4",
+  "title": "Course Demo - Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "cf_footer",
+      "elType": "container",
+      "settings": {
+        "css_classes": "course-footer",
+        "background_background": "classic",
+        "background_color": "#0f3f23",
+        "padding": {"unit": "px", "top": "60", "right": "24", "bottom": "32", "left": "24", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180},
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "cf_top",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "2fr 1fr 1fr 1fr 1fr 1fr",
+            "gap": {"unit": "px", "column": "32", "row": "40"},
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
+            "_tablet_grid_columns_grid": "repeat(3, 1fr)",
+            "_mobile_grid_columns_grid": "repeat(2, 1fr)"
+          },
+          "elements": [
+            {
+              "id": "cf_brand_col",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_brand_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Creator Academy",
+                    "header_size": "p",
+                    "title_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 17},
+                    "typography_font_weight": "800",
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_brand_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>A branded video learning platform for courses, live coaching, and paid community memberships.</p>",
+                    "text_color": "rgba(255,255,255,0.55)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 13},
+                    "typography_line_height": {"unit": "em", "size": 1.65}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cf_col_courses",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_col_courses_heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Courses",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_courses_links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>All Courses<br>Beginner Library<br>Member Lessons<br>Masterclasses</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 2.0}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cf_col_coaching",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_col_coaching_heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Coaching",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_coaching_links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Live Sessions<br>Private Calls<br>Workshops<br>Book a Session</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 2.0}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cf_col_membership",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_col_membership_heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Membership",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_membership_links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Free Preview<br>Course Member<br>Coaching Plus<br>Compare Plans</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 2.0}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cf_col_community",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_col_community_heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Community",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_community_links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Community Feed<br>Member Discussions<br>Resource Library<br>Events</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 2.0}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cf_col_support",
+              "elType": "container",
+              "settings": {"flex_direction": "column"},
+              "elements": [
+                {
+                  "id": "cf_col_support_heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Support",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "cf_support_links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Help Center<br>Contact Us<br>FAQ<br>About</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 14},
+                    "typography_line_height": {"unit": "em", "size": 2.0}
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cf_divider_line",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "style": "solid",
+            "color": "rgba(255,255,255,0.10)",
+            "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false}
+          }
+        },
+        {
+          "id": "cf_bottom",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "justify_content": "space-between",
+            "align_items": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {"unit": "px", "column": "24", "row": "12"}
+          },
+          "elements": [
+            {
+              "id": "cf_copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>&copy; 2025 Creator Academy. Sample demo content — not a real platform.</p>",
+                "text_color": "rgba(255,255,255,0.40)",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 13}
+              }
+            },
+            {
+              "id": "cf_powered",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Powered by Videohub360</p>",
+                "text_color": "rgba(255,255,255,0.40)",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 13}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

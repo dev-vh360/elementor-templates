@@ -1,0 +1,143 @@
+{
+  "version": "0.4",
+  "title": "Course Demo - CTA",
+  "type": "section",
+  "content": [
+    {
+      "id": "ccta_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {"unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1180}
+      },
+      "elements": [
+        {
+          "id": "ccta_band",
+          "elType": "container",
+          "settings": {
+            "css_classes": "course-cta-band",
+            "background_background": "classic",
+            "background_color": "#14532d",
+            "border_radius": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+            "padding": {"unit": "px", "top": "72", "right": "48", "bottom": "72", "left": "48", "isLinked": false},
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {"horizontal": 0, "vertical": 28, "blur": 64, "spread": 0, "color": "rgba(20,83,45,0.22)"},
+            "width": {"unit": "%", "size": 100},
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center"
+          },
+          "elements": [
+            {
+              "id": "ccta_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Academy Demo",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "rgba(255,255,255,0.75)",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {"unit": "px", "size": 0.7},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "ccta_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ready to Build Your Online Academy?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#fffdf8",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 3.0},
+                "typography_font_size_mobile": {"unit": "rem", "size": 2.0},
+                "typography_font_weight": "800",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "ccta_subtext",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Use Videohub360 to create a branded video learning experience with courses, memberships, live coaching, and community tools.</p>",
+                "text_color": "rgba(255,255,255,0.88)",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "rem", "size": 1.1},
+                "typography_line_height": {"unit": "em", "size": 1.7},
+                "align": "center",
+                "margin": {"unit": "px", "top": "0", "right": "auto", "bottom": "36", "left": "auto", "isLinked": false},
+                "max_width": {"unit": "px", "size": 560}
+              }
+            },
+            {
+              "id": "ccta_buttons",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {"unit": "px", "column": "16", "row": "0"},
+                "justify_content": "center",
+                "_mobile_flex_direction": "column",
+                "_mobile_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "ccta_btn1",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore the Course Demo",
+                    "button_type": "default",
+                    "link": {"url": "#courses"},
+                    "background_background": "classic",
+                    "background_color": "#fffdf8",
+                    "button_text_color": "#0f3f23",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 16},
+                    "typography_font_weight": "700",
+                    "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {"horizontal": 0, "vertical": 10, "blur": 28, "spread": 0, "color": "rgba(0,0,0,0.12)"},
+                    "padding": {"unit": "px", "top": "16", "right": "36", "bottom": "16", "left": "36", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ccta_btn2",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Videohub360 Features",
+                    "button_type": "default",
+                    "link": {"url": "#features"},
+                    "background_background": "classic",
+                    "background_color": "rgba(255,255,255,0.15)",
+                    "button_text_color": "#fffdf8",
+                    "border_border": "solid",
+                    "border_width": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true},
+                    "border_color": "rgba(255,255,255,0.5)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 16},
+                    "typography_font_weight": "600",
+                    "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
+                    "padding": {"unit": "px", "top": "16", "right": "36", "bottom": "16", "left": "36", "isLinked": false}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

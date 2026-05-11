@@ -1,0 +1,429 @@
+{
+  "version": "0.4",
+  "title": "Course Demo - Hero Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "ch_hero_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {"unit": "px", "top": "120", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
+        "content_width": "boxed",
+        "boxed_width": {"unit": "px", "size": 1160}
+      },
+      "elements": [
+        {
+          "id": "ch_hero_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "1.1fr 0.9fr",
+            "gap": {"unit": "px", "column": "56", "row": "0"},
+            "_tablet_container_type": "flex",
+            "_tablet_flex_direction": "column",
+            "_mobile_container_type": "flex",
+            "_mobile_flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "ch_hero_left",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "ch_eyebrow",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Online Academy Demo",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "px", "size": 11},
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {"unit": "px", "size": 0.7},
+                    "typography_text_transform": "uppercase",
+                    "background_background": "classic",
+                    "background_color": "#d1fae5",
+                    "border_radius": {"unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true},
+                    "padding": {"unit": "px", "top": "5", "right": "13", "bottom": "5", "left": "13", "isLinked": false},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                    "width": {"unit": "auto"},
+                    "align": "left"
+                  }
+                },
+                {
+                  "id": "ch_headline",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Turn Your Expertise Into a Structured Video Learning Experience",
+                    "header_size": "h1",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 4.0},
+                    "typography_font_size_mobile": {"unit": "rem", "size": 2.2},
+                    "typography_font_size_tablet": {"unit": "rem", "size": 2.8},
+                    "typography_font_weight": "800",
+                    "typography_line_height": {"unit": "em", "size": 1.1},
+                    "typography_letter_spacing": {"unit": "em", "size": -0.02},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ch_description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Create a branded academy where students can watch lessons, join live coaching sessions, access member-only resources, and stay connected through your learning community.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {"unit": "rem", "size": 1.1},
+                    "typography_line_height": {"unit": "em", "size": 1.7},
+                    "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}
+                  }
+                },
+                {
+                  "id": "ch_button_group",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {"unit": "px", "column": "16", "row": "0"},
+                    "_mobile_flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "ch_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore the Curriculum",
+                        "button_type": "default",
+                        "link": {"url": "#curriculum"},
+                        "background_background": "classic",
+                        "background_color": "#14532d",
+                        "button_text_color": "#fffdf8",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 16},
+                        "typography_font_weight": "600",
+                        "border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true},
+                        "button_box_shadow_box_shadow_type": "yes",
+                        "button_box_shadow_box_shadow": {"horizontal": 0, "vertical": 12, "blur": 28, "spread": 0, "color": "rgba(20,83,45,0.22)"},
+                        "padding": {"unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "ch_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View Coaching Options",
+                        "button_type": "default",
+                        "link": {"url": "#coaching"},
+                        "background_background": "classic",
+                        "background_color": "#fffdf8",
+                        "button_text_color": "#14532d",
+                        "border_border": "solid",
+                        "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                        "border_color": "#14532d",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 16},
+                        "typography_font_weight": "600",
+                        "border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true},
+                        "padding": {"unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "ch_proof_points",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {"unit": "px", "column": "28", "row": "0"},
+                    "margin": {"unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+                    "flex_wrap": "wrap"
+                  },
+                  "elements": [
+                    {
+                      "id": "ch_proof1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "4.9/5 Student Rating",
+                        "header_size": "p",
+                        "title_color": "#6b7280",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 14}
+                      }
+                    },
+                    {
+                      "id": "ch_proof2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "40+ Video Lessons",
+                        "header_size": "p",
+                        "title_color": "#6b7280",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 14}
+                      }
+                    },
+                    {
+                      "id": "ch_proof3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Live Coaching Included",
+                        "header_size": "p",
+                        "title_color": "#6b7280",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 14}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_hero_right",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "ch_dashboard_card",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#fffdf8",
+                    "border_border": "solid",
+                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_color": "#e7dccb",
+                    "border_radius": {"unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true},
+                    "padding": {"unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true},
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {"horizontal": 0, "vertical": 20, "blur": 50, "spread": 0, "color": "rgba(70,53,31,0.10)"},
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "ch_module_label",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Current Module",
+                        "header_size": "p",
+                        "title_color": "#14532d",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {"unit": "px", "size": 0.6},
+                        "background_background": "classic",
+                        "background_color": "#d1fae5",
+                        "border_radius": {"unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true},
+                        "padding": {"unit": "px", "top": "4", "right": "12", "bottom": "4", "left": "12", "isLinked": false},
+                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false},
+                        "width": {"unit": "auto"},
+                        "align": "left"
+                      }
+                    },
+                    {
+                      "id": "ch_lesson_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Lesson 04: Building Your Offer",
+                        "header_size": "h3",
+                        "title_color": "#1f2933",
+                        "typography_typography": "custom",
+                        "typography_font_size": {"unit": "rem", "size": 1.2},
+                        "typography_font_weight": "700",
+                        "typography_line_height": {"unit": "em", "size": 1.3},
+                        "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "ch_lesson_details",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "column",
+                        "flex_gap": {"unit": "px", "column": "0", "row": "10"}
+                      },
+                      "elements": [
+                        {
+                          "id": "ch_detail1",
+                          "elType": "container",
+                          "settings": {
+                            "background_background": "classic",
+                            "background_color": "#f3eadc",
+                            "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true},
+                            "padding": {"unit": "px", "top": "10", "right": "16", "bottom": "10", "left": "16", "isLinked": false},
+                            "flex_direction": "row",
+                            "align_items": "center",
+                            "flex_gap": {"unit": "px", "column": "10", "row": "0"}
+                          },
+                          "elements": [
+                            {
+                              "id": "ch_d1_icon",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "▶",
+                                "header_size": "p",
+                                "title_color": "#c47f2c",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 12}
+                              }
+                            },
+                            {
+                              "id": "ch_d1_text",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "8 video lessons",
+                                "header_size": "p",
+                                "title_color": "#1f2933",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 14}
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ch_detail2",
+                          "elType": "container",
+                          "settings": {
+                            "background_background": "classic",
+                            "background_color": "#f3eadc",
+                            "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true},
+                            "padding": {"unit": "px", "top": "10", "right": "16", "bottom": "10", "left": "16", "isLinked": false},
+                            "flex_direction": "row",
+                            "align_items": "center",
+                            "flex_gap": {"unit": "px", "column": "10", "row": "0"}
+                          },
+                          "elements": [
+                            {
+                              "id": "ch_d2_icon",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "◎",
+                                "header_size": "p",
+                                "title_color": "#c47f2c",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 12}
+                              }
+                            },
+                            {
+                              "id": "ch_d2_text",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Live coaching replay",
+                                "header_size": "p",
+                                "title_color": "#1f2933",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 14}
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ch_detail3",
+                          "elType": "container",
+                          "settings": {
+                            "background_background": "classic",
+                            "background_color": "#f3eadc",
+                            "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true},
+                            "padding": {"unit": "px", "top": "10", "right": "16", "bottom": "10", "left": "16", "isLinked": false},
+                            "flex_direction": "row",
+                            "align_items": "center",
+                            "flex_gap": {"unit": "px", "column": "10", "row": "0"}
+                          },
+                          "elements": [
+                            {
+                              "id": "ch_d3_icon",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "◻",
+                                "header_size": "p",
+                                "title_color": "#c47f2c",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 12}
+                              }
+                            },
+                            {
+                              "id": "ch_d3_text",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Member resources",
+                                "header_size": "p",
+                                "title_color": "#1f2933",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 14}
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ch_detail4",
+                          "elType": "container",
+                          "settings": {
+                            "background_background": "classic",
+                            "background_color": "#f3eadc",
+                            "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true},
+                            "padding": {"unit": "px", "top": "10", "right": "16", "bottom": "10", "left": "16", "isLinked": false},
+                            "flex_direction": "row",
+                            "align_items": "center",
+                            "flex_gap": {"unit": "px", "column": "10", "row": "0"}
+                          },
+                          "elements": [
+                            {
+                              "id": "ch_d4_icon",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "✦",
+                                "header_size": "p",
+                                "title_color": "#c47f2c",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 12}
+                              }
+                            },
+                            {
+                              "id": "ch_d4_text",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Community discussion",
+                                "header_size": "p",
+                                "title_color": "#1f2933",
+                                "typography_typography": "custom",
+                                "typography_font_size": {"unit": "px", "size": 14}
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
