@@ -1,176 +1,142 @@
-# Course Demo Guide
-
-A design philosophy and customization reference for the Online Course / Coaching Platform demo.
-
----
+# Online Course / Coaching Demo — Guide
 
 ## Who This Demo Is For
 
-The Course Demo is designed for **course creators, coaches, educators, consultants, trainers, and experts** who want to sell or organize video-based learning experiences using Videohub360.
+This demo is designed for:
 
-Target use cases include:
+- Course creators who sell structured video programs
+- Coaches and consultants who offer live sessions alongside recorded lessons
+- Educators and trainers who want a branded video learning hub
+- Experts building paid membership learning experiences
+- Online academy founders who need a professional launch page
 
-- Online course creators selling structured video content
-- Business coaches offering video lessons plus live coaching sessions
-- Educators building a branded learning community
-- Consultants or experts packaging their knowledge into a paid member platform
-- Training businesses delivering video-based staff or client education
-
----
-
-## What This Demo Showcases
-
-This demo positions Videohub360 as a **video-first learning and coaching platform**, not as a full LMS.
-
-### Demonstrated capabilities:
-- **Video lesson library** — organized, branded access to course content
-- **Paid membership tiers** — Free Preview, Course Member, Coaching Plus
-- **Live coaching sessions** — group sessions, private calls, workshop replays, member Q&A
-- **Learning path** — a clear 3-step structure (Watch → Coaching → Community)
-- **Coach/instructor profile** — personal brand identity, bio, credentials, stats
-- **Community engagement** — community feed, member discussions
-- **Mobile-friendly experience** — responsive layouts for all devices
+It is **not** positioned as a full LMS. It showcases what Videohub360 actually supports: organized video content, live coaching sessions, member-only access, and community engagement.
 
 ---
 
-## How This Demo Differs from the Creator Demo
+## How It Differs From the Creator Platform Demo
 
-| Feature | Creator Demo | Course Demo |
-|---------|-------------|-------------|
-| Primary audience | Content creators, streamers | Coaches, educators, course sellers |
-| Primary content type | Videos, live streams | Structured courses, coaching sessions |
-| Content organization | Video channel | Course library with lessons |
-| Coaching emphasis | Minimal | Central feature |
-| Learning structure | Not featured | 3-step learning path |
-| Instructor profile | Creator "meet" section | Dedicated coach card with credentials |
-| Pricing model | Creator membership tiers | Course access + coaching tiers |
-| Brand name (demo) | Jay Carter | Jordan Ellis / Creator Academy |
-| Demo tone | Personal creator brand | Professional education platform |
-
-Both demos share the same light theme and CSS variable approach, but use independent `.creator-*` and `.course-*` class prefixes so they can coexist without conflicts.
-
----
-
-## How This Demo Differs from the Healthcare Demo
-
-| Feature | Healthcare Demo | Course Demo |
-|---------|----------------|-------------|
-| Industry | Medical / virtual care | Education / coaching |
-| Primary audience | Patients, caregivers | Students, learners, clients |
-| Sections | Provider profiles, services | Courses, coaching, memberships |
-| Color accent | Teal | Purple |
-| CTA | Book an appointment | Enroll / Start Learning |
+| Area | Creator Platform Demo | Course / Coaching Demo |
+|------|----------------------|----------------------|
+| Visual feel | Creator SaaS / video platform | Warm online academy |
+| Color palette | Blue (`#2563eb`) + purple (`#7c3aed`) | Cream + deep green (`#14532d`) + gold (`#c47f2c`) |
+| Hero | Video platform card | Curriculum module preview |
+| Cards | White SaaS cards | Cream editorial cards with parchment borders |
+| Pricing section | Creator membership tiers | Enrollment options |
+| Profile section | Creator profile | Instructor / faculty profile |
+| Live section | Live streaming / community | Weekly coaching schedule |
+| Learning path | 3 generic feature steps | 4-module curriculum roadmap |
+| CTA | Blue-purple gradient | Deep green academy band |
+| Brand name | Creator Academy | Pathway Academy |
 
 ---
 
-## Design Language
+## How It Differs From the Care / Healthcare Demo
 
-The Course Demo uses a **clean, premium education/coaching platform** aesthetic:
+The Care demo is designed for wellness providers, healthcare services, and appointment-based care businesses. It uses a light clinical palette and appointment booking as its primary CTA.
 
-- Light `#f8fafc` page background
-- White (`#ffffff`) card surfaces
-- Blue primary (`#2563eb`) for buttons and accents
-- Purple accent (`#7c3aed`) used sparingly (badges, gradients)
-- Rounded corners (`border-radius: 24px` for cards)
-- Soft card shadows
-- No dark backgrounds (unlike older Creator demo versions)
-- No glassmorphism (unlike older Creator demo versions)
+The Course / Coaching demo is designed for educators, coaches, and course creators. It uses a warm academy palette and enrollment / course access as its primary CTA.
 
-### CSS Variables
-
-```css
-:root {
-  --course-bg:           #f8fafc;
-  --course-surface:      #ffffff;
-  --course-surface-soft: #f1f5f9;
-  --course-text:         #0f172a;
-  --course-muted:        #64748b;
-  --course-primary:      #2563eb;
-  --course-primary-dark: #1d4ed8;
-  --course-accent:       #7c3aed;
-  --course-success:      #16a34a;
-  --course-warning:      #f59e0b;
-  --course-border:       #e2e8f0;
-  --course-shadow:       0 18px 45px rgba(15, 23, 42, 0.08);
-  --course-radius:       24px;
-  --course-max:          1180px;
-}
-```
+Do not use `.hc-*` CSS classes in the Course demo. The Course demo uses `.course-*` exclusively.
 
 ---
 
 ## Safe Wording Rules
 
-This demo is intentionally scoped to avoid overpromising features that may not exist.
+### Use these terms — they describe real Videohub360 capabilities:
 
-### Use these terms ✅
+- Video lessons / video library
+- Lesson library
+- Member-only content
+- Live coaching sessions
+- Community feed / member community
+- Coach profile / instructor profile
+- Video resources
+- Premium access
+- Enrollment
+- Organized video content
+- Coaching program
+- Session replays
+- Member-only lessons
 
-| Use this | Instead of |
-|----------|-----------|
-| Video lessons | Courses with automated progress |
-| Lesson library | LMS |
-| Member-only content | Student tracking |
-| Live coaching sessions | Live classes with attendance |
-| Community feed | Gradebook |
-| Video resources | SCORM compliance |
-| Paid membership access | Automatic certificates |
-| Coach/instructor profile | Gradebook or assignments |
+### Avoid these terms — they promise LMS features that may not be present:
 
-### Avoid these unless confirmed ❌
-
-- Quizzes or assessments
-- Automatic certificates or credentials
-- Student grade tracking or gradebooks
-- Assignment submission tools
-- SCORM compliance
-- Automated course completion tracking
-- "247 students enrolled" or similar real-time social proof numbers
-- "Currently live" or fake urgency indicators
-
----
-
-## Customization Tips
-
-### Changing the Platform Name
-The demo uses "Creator Academy" throughout. Replace it in:
-- Header brand name widget
-- Footer brand column
-- Hero eyebrow badge text (optional)
-- Page title
-
-### Changing the Instructor Profile
-Replace Jordan Ellis with the real instructor:
-1. Update name heading in `course-instructor.json`
-2. Update title/role
-3. Update bio paragraph
-4. Update stat numbers (years, lessons, students)
-5. Replace the avatar placeholder image
-
-### Adjusting Pricing Tiers
-The 3-tier pricing (Free / $29 / $99) is demo content. To update:
-1. Open `course-membership.json` or edit the section in Elementor
-2. Update the plan name, price, and feature list for each card
-3. Update CTA button text to match your plans
-
-### Adding More Courses
-To add more than 4 course cards:
-1. Duplicate an existing course card container in Elementor
-2. Change the `grid_columns_grid` setting to `repeat(3, 1fr)` or adjust the layout as needed
-
-### Connecting Buttons to Real Pages
-All buttons link to `#anchor` placeholders. Before publishing:
-1. Update each button link to point to the correct page or section
-2. Use Elementor's link picker to select existing pages
+- Quizzes / assessments
+- Certificates / credentials
+- Gradebooks
+- Student progress tracking
+- Assignments
+- SCORM
+- LMS compliance
+- Student analytics dashboard
+- Automated drip content (unless it exists)
+- Completion badges (unless they exist)
 
 ---
 
-## Positioning This Demo
+## What the Demo Showcases
 
-When presenting the Course Demo to potential customers, position it as:
+1. **Curriculum roadmap** — 4-module structure showing how content is organized
+2. **Video lesson library** — branded hub for organized course videos
+3. **Live coaching schedule** — weekly group sessions, office hours, workshop replays
+4. **Platform learning features** — 6-card grid showing core capabilities
+5. **Instructor / faculty profile** — Dr. Jordan Ellis profile with credentials and teaching focus
+6. **Enrollment options** — Free Preview, Self-Paced Course, Coaching Program
+7. **Student outcome testimonials** — realistic, general testimonials about the learning experience
+8. **Academy CTA** — deep green band with clear next-step buttons
 
-> "This is a sample of how you could use Videohub360 to build a branded online course and coaching platform. You can organize your video lessons, offer paid memberships, host live coaching sessions, and give students a community space — all in one place."
+---
 
-Avoid positioning it as:
-- A full LMS replacement
-- A platform with automated grading or certificate generation (unless confirmed)
-- A competitor to Teachable, Kajabi, or Thinkific feature-for-feature
+## Positioning Statement
+
+> Use this demo to show buyers that Videohub360 can be used to build a **professional online academy** with organized video courses, live coaching sessions, member-only resources, and community engagement.
+
+This demo helps attract:
+
+- Course creators moving from scattered tools to a branded platform
+- Coaches who want to add structured video lessons to their existing coaching business
+- Educators launching a paid learning community
+- Consultants and trainers building a video-first training library
+
+---
+
+## Color Palette Reference
+
+```css
+:root {
+  --course-bg:            #fbf7ef;   /* Cream background */
+  --course-surface:       #fffdf8;   /* Card surface */
+  --course-surface-soft:  #f3eadc;   /* Muted sections */
+  --course-text:          #1f2933;   /* Main text */
+  --course-muted:         #6b7280;   /* Secondary text */
+  --course-primary:       #14532d;   /* Deep green primary */
+  --course-primary-dark:  #0f3f23;   /* Footer / dark sections */
+  --course-accent:        #c47f2c;   /* Gold/copper accent */
+  --course-accent-soft:   #f5dfbd;   /* Soft gold background */
+  --course-border:        #e7dccb;   /* Warm parchment border */
+}
+```
+
+---
+
+## CSS Class Reference
+
+| Class | Purpose |
+|-------|---------|
+| `.course-header` | Sticky navigation header |
+| `.course-highlights-strip` | Solid green stats/highlights band |
+| `.course-module-card` | Curriculum module cards with gold left border |
+| `.course-schedule-card` | Weekly coaching schedule cards |
+| `.course-course-card` | Course catalog cards |
+| `.course-feature-card` | Platform feature cards |
+| `.course-enrollment-card` | Enrollment option cards |
+| `.course-instructor-card` | Faculty/instructor profile card |
+| `.course-testimonial-card` | Student outcome testimonial card |
+| `.course-cta-band` | Deep green CTA section |
+| `.course-footer` | Dark forest green footer |
+| `.course-btn-primary` | Deep green primary button |
+| `.course-btn-secondary` | Outlined green secondary button |
+| `.course-section-eyebrow` | Small green uppercase section label |
+| `.course-divider` | Gold accent divider line |
+
+All classes use the `.course-*` prefix, keeping them completely independent of `.creator-*` and `.hc-*` styles.

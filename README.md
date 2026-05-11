@@ -2,8 +2,8 @@
 
 A complete set of Elementor page templates including:
 - **Healthcare Platform** — Virtual healthcare platform with light theme (blue/teal)
-- **Creator Demo Platform** — Clean creator platform with light theme (blue/purple)
-- **Online Course / Coaching Demo** — Professional course and coaching platform with light theme (blue/purple)
+- **Creator Platform Demo** — Clean creator platform with light theme (blue/purple accent)
+- **Online Course / Coaching Demo** — Warm academy-style course and coaching platform (cream / deep green / gold)
 - Videohub360 community/streaming templates
 
 Includes full page templates, modular section templates, custom CSS, and comprehensive documentation.
@@ -49,24 +49,24 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 | `templates/creator-demo/creator-footer.json` | Simple footer with links |
 | `css/creator-demo-styles.css` | Light theme stylesheet (blue/purple, white cards) |
 
-### Online Course / Coaching Demo Templates (Light Theme)
+### Online Course / Coaching Demo Templates (Warm Academy Style)
 
 | Path | Contents |
 |------|----------|
-| `templates/course-demo/course-homepage-complete.json` | Full homepage combining all 11 sections |
-| `templates/course-demo/course-header.json` | Sticky navigation header with "Start Learning" CTA |
-| `templates/course-demo/course-hero.json` | Hero with headline, buttons, and course preview card |
-| `templates/course-demo/course-stats.json` | 4-column stats band (lessons, tracks, sessions, rating) |
+| `templates/course-demo/course-homepage-complete.json` | Full homepage — Pathway Academy demo |
+| `templates/course-demo/course-header.json` | Sticky navigation header — Pathway Academy, "Browse Courses" CTA |
+| `templates/course-demo/course-hero.json` | Academy hero with curriculum module preview card |
+| `templates/course-demo/course-stats.json` | Solid deep green academy highlights strip |
 | `templates/course-demo/course-featured-courses.json` | 4-column grid of featured course cards |
-| `templates/course-demo/course-learning-path.json` | 3-step learning path (Watch → Coaching → Community) |
-| `templates/course-demo/course-coaching.json` | Live coaching section with features and session preview |
+| `templates/course-demo/course-learning-path.json` | 4-module curriculum roadmap cards (Module 01–04) |
+| `templates/course-demo/course-coaching.json` | Weekly coaching schedule (Tue group call / Thu office hours / Monthly workshop) |
 | `templates/course-demo/course-features.json` | 6-column platform features grid |
-| `templates/course-demo/course-instructor.json` | Instructor/coach profile with bio and stats |
-| `templates/course-demo/course-membership.json` | 3-tier pricing cards with highlighted middle plan |
-| `templates/course-demo/course-testimonials.json` | 3-column testimonial grid |
-| `templates/course-demo/course-cta.json` | Final CTA with blue-to-purple gradient |
+| `templates/course-demo/course-instructor.json` | Dr. Jordan Ellis — faculty/educator profile with credentials |
+| `templates/course-demo/course-membership.json` | 3-tier enrollment options (Free Preview / Self-Paced / Coaching Program) |
+| `templates/course-demo/course-testimonials.json` | Student outcome testimonials section |
+| `templates/course-demo/course-cta.json` | Deep green academy CTA band (no gradient) |
 | `templates/course-demo/course-footer.json` | Footer with 5 link columns |
-| `css/course-demo-styles.css` | Light theme stylesheet with `.course-*` class prefix |
+| `css/course-demo-styles.css` | Warm academy stylesheet (cream/green/gold), `.course-*` class prefix |
 | `docs/COURSE-DEMO-GUIDE.md` | Design philosophy, customization tips, safe wording rules |
 | `docs/COURSE-DEMO-SETUP.md` | Step-by-step import and configuration instructions |
 
@@ -151,22 +151,22 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 11. **Footer** — Simple footer with brand, links, copyright
 12. **Complete Homepage** — Full page combining all sections
 
-### Online Course / Coaching Demo Sections (12 templates + complete)
+### Online Course / Coaching Demo Sections (Warm Academy)
 
 **Light Theme — Blue/Purple, White Cards, Professional Education Style**
 
 1. **Header** — Sticky navigation with "Creator Academy" brand and "Start Learning" CTA
-2. **Hero** — Two-column layout: headline, description, two CTA buttons, course preview card
+2. **Hero** — Two-column layout: academy headline, two CTA buttons, curriculum module preview card
 3. **Stats Band** — 4-column gradient band (40+ Video Lessons, 12 Learning Tracks, Weekly Live Sessions, 4.9★)
-4. **Featured Courses** — 4-column course card grid with access type badges
+4. **Featured Courses** — 4-column course catalog cards with level and access labels
 5. **Learning Path** — 3-step process (Watch the Lessons, Join Live Coaching, Engage With the Community)
 6. **Live Coaching** — Two-column section with coaching features list and session preview card
 7. **Platform Features** — 6-column feature grid (Video Library, Paid Membership, Live Sessions, Community, Coach Profile, Mobile)
 8. **Instructor Profile** — Full-width coach card with avatar, bio, stats, and action buttons
-9. **Membership** — 3-tier pricing (Free Preview $0, Course Member $29, Coaching Plus $99) with highlighted middle plan
+9. **Enrollment Options** — 3-tier enrollment (Free Preview $0, Self-Paced Course $29, Coaching Program $99) with highlighted middle plan
 10. **Testimonials** — 3-column testimonial grid with star ratings and reviewer initials
 11. **CTA** — Blue-to-purple gradient CTA band with two buttons
-12. **Footer** — Dark footer with 5 link columns (Courses, Coaching, Membership, Community, Support)
+12. **Footer** — Dark forest green footer with course link columns
 
 ---
 
@@ -233,7 +233,7 @@ See [`docs/HELP-CENTER-GUIDE.md`](docs/HELP-CENTER-GUIDE.md) for Help Center cus
 - 💳 3-tier pricing with "Most Popular" ribbon (CSS-only)
 - 📱 Fully responsive (desktop → tablet → mobile breakpoints)
 
-### Online Course / Coaching Demo (Light Theme)
+### Online Course / Coaching Demo (Warm Academy)
 
 **Quick Start:**
 
@@ -253,7 +253,7 @@ See [`docs/HELP-CENTER-GUIDE.md`](docs/HELP-CENTER-GUIDE.md) for Help Center cus
 - ✨ Light theme — clean, professional education/coaching platform style
 - 🎓 4 featured course cards with access type badges
 - 👤 Instructor/coach profile with bio and credentials
-- 💳 3-tier pricing (Free Preview, Course Member, Coaching Plus)
+- 💳 3-tier enrollment options (Free Preview, Self-Paced Course, Coaching Program)
 - 🎬 Live coaching section with session preview card
 - 📱 Fully responsive (desktop → tablet → mobile breakpoints)
 
@@ -296,7 +296,7 @@ See [`docs/ABOUT-PAGE-GUIDE.md`](docs/ABOUT-PAGE-GUIDE.md) for About page custom
 | Muted | `#64748b` | Secondary text |
 | Border | `#e2e8f0` | Card borders, dividers |
 
-### Online Course / Coaching Demo (Light Theme)
+### Online Course / Coaching Demo (Warm Academy)
 
 | Color | Hex | Usage |
 |-------|-----|-------|

@@ -1,68 +1,81 @@
 # Online Course / Coaching Demo Templates
 
-This folder contains Elementor JSON templates for a light, professional online course and coaching platform demo built on **Videohub360**.
+This folder contains Elementor JSON templates for a **warm academy-style** online course and coaching platform demo built on Videohub360.
 
----
+## Visual Identity
 
-## Files in This Folder
+| Token | Value | Use |
+|-------|-------|-----|
+| Background | `#fbf7ef` | Cream page background |
+| Surface | `#fffdf8` | Card / panel background |
+| Surface Soft | `#f3eadc` | Muted section backgrounds |
+| Primary | `#14532d` | Deep green buttons and labels |
+| Accent | `#c47f2c` | Gold/copper module tags and highlights |
+| Border | `#e7dccb` | Warm parchment card borders |
+| Text | `#1f2933` | Body and heading text |
 
-| File | Description |
-|------|-------------|
-| `course-homepage-complete.json` | Full homepage combining all 11 content sections |
-| `course-header.json` | Sticky navigation header with brand name and CTA |
-| `course-hero.json` | Hero section with headline, buttons, and course preview card |
-| `course-stats.json` | 4-column stats band (lessons, tracks, sessions, rating) |
-| `course-featured-courses.json` | 4-column grid of featured course cards |
-| `course-learning-path.json` | 3-step learning path (Watch → Coaching → Community) |
-| `course-coaching.json` | Live coaching section with feature list and session preview |
-| `course-features.json` | 6-column platform features grid |
-| `course-instructor.json` | Instructor/coach profile card with bio and stats |
-| `course-membership.json` | 3-tier pricing cards (Free Preview, Course Member, Coaching Plus) |
-| `course-testimonials.json` | 3-column testimonial grid |
-| `course-cta.json` | Final CTA with gradient background and two buttons |
-| `course-footer.json` | Footer with 5 link columns and copyright |
+This palette is completely separate from the Creator Platform demo (blue/purple `#2563eb`, `#7c3aed`) and the Care/Healthcare demo.
 
----
+## Files
 
-## Recommended Setup
+| File | Purpose |
+|------|---------|
+| `course-homepage-complete.json` | Full homepage — import this to get the complete demo |
+| `course-header.json` | Sticky navigation header — Pathway Academy branding |
+| `course-hero.json` | Academy hero with curriculum module preview |
+| `course-stats.json` | Academy highlights strip (solid deep green band) |
+| `course-featured-courses.json` | Course catalog grid with level and access labels |
+| `course-learning-path.json` | 4-module curriculum roadmap cards |
+| `course-coaching.json` | Weekly coaching schedule (Tue / Thu / Monthly) |
+| `course-features.json` | Platform learning features (6-card grid) |
+| `course-instructor.json` | Dr. Jordan Ellis — faculty/educator profile |
+| `course-membership.json` | Enrollment options (Free / Self-Paced / Coaching Program) |
+| `course-testimonials.json` | Student outcomes and learning experience testimonials |
+| `course-cta.json` | Deep green academy CTA band |
+| `course-footer.json` | Dark forest green footer with course links |
 
-1. Import `course-homepage-complete.json` via **Elementor > Templates > Import**.
-2. Add `css/course-demo-styles.css` to **Elementor Site Settings > Custom CSS** or enqueue it from your theme.
-3. Add the page CSS class **`course-demo-page`** via **Elementor page settings > Advanced > CSS Classes**.
-4. Replace sample course titles, coach profile content, images, and pricing with real content.
+## Quick Setup
 
-See [`docs/COURSE-DEMO-SETUP.md`](../../docs/COURSE-DEMO-SETUP.md) for step-by-step instructions.
+1. Import `course-homepage-complete.json` into Elementor.
+2. Add `css/course-demo-styles.css` to **Elementor > Site Settings > Custom CSS** or enqueue it from your child theme.
+3. In Elementor page settings > **Advanced > CSS Classes**, add the class: `course-demo-page`
+4. Replace placeholder course titles, instructor name, pricing, and images with real content.
 
----
+## Body Class
+
+```
+course-demo-page
+```
+
+This class is required for the CSS styles to apply. See `docs/COURSE-DEMO-SETUP.md` for full setup instructions.
 
 ## Design Notes
 
-- **Color palette:** Light blue primary (`#2563eb`), purple accent (`#7c3aed`), clean white cards
-- **Body class:** `course-demo-page`
-- **CSS prefix:** `.course-*` (independent from `.creator-*` and `.hc-*` classes)
-- **Theme:** Light, professional education/coaching platform — not dark, not medical, not generic
+- Uses `.course-*` CSS class prefix — independent of `.creator-*` and `.hc-*` classes
+- No blue/purple gradients; no SaaS-style color scheme
+- CTA band uses solid deep green (`#14532d`)
+- Module cards use a left gold border accent (`#c47f2c`)
+- Coaching section uses a weekly schedule layout, not generic feature cards
+- Enrollment section uses education-specific terminology, not creator membership language
 
----
+## What This Demo Showcases
 
-## Sample Content to Replace
+- Organized video lesson library
+- 4-module curriculum roadmap
+- Live coaching schedule (group calls, office hours, workshop replays)
+- Platform features framed as a learning experience
+- Faculty/instructor profile
+- Enrollment options (Free Preview, Self-Paced Course, Coaching Program)
+- Student outcome testimonials
+- Academy-branded footer
 
-- **Brand name:** "Creator Academy" → your platform name
-- **Instructor:** "Jordan Ellis" → real coach/educator name
-- **Course titles** → real course names
-- **Pricing tiers and prices** → actual pricing (sample shown for demo only)
-- **Testimonials** → real student feedback
-- **Images** → replace placeholder images with real photos/thumbnails
+## What This Demo Does NOT Promise
 
----
+- Quizzes or assessments
+- Certificates or credentials
+- Gradebooks or progress tracking
+- Assignments
+- SCORM / LMS compliance
+- Student analytics dashboard
 
-## What This Demo Does NOT Claim
-
-This demo is intentionally scoped to features that Videohub360 actually supports. It does **not** promise:
-
-- Quiz or assessment tools
-- Automatic certificates
-- Student grade tracking or gradebooks
-- SCORM or LMS compliance
-- Assignment submission
-
-Focus: **video lessons, live coaching, paid memberships, community engagement, coach profile.**
+See `docs/COURSE-DEMO-GUIDE.md` for safe wording guidelines.

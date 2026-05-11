@@ -1,154 +1,178 @@
-# Course Demo Setup Guide
+# Online Course / Coaching Demo — Setup Guide
 
-Step-by-step instructions for importing and configuring the Online Course / Coaching Platform demo templates.
+## Overview
+
+This guide explains how to import and configure the Online Course / Coaching demo templates for Videohub360.
+
+The demo uses a warm academy-style design (cream / deep green / gold) and is completely independent of the Creator Platform demo and Care / Healthcare demo.
 
 ---
 
 ## Prerequisites
 
-- WordPress 6.0+
-- Elementor (free) 3.15+
-- No additional plugins required for this demo
+- WordPress + Elementor Pro installed
+- Videohub360 theme active
+- Elementor template import permissions
 
 ---
 
 ## Step 1 — Import the Complete Homepage
 
-1. In WordPress admin, go to **Elementor > Templates > Saved Templates**.
-2. Click **Import Templates** (or use the upload icon).
-3. Select `templates/course-demo/course-homepage-complete.json`.
-4. Click **Import Now**.
-5. Create or open a page, click **Edit with Elementor**, then insert the template.
+1. In WordPress admin, go to **Elementor > My Templates** (or Templates > Library).
+2. Click **Import Templates**.
+3. Upload `templates/course-demo/course-homepage-complete.json`.
+4. The template will appear in your library as:
+   **Pathway Academy — Online Course & Coaching Demo**
 
-**Alternatively**, import individual sections by repeating the above steps for any `course-*.json` file.
+To use it on a page:
+1. Create a new page (or edit an existing one with Elementor).
+2. Click the folder icon to open the template library.
+3. Search for **Pathway Academy** and insert the template.
 
 ---
 
-## Step 2 — Add the CSS
+## Step 2 — Add the Custom CSS
 
-The templates require `css/course-demo-styles.css` to render correctly.
+**Option A — Elementor Site Settings (recommended)**
 
-**Option A — Elementor Site Settings (recommended):**
-1. In Elementor editor, click the hamburger menu → **Site Settings**.
-2. Under **Custom CSS**, paste the full contents of `css/course-demo-styles.css`.
+1. Go to **Elementor > Site Settings > Custom CSS**.
+2. Paste the contents of `css/course-demo-styles.css`.
 3. Click **Save Changes**.
 
-**Option B — Child theme (developer):**
-1. Copy `css/course-demo-styles.css` to your child theme's `/css/` folder.
-2. Enqueue it in `functions.php`:
+**Option B — Child Theme**
+
+1. Copy `css/course-demo-styles.css` to your child theme directory.
+2. In `functions.php`, add:
 
 ```php
-add_action( 'wp_enqueue_scripts', function() {
+function enqueue_course_demo_styles() {
     wp_enqueue_style(
         'course-demo-styles',
-        get_stylesheet_directory_uri() . '/css/course-demo-styles.css',
+        get_stylesheet_directory_uri() . '/course-demo-styles.css',
         [],
-        '1.0.0'
+        '2.0.0'
     );
-} );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_course_demo_styles' );
 ```
 
 ---
 
-## Step 3 — Add the Page Body Class
-
-The CSS is scoped to `body.course-demo-page` to avoid conflicts with other templates.
+## Step 3 — Add the Required Body Class
 
 1. Open the page in Elementor.
-2. Click the hamburger menu → **Page Settings** (or click the gear icon at the bottom left).
+2. Click the hamburger menu (top-left) > **Page Settings**.
 3. Go to the **Advanced** tab.
-4. In the **CSS Classes** field, type: `course-demo-page`
-5. Click **Update / Publish**.
+4. In the **CSS Classes** field, add:
+
+```
+course-demo-page
+```
+
+This class is required. Without it, the cream background and academy-style components will not apply correctly.
 
 ---
 
-## Step 4 — Replace Placeholder Images
+## Step 4 — Import Individual Sections (Optional)
 
-The templates use placeholder images from `placehold.co`. Replace these with real images:
+Each section is also available as a standalone Elementor template:
 
-| Section | Image | Recommended Size |
-|---------|-------|-----------------|
-| Hero | Course preview thumbnail | 560 × 315 px (16:9) |
-| Featured Courses | Course card thumbnails (×4) | 480 × 270 px (16:9) |
-| Live Coaching | Session preview card | 520 × 290 px (16:9) |
-| Instructor | Coach/instructor headshot | 160 × 160 px (square) |
+| Section | File |
+|---------|------|
+| Header | `course-header.json` |
+| Hero | `course-hero.json` |
+| Academy Highlights | `course-stats.json` |
+| Featured Courses | `course-featured-courses.json` |
+| Curriculum Roadmap | `course-learning-path.json` |
+| Live Coaching Schedule | `course-coaching.json` |
+| Platform Features | `course-features.json` |
+| Instructor Profile | `course-instructor.json` |
+| Enrollment Options | `course-membership.json` |
+| Student Outcomes | `course-testimonials.json` |
+| CTA Band | `course-cta.json` |
+| Footer | `course-footer.json` |
 
-To replace images in Elementor:
-1. Click the image widget.
-2. In the left panel, click the image thumbnail.
-3. Upload or select your replacement image.
+Import individual sections the same way as the complete homepage (Elementor > My Templates > Import).
 
 ---
 
-## Step 5 — Customize Sample Content
+## Step 5 — Customize the Content
 
-Replace all placeholder content with real information:
+Replace all sample content with your own:
 
-### Brand Name
-Search for `Creator Academy` in the Elementor editor and replace with your platform name.
+### Branding
+- Replace **Pathway Academy** with your academy or brand name throughout the templates.
+- Update the brand mark (currently the letter "P" in a green square) with your logo.
 
 ### Instructor Profile
-- Replace `Jordan Ellis` with the real instructor name.
-- Replace `Course Creator & Business Coach` with real title.
-- Update bio text, stats (years, lessons, students).
-- Replace the avatar placeholder with a real photo.
+- Replace **Dr. Jordan Ellis** with the actual instructor name and title.
+- Update the bio, credentials, and instructor stats (years teaching, lessons, students).
+- Replace the placeholder avatar image with a real instructor photo.
 
 ### Course Cards
-Replace the 4 sample course titles and descriptions with real courses:
-- Creator Business Foundations
-- Launch Your Paid Community
-- Video Content Strategy
-- Live Coaching Masterclass
+- Update the 4 featured course titles, descriptions, module counts, and access labels.
+- Replace placeholder images with real course thumbnail images.
 
-### Pricing Tiers
-Replace the 3 sample plans with real pricing:
-- Free Preview ($0/month)
-- Course Member ($29/month)
-- Coaching Plus ($99/month)
+### Curriculum Modules
+- Update the 4 module titles and descriptions to reflect the actual curriculum structure.
+- Add or remove module cards as needed.
 
-> **Note:** These are sample prices for demonstration only. They do not reflect actual Videohub360 pricing.
+### Coaching Schedule
+- Update the coaching session days, names, and descriptions to reflect the actual schedule.
+- Replace "Tuesday / Thursday / Monthly" with the real schedule.
+
+### Enrollment Options
+- Update the 3 enrollment plan names, pricing, and feature lists.
+- The sample pricing ($0 / $29 / $99) is demo content — replace with actual pricing.
 
 ### Testimonials
-Replace the 3 sample testimonials with real student feedback.
+- Replace the 3 sample testimonials with real student feedback.
+- Update reviewer names and roles.
 
-### Navigation Links
-Update the header nav links and footer link columns to point to real page URLs.
-
----
-
-## Step 6 — Import Individual Sections (Optional)
-
-If you want to use individual sections rather than the complete homepage:
-
-1. Import the specific `course-*.json` file (e.g., `course-hero.json`).
-2. In your Elementor page, click **Add Template** and insert the imported section.
-3. Repeat for each section you need.
-
-Available individual sections:
-- `course-header.json`
-- `course-hero.json`
-- `course-stats.json`
-- `course-featured-courses.json`
-- `course-learning-path.json`
-- `course-coaching.json`
-- `course-features.json`
-- `course-instructor.json`
-- `course-membership.json`
-- `course-testimonials.json`
-- `course-cta.json`
-- `course-footer.json`
+### Contact / Links
+- Update all `#anchor` links (e.g., `#curriculum`, `#coaching`, `#enrollment`) to point to real sections or pages.
+- Update footer links to point to real pages.
 
 ---
 
-## Troubleshooting
+## Image Replacement Notes
 
-**Cards not showing correct styles?**
-Confirm the `course-demo-page` body class is set and the CSS file has been added to Elementor Site Settings.
+The hero uses an Elementor icon/widget-based academy preview card instead of a real image, so no hero image replacement is needed.
 
-**Images showing as grey placeholders?**
-Replace placeholder image URLs with your own hosted images.
+Course catalog cards use placeholder thumbnails from `placehold.co`. Replace these with actual course images in **Elementor > Edit Image > Choose Image**.
 
-**Font sizes look different on mobile?**
-The templates include responsive font size settings. Verify you are previewing in Elementor's responsive mode.
+Recommended image formats:
+- Course cards: 16:9 ratio, minimum 640×360px
+- Instructor avatar: square, minimum 240×240px
 
-**Do not use the `creator-demo-page` or `hc-page-bg` classes for this page.** Those classes are for the Creator Demo and Healthcare demo respectively.
+---
+
+## CSS Class Reference
+
+| Class | When to Apply |
+|-------|-------------|
+| `course-demo-page` | Body class on the demo page (required) |
+| `course-header` | Header container |
+| `course-module-card` | Curriculum module card containers |
+| `course-schedule-card` | Coaching schedule card containers |
+| `course-cta-band` | CTA section inner container |
+| `course-footer` | Footer container |
+| `course-btn-primary` | Primary deep green buttons |
+| `course-btn-secondary` | Outlined secondary buttons |
+
+---
+
+## Reminder: Sample Content
+
+All course titles, descriptions, instructor names, student testimonials, pricing amounts, and schedule details in this demo are **sample placeholder content**.
+
+Customers should replace all sample content before using this template for a live site.
+
+---
+
+## Design Notes
+
+- **Palette:** Cream background (`#fbf7ef`), deep green primary (`#14532d`), gold accent (`#c47f2c`)
+- **No blue/purple gradients** — this demo uses solid green buttons and gold accents
+- **Body class required:** `course-demo-page`
+- **CSS prefix:** `.course-*` (independent of `.creator-*` and `.hc-*`)
