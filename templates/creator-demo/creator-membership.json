@@ -8,7 +8,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {"unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
         "content_width": "boxed",
         "boxed_width": {"unit": "px", "size": 1180}
@@ -32,7 +32,7 @@
                 "title": "Membership Tiers",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {"unit": "rem", "size": 2.8},
                 "typography_font_size_mobile": {"unit": "rem", "size": 1.9},
@@ -49,7 +49,7 @@
               "settings": {
                 "editor": "<p>Choose the membership level that works for you. All tiers include access to the community and live streams.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {"unit": "rem", "size": 1.05},
                 "typography_line_height": {"unit": "em", "size": 1.65}
@@ -75,15 +75,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
                 "flex_direction": "column"
               },
               "elements": [
@@ -94,7 +94,7 @@
                   "settings": {
                     "title": "Free Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.4},
                     "typography_font_weight": "700",
@@ -118,7 +118,7 @@
                       "settings": {
                         "title": "$0",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "rem", "size": 2.2},
                         "typography_font_weight": "800"
@@ -131,7 +131,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "px", "size": 15}
                       }
@@ -144,7 +144,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>Access to public streams</li>\n<li>Community chat</li>\n<li>Limited replay access</li>\n<li>Basic member profile</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.8},
@@ -160,8 +160,8 @@
                     "button_type": "default",
                     "link": {"url": "#free"},
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
-                    "button_text_color": "#f8fafc",
+                    "background_color": "#ffffff",
+                    "button_text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "px", "size": 15},
                     "typography_font_weight": "600",
@@ -180,15 +180,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.09)",
-                "background_color_b": "rgba(255,255,255,0.06)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true},
-                "border_color": "#7c3aed",
+                "border_color": "#2563eb",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 32, "blur": 80, "spread": 0, "color": "rgba(124, 58, 237, 0.25)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 32, "blur": 80, "spread": 0, "color": "rgba(37, 99, 235, 0.15)"},
                 "flex_direction": "column",
                 "position": "relative"
               },
@@ -200,7 +200,7 @@
                   "settings": {
                     "title": "Pro Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.4},
                     "typography_font_weight": "700",
@@ -224,7 +224,7 @@
                       "settings": {
                         "title": "$19",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "rem", "size": 2.2},
                         "typography_font_weight": "800"
@@ -237,7 +237,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "px", "size": 15}
                       }
@@ -250,7 +250,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>All Free Tier features</li>\n<li>Exclusive member streams</li>\n<li>Full replay library</li>\n<li>Priority chat support</li>\n<li>Download permissions</li>\n<li>Members-only forum</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.8},
@@ -262,12 +262,12 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Start Free Trial",
+                    "text": "Get Started",
                     "button_type": "default",
                     "link": {"url": "#pro"},
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {"unit": "deg", "size": 135},
                     "button_text_color": "#ffffff",
                     "typography_typography": "custom",
@@ -275,7 +275,7 @@
                     "typography_font_weight": "600",
                     "border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true},
                     "button_box_shadow_box_shadow_type": "yes",
-                    "button_box_shadow_box_shadow": {"horizontal": 0, "vertical": 8, "blur": 20, "spread": 0, "color": "rgba(124, 58, 237, 0.35)"},
+                    "button_box_shadow_box_shadow": {"horizontal": 0, "vertical": 8, "blur": 20, "spread": 0, "color": "rgba(37, 99, 235, 0.2)"},
                     "padding": {"unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": false},
                     "align": "stretch"
                   }
@@ -289,15 +289,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
                 "flex_direction": "column"
               },
               "elements": [
@@ -308,7 +308,7 @@
                   "settings": {
                     "title": "VIP Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.4},
                     "typography_font_weight": "700",
@@ -332,7 +332,7 @@
                       "settings": {
                         "title": "$49",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "rem", "size": 2.2},
                         "typography_font_weight": "800"
@@ -345,7 +345,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {"unit": "px", "size": 15}
                       }
@@ -358,7 +358,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>All Pro Tier features</li>\n<li>1-on-1 video calls with Jay</li>\n<li>VIP-only live sessions</li>\n<li>Personal Discord channel</li>\n<li>Early feature access</li>\n<li>Exclusive merchandise</li>\n<li>Your name in credits</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.8},
@@ -370,12 +370,12 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Go VIP",
+                    "text": "Get VIP Access",
                     "button_type": "default",
                     "link": {"url": "#vip"},
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
-                    "button_text_color": "#f8fafc",
+                    "background_color": "#ffffff",
+                    "button_text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "px", "size": 15},
                     "typography_font_weight": "600",
