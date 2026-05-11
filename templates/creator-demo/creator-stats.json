@@ -8,7 +8,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {"unit": "px", "top": "0", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
         "content_width": "boxed",
         "boxed_width": {"unit": "px", "size": 1180}
@@ -19,13 +19,13 @@
           "elType": "container",
           "settings": {
             "background_background": "gradient",
-            "background_color": "#7c3aed",
-            "background_color_b": "#06b6d4",
+            "background_color": "#2563eb",
+            "background_color_b": "#7c3aed",
             "background_gradient_angle": {"unit": "deg", "size": 135},
             "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
             "padding": {"unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": true},
             "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+            "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
             "width": {"unit": "%", "size": 100},
             "container_type": "grid",
             "grid_columns_grid": {"size": 4, "unit": "fr"},
@@ -104,7 +104,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Live Streams",
+                    "title": "Videos Published",
                     "header_size": "p",
                     "align": "center",
                     "title_color": "rgba(255,255,255,0.9)",
@@ -144,7 +144,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Hours Streamed",
+                    "title": "Creator Sessions",
                     "header_size": "p",
                     "align": "center",
                     "title_color": "rgba(255,255,255,0.9)",

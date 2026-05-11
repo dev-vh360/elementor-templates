@@ -1,7 +1,7 @@
 /*
  * creator-demo-styles.css
  * Custom stylesheet for Creator Demo Platform Elementor Templates
- * Version: 1.0.0
+ * Version: 2.0.0 — Clean Creator Platform (light theme)
  *
  * USAGE: Paste this CSS in Elementor > Site Settings > Custom CSS
  *        or enqueue it via your child theme's functions.php
@@ -11,35 +11,33 @@
    CSS CUSTOM PROPERTIES (Design Tokens)
    ============================================================ */
 :root {
-  --cd-bg:        #0b1020;
-  --cd-text:      #f8fafc;
-  --cd-muted:     #b6c2d9;
-  --cd-primary:   #7c3aed;
-  --cd-secondary: #06b6d4;
-  --cd-accent:    #f59e0b;
-  --cd-border:    rgba(255,255,255,0.12);
-  --cd-shadow:    0 24px 60px rgba(0,0,0,0.35);
-  --cd-radius:    24px;
-  --cd-max:       1180px;
+  --cd-bg:           #f8fafc;
+  --cd-surface:      #ffffff;
+  --cd-surface-soft: #f1f5f9;
+  --cd-text:         #0f172a;
+  --cd-muted:        #64748b;
+  --cd-primary:      #2563eb;
+  --cd-primary-dark: #1d4ed8;
+  --cd-accent:       #7c3aed;
+  --cd-success:      #16a34a;
+  --cd-border:       #e2e8f0;
+  --cd-shadow:       0 18px 45px rgba(15,23,42,0.08);
+  --cd-radius:       24px;
+  --cd-max:          1180px;
 }
 
 
 /* ============================================================
-   BODY BACKGROUND WITH MULTI-LAYER RADIAL GRADIENTS
+   BODY BACKGROUND — CLEAN LIGHT
    ============================================================ */
 body.creator-demo-page {
   background-color: var(--cd-bg);
-  background-image: 
-    radial-gradient(circle at 20% 10%, rgba(124, 58, 237, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
-    radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.05) 0%, transparent 60%);
-  background-attachment: fixed;
   min-height: 100vh;
 }
 
 
 /* ============================================================
-   STICKY HEADER WITH BACKDROP BLUR
+   STICKY HEADER — LIGHT FROSTED GLASS
    ============================================================ */
 .creator-header {
   position: fixed;
@@ -47,7 +45,7 @@ body.creator-demo-page {
   left: 0;
   right: 0;
   z-index: 999;
-  background: rgba(11, 16, 32, 0.72) !important;
+  background: rgba(255,255,255,0.92) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--cd-border);
@@ -55,53 +53,68 @@ body.creator-demo-page {
 
 
 /* ============================================================
-   GLASSMORPHISM CARDS
+   CLEAN WHITE CARDS
    ============================================================ */
 .creator-card,
 .creator-feature-card,
 .creator-pricing-card,
 .creator-testimonial-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.04) 100%) !important;
+  background: var(--cd-surface) !important;
   border: 1px solid var(--cd-border) !important;
   border-radius: var(--cd-radius) !important;
   box-shadow: var(--cd-shadow) !important;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 
 /* ============================================================
-   GRADIENT BUTTONS WITH HOVER LIFT
+   BUTTONS
    ============================================================ */
+.creator-btn-primary {
+  background: var(--cd-primary) !important;
+  color: #ffffff !important;
+  border-radius: 999px !important;
+  box-shadow: 0 8px 20px rgba(37,99,235,0.25) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.creator-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(37,99,235,0.35) !important;
+}
+
 .creator-btn-gradient {
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.4) !important;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%) !important;
+  color: #ffffff !important;
+  border-radius: 999px !important;
+  box-shadow: 0 8px 20px rgba(37,99,235,0.25) !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .creator-btn-gradient:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 36px rgba(124, 58, 237, 0.5) !important;
+  box-shadow: 0 12px 28px rgba(37,99,235,0.35) !important;
 }
 
 .creator-btn-secondary {
-  background: rgba(255,255,255,0.08) !important;
-  border-radius: 12px !important;
-  transition: background 0.2s ease;
+  background: var(--cd-surface) !important;
+  color: var(--cd-text) !important;
+  border: 1px solid var(--cd-border) !important;
+  border-radius: 999px !important;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
 .creator-btn-secondary:hover {
-  background: rgba(255,255,255,0.12) !important;
+  background: var(--cd-surface-soft) !important;
+  border-color: #cbd5e1 !important;
 }
 
 
 /* ============================================================
-   STREAM PREVIEW CARD WITH 4:3 ASPECT RATIO
+   CREATOR VIDEO / PREVIEW CARD
    ============================================================ */
 .creator-stream-preview {
   position: relative;
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%);
   border-radius: var(--cd-radius);
   padding: 16px;
   box-shadow: var(--cd-shadow);
@@ -114,9 +127,7 @@ body.creator-demo-page {
 }
 
 .creator-stream-overlay {
-  background: rgba(255,255,255,0.07) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--cd-surface) !important;
   border: 1px solid var(--cd-border);
   border-radius: 16px;
   padding: 20px;
@@ -125,35 +136,39 @@ body.creator-demo-page {
 
 
 /* ============================================================
-   LIVE INDICATOR PILL WITH RED DOT ANIMATION
+   FEATURE BADGE (replaces old live-indicator pill)
    ============================================================ */
+.creator-feature-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #dbeafe !important;
+  color: #1d4ed8 !important;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid #bfdbfe;
+}
+
+/* Legacy class kept for backwards compatibility — now renders as a calm badge */
 .creator-live-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #dc2626 !important;
-  color: #ffffff !important;
+  background: #dbeafe !important;
+  color: #1d4ed8 !important;
   font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 6px 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 5px 12px;
   border-radius: 999px;
+  border: 1px solid #bfdbfe;
 }
 
 .creator-live-pill::before {
-  content: '';
-  display: block;
-  width: 6px;
-  height: 6px;
-  background: #ffffff;
-  border-radius: 50%;
-  animation: live-pulse 1.5s ease-in-out infinite;
-}
-
-@keyframes live-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+  content: none;
 }
 
 
@@ -169,8 +184,8 @@ body.creator-demo-page {
 .creator-pricing-card.popular,
 #popular {
   border: 2px solid var(--cd-primary) !important;
-  background: linear-gradient(180deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.06) 100%) !important;
-  box-shadow: 0 32px 80px rgba(124, 58, 237, 0.25) !important;
+  background: var(--cd-surface) !important;
+  box-shadow: 0 24px 60px rgba(37,99,235,0.12) !important;
 }
 
 /* Most Popular Ribbon */
@@ -180,14 +195,14 @@ body.creator-demo-page {
   position: absolute;
   top: 24px;
   right: -36px;
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%);
   color: #ffffff;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.08em;
   padding: 6px 40px;
   transform: rotate(36deg);
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.25);
   z-index: 10;
 }
 
@@ -198,7 +213,7 @@ body.creator-demo-page {
 .creator-avatar {
   width: 96px;
   height: 96px;
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -211,7 +226,7 @@ body.creator-demo-page {
 
 .creator-avatar-circle {
   border-radius: 50% !important;
-  border: 3px solid #ffffff;
+  border: 3px solid var(--cd-border);
 }
 
 
@@ -219,7 +234,7 @@ body.creator-demo-page {
    STATS BAND WITH GRADIENT BACKGROUND
    ============================================================ */
 .creator-stats-band {
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%) !important;
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%) !important;
   border-radius: var(--cd-radius);
   padding: 40px;
   box-shadow: var(--cd-shadow);
@@ -232,6 +247,7 @@ body.creator-demo-page {
 .creator-testimonial-quote {
   position: relative;
   font-style: italic;
+  color: var(--cd-text);
 }
 
 .creator-testimonial-quote::before {
@@ -242,13 +258,13 @@ body.creator-demo-page {
   font-size: 64px;
   font-weight: 700;
   color: var(--cd-primary);
-  opacity: 0.2;
+  opacity: 0.15;
   line-height: 1;
 }
 
 
 /* ============================================================
-   FEATURE LIST CUSTOM BULLETS (cyan dots)
+   FEATURE LIST CUSTOM BULLETS (blue dots)
    ============================================================ */
 .creator-feature-list {
   list-style: none;
@@ -270,7 +286,7 @@ body.creator-demo-page {
   top: 10px;
   width: 8px;
   height: 8px;
-  background: var(--cd-secondary);
+  background: var(--cd-primary);
   border-radius: 50%;
 }
 
@@ -291,7 +307,7 @@ body.creator-demo-page {
   content: '✓';
   position: absolute;
   left: 0;
-  color: var(--cd-secondary);
+  color: var(--cd-success);
   font-weight: 700;
 }
 
@@ -302,7 +318,7 @@ body.creator-demo-page {
 .creator-step-number {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -359,10 +375,6 @@ body.creator-demo-page {
     font-size: 10px;
     padding: 5px 36px;
   }
-  
-  body.creator-demo-page {
-    background-attachment: scroll;
-  }
 }
 
 
@@ -370,7 +382,7 @@ body.creator-demo-page {
    UTILITY CLASSES
    ============================================================ */
 .creator-text-gradient {
-  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-secondary) 100%);
+  background: linear-gradient(135deg, var(--cd-primary) 0%, var(--cd-accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -378,14 +390,14 @@ body.creator-demo-page {
 
 .creator-border-gradient {
   border: 2px solid transparent;
-  background-image: linear-gradient(var(--cd-bg), var(--cd-bg)), 
-                    linear-gradient(135deg, var(--cd-primary), var(--cd-secondary));
+  background-image: linear-gradient(var(--cd-surface), var(--cd-surface)),
+                    linear-gradient(135deg, var(--cd-primary), var(--cd-accent));
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
 
 .creator-glow {
-  box-shadow: 0 0 40px rgba(124, 58, 237, 0.3);
+  box-shadow: 0 0 32px rgba(37,99,235,0.2);
 }
 
 
@@ -398,7 +410,7 @@ body.creator-demo-page {
  * - Edge 79+
  * - Safari 9+ (with -webkit- prefix)
  * - Firefox 103+
- * 
+ *
  * Fallback: semi-transparent backgrounds will still work
  * in older browsers, just without the blur effect.
  */

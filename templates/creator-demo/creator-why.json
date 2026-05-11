@@ -8,7 +8,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {"unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
         "content_width": "boxed",
         "boxed_width": {"unit": "px", "size": 1180}
@@ -29,10 +29,10 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Why Jay Built This Platform",
+                "title": "Why Creators Choose This Platform",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {"unit": "rem", "size": 2.8},
                 "typography_font_size_mobile": {"unit": "rem", "size": 1.9},
@@ -47,9 +47,9 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Tired of algorithms deciding who sees your content? This platform gives creators and fans a direct connection without the noise.</p>",
+                "editor": "<p>Give your community a dedicated home where your content, memberships, and conversations are not buried by social media algorithms.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {"unit": "rem", "size": 1.05},
                 "typography_line_height": {"unit": "em", "size": 1.65}
@@ -75,15 +75,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
                 "flex_direction": "column"
               },
               "elements": [
@@ -104,9 +104,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "No Algorithm BS",
+                    "title": "Own Your Audience",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.3},
                     "typography_font_weight": "700",
@@ -119,8 +119,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Your content reaches everyone who joined. No views hidden, no shadow bans.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Give your audience a direct place to find your content without competing with algorithmic feeds.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.6}
@@ -135,15 +135,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
                 "flex_direction": "column"
               },
               "elements": [
@@ -164,9 +164,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Direct Revenue",
+                    "title": "Branded Video Library",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.3},
                     "typography_font_weight": "700",
@@ -179,8 +179,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Members pay you directly. No platform taking 50% of your earnings.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Organize and display your video content in a clean library your audience can browse anytime.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.6}
@@ -195,15 +195,15 @@
                 "background_background": "gradient",
                 "background_gradient_type": "linear",
                 "background_gradient_angle": {"unit": "deg", "size": 180},
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
                 "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false},
                 "box_shadow_box_shadow_type": "yes",
-                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(0,0,0,0.35)"},
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 24, "blur": 60, "spread": 0, "color": "rgba(15,23,42,0.08)"},
                 "flex_direction": "column"
               },
               "elements": [
@@ -224,9 +224,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Real Community",
+                    "title": "Community Engagement",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 1.3},
                     "typography_font_weight": "700",
@@ -239,8 +239,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Build a loyal fanbase that actually cares. Not just passive scrollers.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Members can comment, participate in discussions, and engage with your content in meaningful ways.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {"unit": "rem", "size": 0.95},
                     "typography_line_height": {"unit": "em", "size": 1.6}

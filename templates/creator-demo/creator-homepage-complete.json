@@ -8,7 +8,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "120",
@@ -54,9 +54,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "\ud83d\udd34 LIVE NOW",
+                    "title": "Featured Creator Session",
                     "header_size": "p",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -69,7 +69,7 @@
                     },
                     "typography_text_transform": "uppercase",
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
+                    "background_color": "#f1f5f9",
                     "border_radius": {
                       "unit": "px",
                       "top": "999",
@@ -106,7 +106,7 @@
                   "widgetType": "image",
                   "settings": {
                     "image": {
-                      "url": "https://placehold.co/120x120/7c3aed/ffffff?text=JC"
+                      "url": "https://placehold.co/120x120/2563eb/ffffff?text=JC"
                     },
                     "image_size": "custom",
                     "image_custom_dimension": {
@@ -146,9 +146,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Your Direct Line to Jay Carter",
+                    "title": "Launch Your Own Creator Community",
                     "header_size": "h1",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -186,8 +186,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Skip the algorithms. Join Jay's exclusive platform for unfiltered live streams, Q&A sessions, and community built around real connection.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Build a branded space where fans can watch your videos, join live sessions, become members, and connect directly with your content.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -225,14 +225,14 @@
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Start Free Trial",
+                        "text": "Explore the Demo",
                         "button_type": "default",
                         "link": {
                           "url": "#trial"
                         },
                         "background_background": "gradient",
-                        "background_color": "#7c3aed",
-                        "background_color_b": "#06b6d4",
+                        "background_color": "#2563eb",
+                        "background_color_b": "#7c3aed",
                         "background_gradient_angle": {
                           "unit": "deg",
                           "size": 135
@@ -258,7 +258,7 @@
                           "vertical": 12,
                           "blur": 28,
                           "spread": 0,
-                          "color": "rgba(124, 58, 237, 0.4)"
+                          "color": "rgba(37, 99, 235, 0.25)"
                         },
                         "padding": {
                           "unit": "px",
@@ -275,14 +275,14 @@
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Watch Demo",
+                        "text": "View Membership Options",
                         "button_type": "default",
                         "link": {
                           "url": "#demo"
                         },
                         "background_background": "classic",
-                        "background_color": "rgba(255,255,255,0.08)",
-                        "button_text_color": "#f8fafc",
+                        "background_color": "#f1f5f9",
+                        "button_text_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -336,7 +336,7 @@
                       "settings": {
                         "title": "\u2b50 4.9/5 Rating",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -351,7 +351,7 @@
                       "settings": {
                         "title": "\ud83d\udc65 2,400+ Members",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -376,8 +376,8 @@
                   "elType": "container",
                   "settings": {
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -404,7 +404,7 @@
                       "vertical": 24,
                       "blur": 60,
                       "spread": 0,
-                      "color": "rgba(0,0,0,0.35)"
+                      "color": "rgba(15,23,42,0.08)"
                     }
                   },
                   "elements": [
@@ -414,7 +414,7 @@
                       "widgetType": "image",
                       "settings": {
                         "image": {
-                          "url": "https://placehold.co/600x450/1e293b/ffffff?text=Live+Stream"
+                          "url": "https://placehold.co/600x450/dbeafe/1d4ed8?text=Creator+Platform"
                         },
                         "aspect_ratio": "4-3",
                         "border_radius": {
@@ -440,7 +440,7 @@
                       "elType": "container",
                       "settings": {
                         "background_background": "classic",
-                        "background_color": "rgba(255,255,255,0.07)",
+                        "background_color": "#ffffff",
                         "backdrop_filter_blur": {
                           "unit": "px",
                           "size": 12
@@ -454,7 +454,7 @@
                           "left": "1",
                           "isLinked": true
                         },
-                        "border_color": "rgba(255,255,255,0.12)",
+                        "border_color": "#e2e8f0",
                         "border_radius": {
                           "unit": "px",
                           "top": "16",
@@ -479,7 +479,7 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "\ud83d\udd34 LIVE",
+                            "title": "Creator Channel Demo",
                             "header_size": "p",
                             "title_color": "#ffffff",
                             "typography_typography": "custom",
@@ -489,7 +489,7 @@
                             },
                             "typography_font_weight": "700",
                             "background_background": "classic",
-                            "background_color": "#dc2626",
+                            "background_color": "#dbeafe",
                             "border_radius": {
                               "unit": "px",
                               "top": "999",
@@ -525,9 +525,9 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "Building in Public: Platform Launch Week",
+                            "title": "Exploring the Creator Platform Demo",
                             "header_size": "h3",
-                            "title_color": "#ffffff",
+                            "title_color": "#0f172a",
                             "typography_typography": "custom",
                             "typography_font_size": {
                               "unit": "rem",
@@ -553,9 +553,9 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "\ud83d\udc41\ufe0f 247 watching now",
+                            "title": "Members-Only Content",
                             "header_size": "p",
-                            "title_color": "rgba(255,255,255,0.8)",
+                            "title_color": "#64748b",
                             "typography_typography": "custom",
                             "typography_font_size": {
                               "unit": "px",
@@ -578,7 +578,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -599,8 +599,8 @@
           "elType": "container",
           "settings": {
             "background_background": "gradient",
-            "background_color": "#7c3aed",
-            "background_color_b": "#06b6d4",
+            "background_color": "#2563eb",
+            "background_color_b": "#7c3aed",
             "background_gradient_angle": {
               "unit": "deg",
               "size": 135
@@ -627,7 +627,7 @@
               "vertical": 24,
               "blur": 60,
               "spread": 0,
-              "color": "rgba(0,0,0,0.35)"
+              "color": "rgba(15,23,42,0.08)"
             },
             "width": {
               "unit": "%",
@@ -752,7 +752,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Live Streams",
+                    "title": "Videos Published",
                     "header_size": "p",
                     "align": "center",
                     "title_color": "rgba(255,255,255,0.9)",
@@ -808,7 +808,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Hours Streamed",
+                    "title": "Creator Sessions",
                     "header_size": "p",
                     "align": "center",
                     "title_color": "rgba(255,255,255,0.9)",
@@ -886,7 +886,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -924,10 +924,10 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Why Jay Built This Platform",
+                "title": "Why Creators Choose This Platform",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -961,9 +961,9 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Tired of algorithms deciding who sees your content? This platform gives creators and fans a direct connection without the noise.</p>",
+                "editor": "<p>Give your community a dedicated home where your content, memberships, and conversations are not buried by social media algorithms.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -1011,8 +1011,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1022,7 +1022,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1045,7 +1045,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1077,9 +1077,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "No Algorithm BS",
+                    "title": "Own Your Audience",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1105,8 +1105,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Your content reaches everyone who joined. No views hidden, no shadow bans.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Give your audience a direct place to find your content without competing with algorithmic feeds.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1130,8 +1130,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1141,7 +1141,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1164,7 +1164,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1196,9 +1196,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Direct Revenue",
+                    "title": "Branded Video Library",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1224,8 +1224,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Members pay you directly. No platform taking 50% of your earnings.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Organize and display your video content in a clean library your audience can browse anytime.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1249,8 +1249,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1260,7 +1260,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1283,7 +1283,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1315,9 +1315,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Real Community",
+                    "title": "Community Engagement",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1343,8 +1343,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Build a loyal fanbase that actually cares. Not just passive scrollers.</p>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<p>Members can comment, participate in discussions, and engage with your content in meaningful ways.</p>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1367,7 +1367,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -1405,10 +1405,10 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "What You Can Do Here",
+                "title": "Everything Your Creator Platform Needs",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -1442,9 +1442,9 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Everything you need to connect with Jay and the community, all in one place.</p>",
+                "editor": "<p>All the tools creators need to publish videos, manage memberships, host live sessions, and grow a community.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -1488,8 +1488,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1499,7 +1499,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1522,7 +1522,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1554,9 +1554,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Live Streams & On-Demand",
+                    "title": "Video Library & Live Sessions",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1582,8 +1582,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<ul class=\"creator-feature-list\">\n<li>Join live Q&A sessions</li>\n<li>Watch exclusive streams</li>\n<li>Access replay library</li>\n<li>Download select content</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<ul class=\"creator-feature-list\">\n<li>Publish video content to your library</li>\n<li>Host and schedule live sessions</li>\n<li>Session replay archive</li>\n<li>Member download permissions</li>\n</ul>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1607,8 +1607,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1618,7 +1618,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1641,7 +1641,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1673,9 +1673,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Community & Chat",
+                    "title": "Community Feed & Chat",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1702,7 +1702,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-feature-list\">\n<li>Chat during live streams</li>\n<li>Join discussion forums</li>\n<li>Direct message members</li>\n<li>Member-only channels</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1726,8 +1726,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1737,7 +1737,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1760,7 +1760,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1792,9 +1792,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Exclusive Content",
+                    "title": "Member-Only Content",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1821,7 +1821,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-feature-list\">\n<li>Member-only videos</li>\n<li>Behind-the-scenes content</li>\n<li>Early access to releases</li>\n<li>Bonus resources & guides</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1845,8 +1845,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -1856,7 +1856,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -1879,7 +1879,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -1911,9 +1911,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Direct Interaction",
+                    "title": "Direct Fan Engagement",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1939,8 +1939,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<ul class=\"creator-feature-list\">\n<li>Submit questions for Jay</li>\n<li>Influence future content</li>\n<li>Get personal responses</li>\n<li>Participate in polls</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "editor": "<ul class=\"creator-feature-list\">\n<li>Direct messaging with fans</li>\n<li>Comment threads on content</li>\n<li>Creator response tools</li>\n<li>Community polls and feedback</li>\n</ul>",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -1963,7 +1963,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -2001,10 +2001,10 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Meet Jay Carter",
+                "title": "Built for Independent Creators",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2037,8 +2037,8 @@
               "unit": "deg",
               "size": 180
             },
-            "background_color": "rgba(255,255,255,0.07)",
-            "background_color_b": "rgba(255,255,255,0.04)",
+            "background_color": "#ffffff",
+            "background_color_b": "#ffffff",
             "border_border": "solid",
             "border_width": {
               "unit": "px",
@@ -2048,7 +2048,7 @@
               "left": "1",
               "isLinked": true
             },
-            "border_color": "rgba(255,255,255,0.12)",
+            "border_color": "#e2e8f0",
             "border_radius": {
               "unit": "px",
               "top": "24",
@@ -2071,7 +2071,7 @@
               "vertical": 24,
               "blur": 60,
               "spread": 0,
-              "color": "rgba(0,0,0,0.35)"
+              "color": "rgba(15,23,42,0.08)"
             },
             "flex_direction": "column",
             "align_items": "center",
@@ -2091,8 +2091,8 @@
                   "size": 96
                 },
                 "background_background": "gradient",
-                "background_color": "#7c3aed",
-                "background_color_b": "#06b6d4",
+                "background_color": "#2563eb",
+                "background_color_b": "#7c3aed",
                 "background_gradient_angle": {
                   "unit": "deg",
                   "size": 135
@@ -2145,7 +2145,7 @@
                 "title": "Jay Carter",
                 "header_size": "h3",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2170,7 +2170,7 @@
                 "title": "Content Creator & Community Builder",
                 "header_size": "p",
                 "align": "center",
-                "title_color": "#06b6d4",
+                "title_color": "#2563eb",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2194,7 +2194,7 @@
               "settings": {
                 "editor": "<p>After 8 years creating content on traditional platforms, Jay built this community to connect directly with fans\u2014no algorithms, no gatekeepers. Here, you get unfiltered access to Jay's process, exclusive streams, and a community that's building something together.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2252,7 +2252,7 @@
                     "title": "\ud83d\udc65 2.4k Members",
                     "header_size": "p",
                     "align": "center",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -2268,7 +2268,7 @@
                     "title": "\ud83c\udfa5 120+ Streams",
                     "header_size": "p",
                     "align": "center",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -2284,7 +2284,7 @@
                     "title": "\u2b50 4.9 Rating",
                     "header_size": "p",
                     "align": "center",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -2312,14 +2312,14 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Join the Community",
+                    "text": "Explore the Demo",
                     "button_type": "default",
                     "link": {
                       "url": "#join"
                     },
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -2345,7 +2345,7 @@
                       "vertical": 12,
                       "blur": 28,
                       "spread": 0,
-                      "color": "rgba(124, 58, 237, 0.4)"
+                      "color": "rgba(37, 99, 235, 0.25)"
                     },
                     "padding": {
                       "unit": "px",
@@ -2362,14 +2362,14 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Learn More",
+                    "text": "View Platform Features",
                     "button_type": "default",
                     "link": {
                       "url": "#about"
                     },
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
-                    "button_text_color": "#f8fafc",
+                    "background_color": "#f1f5f9",
+                    "button_text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -2405,7 +2405,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -2446,7 +2446,7 @@
                 "title": "How It Works",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2480,9 +2480,9 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Getting started is simple. Here's how to join the community.</p>",
+                "editor": "<p>From setup to launch, here is how the creator platform experience works.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -2530,8 +2530,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -2541,7 +2541,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -2564,7 +2564,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column",
                 "align_items": "center",
@@ -2584,8 +2584,8 @@
                       "size": 56
                     },
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -2635,10 +2635,10 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Choose Your Tier",
+                    "title": "Create Your Channel",
                     "header_size": "h3",
                     "align": "center",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -2664,9 +2664,9 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Select a membership that fits your budget and get instant access to the community.</p>",
+                    "editor": "<p>Set up your creator profile, video sections, and membership experience.</p>",
                     "align": "center",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -2690,8 +2690,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -2701,7 +2701,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -2724,7 +2724,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column",
                 "align_items": "center",
@@ -2744,8 +2744,8 @@
                       "size": 56
                     },
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -2795,10 +2795,10 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Create Your Profile",
+                    "title": "Publish Your Content",
                     "header_size": "h3",
                     "align": "center",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -2824,9 +2824,9 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Set up your profile, customize your settings, and introduce yourself to the community.</p>",
+                    "editor": "<p>Upload videos, promote live sessions, and organize content for your audience.</p>",
                     "align": "center",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -2850,8 +2850,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -2861,7 +2861,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -2884,7 +2884,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column",
                 "align_items": "center",
@@ -2904,8 +2904,8 @@
                       "size": 56
                     },
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -2955,10 +2955,10 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Start Engaging",
+                    "title": "Grow Your Community",
                     "header_size": "h3",
                     "align": "center",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -2984,9 +2984,9 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Watch streams, join discussions, and connect with Jay and other members immediately.</p>",
+                    "editor": "<p>Use memberships, comments, activity, and engagement tools to build stronger fan relationships.</p>",
                     "align": "center",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3009,7 +3009,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -3050,7 +3050,7 @@
                 "title": "Membership Tiers",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -3086,7 +3086,7 @@
               "settings": {
                 "editor": "<p>Choose the membership level that works for you. All tiers include access to the community and live streams.</p>",
                 "align": "center",
-                "text_color": "#b6c2d9",
+                "text_color": "#64748b",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -3134,8 +3134,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -3145,7 +3145,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -3168,7 +3168,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -3180,7 +3180,7 @@
                   "settings": {
                     "title": "Free Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3225,7 +3225,7 @@
                       "settings": {
                         "title": "$0",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "rem",
@@ -3241,7 +3241,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -3257,7 +3257,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>Access to public streams</li>\n<li>Community chat</li>\n<li>Limited replay access</li>\n<li>Basic member profile</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3288,8 +3288,8 @@
                       "url": "#free"
                     },
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
-                    "button_text_color": "#f8fafc",
+                    "background_color": "#f1f5f9",
+                    "button_text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -3328,8 +3328,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.09)",
-                "background_color_b": "rgba(255,255,255,0.06)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -3339,7 +3339,7 @@
                   "left": "2",
                   "isLinked": true
                 },
-                "border_color": "#7c3aed",
+                "border_color": "#2563eb",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -3362,7 +3362,7 @@
                   "vertical": 32,
                   "blur": 80,
                   "spread": 0,
-                  "color": "rgba(124, 58, 237, 0.25)"
+                  "color": "rgba(37, 99, 235, 0.15)"
                 },
                 "flex_direction": "column",
                 "position": "relative"
@@ -3375,7 +3375,7 @@
                   "settings": {
                     "title": "Pro Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3420,7 +3420,7 @@
                       "settings": {
                         "title": "$19",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "rem",
@@ -3436,7 +3436,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -3452,7 +3452,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>All Free Tier features</li>\n<li>Exclusive member streams</li>\n<li>Full replay library</li>\n<li>Priority chat support</li>\n<li>Download permissions</li>\n<li>Members-only forum</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3477,14 +3477,14 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Start Free Trial",
+                    "text": "Get Started",
                     "button_type": "default",
                     "link": {
                       "url": "#pro"
                     },
                     "background_background": "gradient",
-                    "background_color": "#7c3aed",
-                    "background_color_b": "#06b6d4",
+                    "background_color": "#2563eb",
+                    "background_color_b": "#7c3aed",
                     "background_gradient_angle": {
                       "unit": "deg",
                       "size": 135
@@ -3510,7 +3510,7 @@
                       "vertical": 8,
                       "blur": 20,
                       "spread": 0,
-                      "color": "rgba(124, 58, 237, 0.35)"
+                      "color": "rgba(37, 99, 235, 0.2)"
                     },
                     "padding": {
                       "unit": "px",
@@ -3535,8 +3535,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -3546,7 +3546,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -3569,7 +3569,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -3581,7 +3581,7 @@
                   "settings": {
                     "title": "VIP Tier",
                     "header_size": "h3",
-                    "title_color": "#f8fafc",
+                    "title_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3626,7 +3626,7 @@
                       "settings": {
                         "title": "$49",
                         "header_size": "p",
-                        "title_color": "#f8fafc",
+                        "title_color": "#0f172a",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "rem",
@@ -3642,7 +3642,7 @@
                       "settings": {
                         "title": "/month",
                         "header_size": "p",
-                        "title_color": "#b6c2d9",
+                        "title_color": "#64748b",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -3658,7 +3658,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<ul class=\"creator-pricing-list\">\n<li>All Pro Tier features</li>\n<li>1-on-1 video calls with Jay</li>\n<li>VIP-only live sessions</li>\n<li>Personal Discord channel</li>\n<li>Early feature access</li>\n<li>Exclusive merchandise</li>\n<li>Your name in credits</li>\n</ul>",
-                    "text_color": "#b6c2d9",
+                    "text_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3683,14 +3683,14 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Go VIP",
+                    "text": "Get VIP Access",
                     "button_type": "default",
                     "link": {
                       "url": "#vip"
                     },
                     "background_background": "classic",
-                    "background_color": "rgba(255,255,255,0.08)",
-                    "button_text_color": "#f8fafc",
+                    "background_color": "#f1f5f9",
+                    "button_text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -3727,7 +3727,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -3768,7 +3768,7 @@
                 "title": "What Members Are Saying",
                 "header_size": "h2",
                 "align": "center",
-                "title_color": "#f8fafc",
+                "title_color": "#0f172a",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "rem",
@@ -3825,8 +3825,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -3836,7 +3836,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -3859,7 +3859,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -3869,8 +3869,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p class=\"creator-testimonial-quote\">\"Finally, a platform where I can actually connect with creators I love. No ads, no algorithm nonsense. Just pure content.\"</p>",
-                    "text_color": "#f8fafc",
+                    "editor": "<p class=\"creator-testimonial-quote\">\"This gives creators a clean place to bring their videos, members, and community together. Exactly what I was looking for.\"</p>",
+                    "text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -3897,7 +3897,7 @@
                   "settings": {
                     "title": "\u2014 Sarah M.",
                     "header_size": "p",
-                    "title_color": "#06b6d4",
+                    "title_color": "#2563eb",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -3921,7 +3921,7 @@
                   "settings": {
                     "title": "Pro Member",
                     "header_size": "p",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -3941,8 +3941,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -3952,7 +3952,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -3975,7 +3975,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -3985,8 +3985,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p class=\"creator-testimonial-quote\">\"The live Q&A sessions are incredible. Jay actually answers my questions and the community vibe is unmatched.\"</p>",
-                    "text_color": "#f8fafc",
+                    "editor": "<p class=\"creator-testimonial-quote\">\"The video library and live session tools are professional and easy to use. It feels like a real platform, not a social media page.\"</p>",
+                    "text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -4013,7 +4013,7 @@
                   "settings": {
                     "title": "\u2014 Marcus T.",
                     "header_size": "p",
-                    "title_color": "#06b6d4",
+                    "title_color": "#2563eb",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -4037,7 +4037,7 @@
                   "settings": {
                     "title": "VIP Member",
                     "header_size": "p",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -4057,8 +4057,8 @@
                   "unit": "deg",
                   "size": 180
                 },
-                "background_color": "rgba(255,255,255,0.07)",
-                "background_color_b": "rgba(255,255,255,0.04)",
+                "background_color": "#ffffff",
+                "background_color_b": "#ffffff",
                 "border_border": "solid",
                 "border_width": {
                   "unit": "px",
@@ -4068,7 +4068,7 @@
                   "left": "1",
                   "isLinked": true
                 },
-                "border_color": "rgba(255,255,255,0.12)",
+                "border_color": "#e2e8f0",
                 "border_radius": {
                   "unit": "px",
                   "top": "24",
@@ -4091,7 +4091,7 @@
                   "vertical": 24,
                   "blur": 60,
                   "spread": 0,
-                  "color": "rgba(0,0,0,0.35)"
+                  "color": "rgba(15,23,42,0.08)"
                 },
                 "flex_direction": "column"
               },
@@ -4101,8 +4101,8 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p class=\"creator-testimonial-quote\">\"Best $19 I spend every month. The exclusive content and behind-the-scenes access is worth way more.\"</p>",
-                    "text_color": "#f8fafc",
+                    "editor": "<p class=\"creator-testimonial-quote\">\"Having a branded creator platform separate from social media makes a huge difference. Members take it more seriously.\"</p>",
+                    "text_color": "#0f172a",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "rem",
@@ -4129,7 +4129,7 @@
                   "settings": {
                     "title": "\u2014 Jessica L.",
                     "header_size": "p",
-                    "title_color": "#06b6d4",
+                    "title_color": "#2563eb",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -4153,7 +4153,7 @@
                   "settings": {
                     "title": "Pro Member",
                     "header_size": "p",
-                    "title_color": "#b6c2d9",
+                    "title_color": "#64748b",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -4172,7 +4172,7 @@
       "elType": "container",
       "settings": {
         "background_background": "classic",
-        "background_color": "#0b1020",
+        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -4193,8 +4193,8 @@
           "elType": "container",
           "settings": {
             "background_background": "gradient",
-            "background_color": "#7c3aed",
-            "background_color_b": "#06b6d4",
+            "background_color": "#2563eb",
+            "background_color_b": "#7c3aed",
             "background_gradient_angle": {
               "unit": "deg",
               "size": 135
@@ -4221,7 +4221,7 @@
               "vertical": 24,
               "blur": 60,
               "spread": 0,
-              "color": "rgba(0,0,0,0.35)"
+              "color": "rgba(15,23,42,0.08)"
             },
             "flex_direction": "column",
             "align_items": "center",
@@ -4233,7 +4233,7 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Ready to Join the Community?",
+                "title": "Ready to Build Your Creator Platform?",
                 "header_size": "h2",
                 "align": "center",
                 "title_color": "#ffffff",
@@ -4270,7 +4270,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Start your free trial today. Cancel anytime. No hidden fees.</p>",
+                "editor": "<p>Use Videohub360 to create a branded video experience with memberships, live sessions, and community tools built in.</p>",
                 "align": "center",
                 "text_color": "rgba(255,255,255,0.9)",
                 "typography_typography": "custom",
@@ -4310,14 +4310,14 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Start Free Trial",
+                    "text": "Start Exploring",
                     "button_type": "default",
                     "link": {
                       "url": "#trial"
                     },
                     "background_background": "classic",
                     "background_color": "#ffffff",
-                    "button_text_color": "#7c3aed",
+                    "button_text_color": "#2563eb",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
@@ -4355,7 +4355,7 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "View Pricing",
+                    "text": "View Platform Features",
                     "button_type": "default",
                     "link": {
                       "url": "#pricing"
