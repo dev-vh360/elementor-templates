@@ -96,7 +96,41 @@ Import individual sections the same way as the complete homepage (Elementor > My
 
 ---
 
-## Step 5 — Customize the Content
+## Step 5 — Import the Course Catalog Template (Optional)
+
+The Course Catalog is a standalone full-page template that complements the main homepage.
+
+1. In WordPress admin, go to **Elementor > My Templates > Import Templates**.
+2. Upload `templates/course-demo/course-catalog.json`.
+3. The template will appear in your library as **Course Demo - Course Catalog**.
+4. Create a new page (e.g. titled **Courses** or **Course Catalog**) and edit it with Elementor.
+5. Insert the **Course Demo - Course Catalog** template.
+6. In Elementor page settings > **Advanced > CSS Classes**, add the class:
+
+```
+course-demo-page
+```
+
+7. Ensure `css/course-demo-styles.css` is loaded globally (see Step 2). The catalog uses the same stylesheet — no additional CSS file is needed.
+8. Replace the sample course titles, categories, descriptions, module counts, access labels, and links with your real course content.
+
+### Course Catalog content to replace
+
+- Course card titles, descriptions, module counts, and access type labels (6 cards in the grid)
+- Featured learning track title, description, module names, and meta details
+- Workshop/coaching session names and descriptions
+- Footer brand name (currently **Pathway Academy**) and link columns
+- All `#anchor` links to point to real pages or sections
+
+### About the filter and search controls
+
+The filter pills (All Courses, Beginner, Business, etc.) and the search field in the catalog toolbar are **visual demo elements only**. They do not perform live filtering or AJAX search by default.
+
+Site owners can wire them to real filtering functionality — for example, using a query filter plugin, Elementor dynamic content, or custom JavaScript — as needed. This is not required for the demo to look correct.
+
+---
+
+## Step 6 — Customize the Content
 
 Replace all sample content with your own:
 

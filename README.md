@@ -54,6 +54,7 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 | Path | Contents |
 |------|----------|
 | `templates/course-demo/course-homepage-complete.json` | Full homepage — Pathway Academy demo |
+| `templates/course-demo/course-catalog.json` | Full Course Catalog page with filters, featured learning track, course grid, workshops, resources, and CTA |
 | `templates/course-demo/course-header.json` | Sticky navigation header — Pathway Academy, "Browse Courses" CTA |
 | `templates/course-demo/course-hero.json` | Academy hero with curriculum module preview card |
 | `templates/course-demo/course-stats.json` | Solid deep green academy highlights strip |

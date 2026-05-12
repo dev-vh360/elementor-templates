@@ -21,6 +21,7 @@ This palette is completely separate from the Creator Platform demo (blue/purple 
 | File | Purpose |
 |------|---------|
 | `course-homepage-complete.json` | Full homepage — import this to get the complete demo |
+| `course-catalog.json` | Full Course Catalog page with filters, featured learning track, course grid, workshops, resources, and CTA |
 | `course-header.json` | Sticky navigation header — Pathway Academy branding |
 | `course-hero.json` | Academy hero with curriculum module preview |
 | `course-stats.json` | Academy highlights strip (solid deep green band) |
@@ -68,6 +69,7 @@ This class is required for the CSS styles to apply. See `docs/COURSE-DEMO-SETUP.
 - Enrollment options (Free Preview, Self-Paced Course, Coaching Program)
 - Student outcome testimonials
 - Academy-branded footer
+- **Course Catalog page** with available courses grid, featured learning track, static filter/search UI, workshops strip, and learning resources
 
 ## What This Demo Does NOT Promise
 

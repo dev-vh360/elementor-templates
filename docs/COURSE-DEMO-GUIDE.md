@@ -84,6 +84,14 @@ Do not use `.hc-*` CSS classes in the Course demo. The Course demo uses `.course
 6. **Enrollment options** — Free Preview, Self-Paced Course, Coaching Program
 7. **Student outcome testimonials** — realistic, general testimonials about the learning experience
 8. **Academy CTA** — deep green band with clear next-step buttons
+9. **Course Catalog page** — full course directory with:
+   - Catalog hero with available course count
+   - Static filter/search bar (visual demo elements — wire to real filtering as needed)
+   - Featured learning track (wide green card)
+   - 6-card available courses grid with level, access type, and CTA per card
+   - Live coaching and workshop options strip
+   - Learning resources strip (notes, replays, discussions, guides)
+   - Enrollment CTA band
 
 ---
 
@@ -138,5 +146,27 @@ This demo helps attract:
 | `.course-btn-secondary` | Outlined green secondary button |
 | `.course-section-eyebrow` | Small green uppercase section label |
 | `.course-divider` | Gold accent divider line |
+| `.course-catalog-hero` | Catalog hero section |
+| `.course-catalog-toolbar` | Filter/search toolbar container |
+| `.course-catalog-filter-pills` | Wrapper for filter pill row |
+| `.course-filter-pill` | Individual filter pill (static/visual) |
+| `.course-filter-pill.active` | Active/selected filter pill (green) |
+| `.course-featured-track` | Wide dark green featured learning track card |
+| `.course-featured-track-content` | Left content column of featured track |
+| `.course-featured-track-preview` | Right curriculum preview panel of featured track |
+| `.course-track-meta` | Meta row inside featured track |
+| `.course-catalog-grid` | 3-column course directory grid |
+| `.course-catalog-card` | Individual card in catalog grid |
+| `.course-card-label` | Category label inside catalog card |
+| `.course-card-title` | Title inside catalog card |
+| `.course-card-description` | Description inside catalog card |
+| `.course-card-meta` | Module/lesson count meta inside catalog card |
+| `.course-card-access` | Access type badge inside catalog card |
+| `.course-catalog-workshops` | Workshops strip section |
+| `.course-workshop-card` | Individual workshop option card |
+| `.course-resource-strip` | Learning resources section (soft background) |
+| `.course-resource-item` | Individual resource item card |
 
 All classes use the `.course-*` prefix, keeping them completely independent of `.creator-*` and `.hc-*` styles.
+
+> **Note on catalog filter/search controls:** The filter pills and search field in `course-catalog.json` are visual demo elements only. They do not perform AJAX filtering out of the box. Site owners can wire them to real filtering functionality (such as a posts filter plugin or custom JavaScript) as needed.

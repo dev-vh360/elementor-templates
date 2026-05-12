@@ -1,0 +1,5345 @@
+{
+  "version": "0.4",
+  "title": "Course Demo - Course Catalog",
+  "type": "page",
+  "content": [
+    {
+      "id": "cc_hdr_outer",
+      "elType": "container",
+      "settings": {
+        "css_classes": "course-header",
+        "position": "fixed",
+        "z_index": "999",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "rgba(255,253,248,0.95)",
+        "backdrop_filter_blur": {
+          "unit": "px",
+          "size": 10
+        },
+        "border_bottom_border": "solid",
+        "border_bottom_width": {
+          "unit": "px",
+          "size": 1
+        },
+        "border_bottom_color": "#e7dccb",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "24",
+          "bottom": "16",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "flex_direction": "row",
+        "align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "column": "28",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_hdr_mark",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "px",
+              "size": 38
+            },
+            "height": {
+              "unit": "px",
+              "size": 38
+            },
+            "background_background": "classic",
+            "background_color": "#14532d",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "flex_direction": "row",
+            "align_items": "center",
+            "justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "cc_hdr_mark_p",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "P",
+                "header_size": "p",
+                "title_color": "#fffdf8",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "800",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_hdr_brand",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Pathway Academy",
+            "header_size": "p",
+            "title_color": "#1f2933",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "typography_font_weight": "800",
+            "typography_letter_spacing": {
+              "unit": "em",
+              "size": -0.01
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          }
+        },
+        {
+          "id": "cc_hdr_nav",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": "28",
+              "row": "0"
+            },
+            "align_items": "center",
+            "flex_grow": "1",
+            "justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "cc_nav_courses",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Courses",
+                "header_size": "p",
+                "title_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "500"
+              }
+            },
+            {
+              "id": "cc_nav_curriculum",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Curriculum",
+                "header_size": "p",
+                "title_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "500"
+              }
+            },
+            {
+              "id": "cc_nav_coaching",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coaching",
+                "header_size": "p",
+                "title_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "500"
+              }
+            },
+            {
+              "id": "cc_nav_resources",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Resources",
+                "header_size": "p",
+                "title_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "500"
+              }
+            },
+            {
+              "id": "cc_nav_enroll",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Enroll",
+                "header_size": "p",
+                "title_color": "#6b7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "500"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_hdr_cta",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Browse Courses",
+            "align": "left",
+            "button_type": "default",
+            "link": {
+              "url": "#courses"
+            },
+            "background_background": "classic",
+            "background_color": "#14532d",
+            "button_text_color": "#fffdf8",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_font_weight": "600",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "button_box_shadow_box_shadow_type": "yes",
+            "button_box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 8,
+              "blur": 20,
+              "spread": 0,
+              "color": "rgba(20,83,45,0.22)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "24",
+              "bottom": "12",
+              "left": "24",
+              "isLinked": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc_hero_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_hero_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "1.1fr 0.9fr",
+            "gap": {
+              "unit": "px",
+              "column": "56",
+              "row": "0"
+            },
+            "_tablet_container_type": "flex",
+            "_tablet_flex_direction": "column",
+            "_mobile_container_type": "flex",
+            "_mobile_flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "cc_hero_left",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "cc_hero_eyebrow",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Course Catalog",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.7
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "14",
+                      "bottom": "6",
+                      "left": "14",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_hero_h1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Explore Available Courses",
+                    "header_size": "h1",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 4.0
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 2.4
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "rem",
+                      "size": 3.0
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.03
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_hero_sub",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Browse structured video courses, live coaching options, and member-only learning resources designed to help students learn at their own pace.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "28",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_hero_badges",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "10",
+                      "row": "10"
+                    },
+                    "align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "cc_badge_video",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Video Lessons",
+                        "header_size": "p",
+                        "title_color": "#14532d",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.6
+                        },
+                        "background_background": "classic",
+                        "background_color": "#f5dfbd",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "5",
+                          "right": "12",
+                          "bottom": "5",
+                          "left": "12",
+                          "isLinked": false
+                        },
+                        "width": {
+                          "unit": "auto"
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_badge_live",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Live Coaching",
+                        "header_size": "p",
+                        "title_color": "#0f3f23",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.6
+                        },
+                        "background_background": "classic",
+                        "background_color": "#e7dccb",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "5",
+                          "right": "12",
+                          "bottom": "5",
+                          "left": "12",
+                          "isLinked": false
+                        },
+                        "width": {
+                          "unit": "auto"
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_badge_member",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Member Resources",
+                        "header_size": "p",
+                        "title_color": "#c47f2c",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 0.6
+                        },
+                        "background_background": "classic",
+                        "background_color": "#f3eadc",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "5",
+                          "right": "12",
+                          "bottom": "5",
+                          "left": "12",
+                          "isLinked": false
+                        },
+                        "width": {
+                          "unit": "auto"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cc_hero_right",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "justify_content": "center",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "cc_hero_panel",
+                  "elType": "container",
+                  "settings": {
+                    "css_classes": "course-catalog-hero-panel",
+                    "background_background": "classic",
+                    "background_color": "#fffdf8",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 24,
+                      "blur": 56,
+                      "spread": 0,
+                      "color": "rgba(70,53,31,0.10)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "28",
+                      "right": "28",
+                      "bottom": "28",
+                      "left": "28",
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "0",
+                      "row": "14"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cc_panel_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Course Catalog",
+                        "header_size": "p",
+                        "title_color": "#1f2933",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_font_weight": "800",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "4",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_panel_count",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "12 Learning Programs",
+                        "header_size": "p",
+                        "title_color": "#14532d",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "700",
+                        "background_background": "classic",
+                        "background_color": "#f5dfbd",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "12",
+                          "bottom": "6",
+                          "left": "12",
+                          "isLinked": false
+                        },
+                        "width": {
+                          "unit": "auto"
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "8",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_panel_list",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>&#10003; Video lessons<br>&#10003; Live sessions<br>&#10003; Member access</p>",
+                        "text_color": "#6b7280",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.9
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_flt_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fffdf8",
+        "border_bottom_border": "solid",
+        "border_bottom_width": {
+          "unit": "px",
+          "size": 1
+        },
+        "border_bottom_color": "#e7dccb",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_flt_toolbar",
+          "elType": "container",
+          "settings": {
+            "css_classes": "course-catalog-toolbar",
+            "background_background": "classic",
+            "background_color": "#fffdf8",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#e7dccb",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 4,
+              "blur": 14,
+              "spread": 0,
+              "color": "rgba(70,53,31,0.06)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "20",
+              "bottom": "18",
+              "left": "20",
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "0",
+              "row": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_flt_row1",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "justify_content": "space-between",
+                "align_items": "center",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "16",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_flt_label",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Filter Courses",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "700"
+                  }
+                },
+                {
+                  "id": "cc_flt_note",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><em>Filter and search controls are visual demo elements. Wire them to real filtering as needed.</em></p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_flt_pills",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-filter-pills",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "8",
+                  "row": "8"
+                },
+                "align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "cc_pill_all",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "All Courses",
+                    "header_size": "p",
+                    "title_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill active",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#14532d",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_beg",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Beginner",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_biz",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Business",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_coa",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Coaching",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_mkt",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Marketing",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_vid",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Video Strategy",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_pre",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Premium",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_pill_fp",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Free Preview",
+                    "header_size": "p",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-filter-pill",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#e7dccb",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "16",
+                      "bottom": "8",
+                      "left": "16",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_ft_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_ft_header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_ft_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Featured Learning Track",
+                "header_size": "p",
+                "title_color": "#14532d",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.7
+                },
+                "background_background": "classic",
+                "background_color": "#f5dfbd",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "14",
+                  "bottom": "6",
+                  "left": "14",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "width": {
+                  "unit": "auto"
+                }
+              }
+            },
+            {
+              "id": "cc_ft_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Featured Learning Track",
+                "header_size": "h2",
+                "title_color": "#1f2933",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": 1.7
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_ft_card",
+          "elType": "container",
+          "settings": {
+            "css_classes": "course-featured-track",
+            "background_background": "classic",
+            "background_color": "#14532d",
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 18,
+              "blur": 44,
+              "spread": 0,
+              "color": "rgba(20,83,45,0.20)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "52",
+              "right": "48",
+              "bottom": "52",
+              "left": "48",
+              "isLinked": false
+            },
+            "container_type": "grid",
+            "grid_columns_grid": "1fr 1fr",
+            "gap": {
+              "unit": "px",
+              "column": "56",
+              "row": "0"
+            },
+            "_tablet_container_type": "flex",
+            "_tablet_flex_direction": "column",
+            "_mobile_container_type": "flex",
+            "_mobile_flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "cc_ft_content",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-featured-track-content",
+                "flex_direction": "column",
+                "justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "cc_ft_cat",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Foundations",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.7
+                    },
+                    "background_background": "classic",
+                    "background_color": "rgba(196,127,44,0.15)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "5",
+                      "right": "12",
+                      "bottom": "5",
+                      "left": "12",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Build Your Signature Offer",
+                    "header_size": "h3",
+                    "title_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 2.0
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "rem",
+                      "size": 1.5
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>A structured video learning path for turning your knowledge into a clear, marketable coaching or course offer.</p>",
+                    "text_color": "rgba(255,253,248,0.75)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.0
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "28",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_meta",
+                  "elType": "container",
+                  "settings": {
+                    "css_classes": "course-track-meta",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "20",
+                      "row": "10"
+                    },
+                    "align_items": "center",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "32",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cc_ft_m1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "6 Modules",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.90)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "cc_ft_sep1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u00b7",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.35)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_ft_m2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "18 Lessons",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.90)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "cc_ft_sep2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u00b7",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.35)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_ft_m3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Member Access",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.90)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "cc_ft_sep3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u00b7",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.35)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      }
+                    },
+                    {
+                      "id": "cc_ft_m4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Live Coaching Replay",
+                        "header_size": "p",
+                        "title_color": "rgba(255,253,248,0.90)",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "cc_ft_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Learning Track",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#c47f2c",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 22,
+                      "spread": 0,
+                      "color": "rgba(196,127,44,0.30)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "24",
+                      "bottom": "12",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ft_preview",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-featured-track-preview",
+                "background_background": "classic",
+                "background_color": "rgba(255,253,248,0.08)",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "rgba(255,253,248,0.15)",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_ft_prev_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Curriculum Overview",
+                    "header_size": "p",
+                    "title_color": "rgba(255,253,248,0.55)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.7
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 1 \u2014 Clarify Your Audience</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 2 \u2014 Define Your Core Offer</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 3 \u2014 Structure Your Content</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 4 \u2014 Build the Learning Path</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 5 \u2014 Price and Package</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ft_mod6",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Module 6 \u2014 Launch and Enroll</p>",
+                    "text_color": "rgba(255,253,248,0.85)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_cg_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_cg_header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "48",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_cg_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Available Courses",
+                "header_size": "p",
+                "title_color": "#14532d",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.7
+                },
+                "background_background": "classic",
+                "background_color": "#f5dfbd",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "14",
+                  "bottom": "6",
+                  "left": "14",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "width": {
+                  "unit": "auto"
+                }
+              }
+            },
+            {
+              "id": "cc_cg_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Available Courses",
+                "header_size": "h2",
+                "title_color": "#1f2933",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.8
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": 1.9
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "cc_cg_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Organize courses by topic, access level, and learning outcome so students can quickly find the right next step.</p>",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.05
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_cg_grid",
+          "elType": "container",
+          "settings": {
+            "css_classes": "course-catalog-grid",
+            "container_type": "grid",
+            "grid_columns_grid": "repeat(3, 1fr)",
+            "gap": {
+              "unit": "px",
+              "column": "28",
+              "row": "28"
+            },
+            "_tablet_grid_columns_grid": "repeat(2, 1fr)",
+            "_mobile_grid_columns_grid": "repeat(1, 1fr)"
+          },
+          "elements": [
+            {
+              "id": "cc_cg_c1",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c1_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Foundations",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c1_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Build Your Signature Offer",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c1_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Clarify your audience, package your expertise, and create a focused learning offer.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c1_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "6 Modules \u00b7 18 Lessons",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c1_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Member Access",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c1_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_cg_c2",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c2_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Growth",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c2_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Launch Your Coaching Program",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c2_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Plan live sessions, replays, and member resources around a structured coaching experience.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c2_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "5 Modules \u00b7 Live Sessions",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c2_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Premium Access",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c2_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_cg_c3",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c3_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Content Strategy",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c3_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Create a Video Learning Library",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c3_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Organize your lessons, workshops, and replays into a branded video resource hub.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c3_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "8 Modules \u00b7 32 Lessons",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c3_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Full Access",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c3_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_cg_c4",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c4_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Community",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c4_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Build a Student Community",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c4_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Use discussion, updates, and member interaction to keep students connected between lessons.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c4_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "4 Modules \u00b7 Community Focus",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c4_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Member Access",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c4_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_cg_c5",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c5_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Marketing",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c5_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Promote Your Course Platform",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c5_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Create a clear message, course landing page, and enrollment path for your audience.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c5_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "5 Modules \u00b7 20 Lessons",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c5_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Premium Access",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c5_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_cg_c6",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-catalog-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 12,
+                  "blur": 32,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "12"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_cg_c6_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Live Learning",
+                    "header_size": "p",
+                    "title_color": "#14532d",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-label",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f5dfbd",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c6_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Host Better Workshops",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-title",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.1
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "4",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c6_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Plan live workshops, office hours, and replay libraries that support your students.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-description",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c6_meta",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "3 Modules \u00b7 Workshop Replay",
+                    "header_size": "p",
+                    "title_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-meta",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c6_acc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Free Preview",
+                    "header_size": "p",
+                    "title_color": "#c47f2c",
+                    "typography_typography": "custom",
+                    "css_classes": "course-card-access",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.5
+                    },
+                    "background_background": "classic",
+                    "background_color": "#f3eadc",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "10",
+                      "bottom": "4",
+                      "left": "10",
+                      "isLinked": false
+                    },
+                    "width": {
+                      "unit": "auto"
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cg_c6_btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#14532d",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_ws_outer",
+      "elType": "container",
+      "settings": {
+        "css_classes": "course-catalog-workshops",
+        "background_background": "classic",
+        "background_color": "#fffdf8",
+        "border_top_border": "solid",
+        "border_top_width": {
+          "unit": "px",
+          "size": 1
+        },
+        "border_top_color": "#e7dccb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_ws_header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "14",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_ws_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Live Coaching",
+                "header_size": "p",
+                "title_color": "#14532d",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.7
+                },
+                "background_background": "classic",
+                "background_color": "#f5dfbd",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "14",
+                  "bottom": "6",
+                  "left": "14",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "width": {
+                  "unit": "auto"
+                }
+              }
+            },
+            {
+              "id": "cc_ws_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Live Coaching and Workshop Options",
+                "header_size": "h2",
+                "title_color": "#1f2933",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": 1.7
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "cc_ws_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Pair self-paced lessons with live sessions, Q&amp;A calls, and replay-based learning experiences.</p>",
+                "text_color": "#6b7280",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.0
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "44",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_ws_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "repeat(4, 1fr)",
+            "gap": {
+              "unit": "px",
+              "column": "24",
+              "row": "24"
+            },
+            "_tablet_grid_columns_grid": "repeat(2, 1fr)",
+            "_mobile_grid_columns_grid": "repeat(1, 1fr)"
+          },
+          "elements": [
+            {
+              "id": "cc_ws_c1",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-workshop-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 22,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "10"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_ws_c1_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Weekly Group Coaching",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.05
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ws_c1_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Join live group sessions to ask questions, share progress, and learn alongside other students.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ws_c2",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-workshop-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 22,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "10"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_ws_c2_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Office Hours",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.05
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ws_c2_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Drop into open office hours for direct feedback on your work and one-on-one guidance.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ws_c3",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-workshop-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 22,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "10"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_ws_c3_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Workshop Replays",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.05
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ws_c3_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Access recorded workshops and past coaching sessions in the member replay library.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ws_c4",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-workshop-card",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 22,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.07)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "10"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_ws_c4_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Private Coaching Add-On",
+                    "header_size": "h3",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.05
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ws_c4_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Upgrade to private coaching sessions for focused, personalised guidance on your goals.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_rs_outer",
+      "elType": "container",
+      "settings": {
+        "css_classes": "course-resource-strip",
+        "background_background": "classic",
+        "background_color": "#f3eadc",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_rs_header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_rs_eyebrow",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Learning Resources",
+                "header_size": "p",
+                "title_color": "#14532d",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.7
+                },
+                "background_background": "classic",
+                "background_color": "#f5dfbd",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "14",
+                  "bottom": "6",
+                  "left": "14",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "width": {
+                  "unit": "auto"
+                }
+              }
+            },
+            {
+              "id": "cc_rs_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Resources That Support Every Lesson",
+                "header_size": "h2",
+                "title_color": "#1f2933",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": 1.7
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "cc_rs_grid",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "repeat(4, 1fr)",
+            "gap": {
+              "unit": "px",
+              "column": "24",
+              "row": "24"
+            },
+            "_tablet_grid_columns_grid": "repeat(2, 1fr)",
+            "_mobile_grid_columns_grid": "repeat(1, 1fr)"
+          },
+          "elements": [
+            {
+              "id": "cc_rs_i1",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-resource-item",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.06)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "22",
+                  "bottom": "24",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "8"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_rs_i1_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Lesson Notes",
+                    "header_size": "h4",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.0
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_rs_i1_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Written summaries and key takeaways to accompany every video lesson in your learning path.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_rs_i2",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-resource-item",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.06)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "22",
+                  "bottom": "24",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "8"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_rs_i2_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Replay Library",
+                    "header_size": "h4",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.0
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_rs_i2_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Access recordings of past live sessions, workshops, and coaching calls at any time.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_rs_i3",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-resource-item",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.06)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "22",
+                  "bottom": "24",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "8"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_rs_i3_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Member Discussions",
+                    "header_size": "h4",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.0
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_rs_i3_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Join topic-based discussion threads where students share ideas and support each other.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_rs_i4",
+              "elType": "container",
+              "settings": {
+                "css_classes": "course-resource-item",
+                "background_background": "classic",
+                "background_color": "#fffdf8",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#e7dccb",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "rgba(70,53,31,0.06)"
+                },
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "22",
+                  "bottom": "24",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "8"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cc_rs_i4_ttl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Downloadable Guides",
+                    "header_size": "h4",
+                    "title_color": "#1f2933",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1.0
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "cc_rs_i4_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Practical reference guides and templates members can save and use alongside their lessons.</p>",
+                    "text_color": "#6b7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_cta_outer",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fbf7ef",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
+      },
+      "elements": [
+        {
+          "id": "cc_cta_band",
+          "elType": "container",
+          "settings": {
+            "css_classes": "course-cta-band",
+            "background_background": "classic",
+            "background_color": "#14532d",
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 20,
+              "blur": 56,
+              "spread": 0,
+              "color": "rgba(20,83,45,0.22)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "72",
+              "right": "48",
+              "bottom": "72",
+              "left": "48",
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": "0",
+              "row": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_cta_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Find the Right Learning Path for Your Goals",
+                "header_size": "h2",
+                "title_color": "#fffdf8",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.6
+                },
+                "typography_font_size_mobile": {
+                  "unit": "rem",
+                  "size": 1.8
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              }
+            },
+            {
+              "id": "cc_cta_p",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Use Videohub360 to present courses, live coaching, member resources, and community learning in one branded academy experience.</p>",
+                "text_color": "rgba(255,253,248,0.75)",
+                "typography_typography": "custom",
+                "align": "center",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.05
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            },
+            {
+              "id": "cc_cta_btns",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "14",
+                  "row": "12"
+                },
+                "justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "cc_cta_btn1",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Enrollment Options",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#enroll"
+                    },
+                    "background_background": "classic",
+                    "background_color": "#c47f2c",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "yes",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 22,
+                      "spread": 0,
+                      "color": "rgba(196,127,44,0.30)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "28",
+                      "bottom": "14",
+                      "left": "28",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_cta_btn2",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore Featured Course",
+                    "align": "left",
+                    "button_type": "default",
+                    "link": {
+                      "url": "#courses"
+                    },
+                    "background_background": "classic",
+                    "background_color": "transparent",
+                    "button_text_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_box_shadow_box_shadow_type": "no",
+                    "button_box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 8,
+                      "blur": 20,
+                      "spread": 0,
+                      "color": "rgba(20,83,45,0.22)"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "28",
+                      "bottom": "14",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2",
+                      "isLinked": true
+                    },
+                    "border_color": "rgba(255,253,248,0.40)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc_ftr_outer",
+      "elType": "container",
+      "settings": {
+        "css_classes": "course-footer",
+        "background_background": "classic",
+        "background_color": "#0f3f23",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        },
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        },
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "cc_ftr_top",
+          "elType": "container",
+          "settings": {
+            "container_type": "grid",
+            "grid_columns_grid": "2fr 1fr 1fr 1fr 1fr 1fr",
+            "gap": {
+              "unit": "px",
+              "column": "32",
+              "row": "40"
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "48",
+              "left": "0",
+              "isLinked": false
+            },
+            "_tablet_grid_columns_grid": "repeat(3, 1fr)",
+            "_mobile_grid_columns_grid": "repeat(2, 1fr)"
+          },
+          "elements": [
+            {
+              "id": "cc_ftr_brand",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_brand_name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Pathway Academy",
+                    "header_size": "p",
+                    "title_color": "#fffdf8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_weight": "800",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_brand_desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>A branded video learning platform for courses, live coaching, and paid community memberships.</p>",
+                    "text_color": "rgba(255,255,255,0.55)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ftr_courses",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_courses_h",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Courses",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_courses_l",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>All Courses<br>Beginner Library<br>Member Lessons<br>Learning Tracks</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 2.0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ftr_coaching",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_coaching_h",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Coaching",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_coaching_l",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Live Sessions<br>Office Hours<br>Workshop Replays<br>Private Coaching</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 2.0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ftr_resources",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_resources_h",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Resources",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_resources_l",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Lesson Notes<br>Replay Library<br>Downloadable Guides<br>Member Area</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 2.0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ftr_community",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_community_h",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Community",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_community_l",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Member Discussions<br>Student Updates<br>Events<br>Community Feed</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 2.0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc_ftr_support",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "cc_ftr_support_h",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Support",
+                    "header_size": "p",
+                    "title_color": "rgba(255,255,255,0.40)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 0.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "14",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cc_ftr_support_l",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Help Center<br>Contact Us<br>FAQ<br>About</p>",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 2.0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc_ftr_divider",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "style": "solid",
+            "color": "rgba(255,255,255,0.10)",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "28",
+              "left": "0",
+              "isLinked": false
+            }
+          }
+        },
+        {
+          "id": "cc_ftr_bottom",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "justify_content": "space-between",
+            "align_items": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "column": "24",
+              "row": "12"
+            }
+          },
+          "elements": [
+            {
+              "id": "cc_ftr_copy",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>&copy; 2025 Pathway Academy. Sample demo content \u2014 not a real platform.</p>",
+                "text_color": "rgba(255,255,255,0.40)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "cc_ftr_powered",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Powered by Videohub360</p>",
+                "text_color": "rgba(255,255,255,0.40)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
