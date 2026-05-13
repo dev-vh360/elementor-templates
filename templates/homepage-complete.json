@@ -9,9 +9,6 @@
       "settings": {
         "background_background": "classic",
         "background_color": "",
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -1942,9 +1939,6 @@
       "id": "svc_section",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -3061,9 +3055,6 @@
       "id": "stats_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -3781,9 +3772,6 @@
       "id": "cta_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180

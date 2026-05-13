@@ -7,13 +7,24 @@
       "id": "ab_cta_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
-        "_background_gradient_angle": {"unit": "deg", "size": 180},
-        "padding": {"unit": "px", "top": "0", "right": "16", "bottom": "80", "left": "16", "isLinked": false},
+        "_background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "16",
+          "bottom": "80",
+          "left": "16",
+          "isLinked": false
+        },
         "content_width": "boxed",
-        "boxed_width": {"unit": "px", "size": 1180}
+        "boxed_width": {
+          "unit": "px",
+          "size": 1180
+        }
       },
       "elements": [
         {
@@ -23,13 +34,39 @@
             "background_background": "gradient",
             "background_color": "#1e3a8a",
             "background_color_b": "#0f766e",
-            "background_gradient_angle": {"unit": "deg", "size": 135},
-            "border_radius": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true},
-            "padding": {"unit": "px", "top": "42", "right": "42", "bottom": "42", "left": "42", "isLinked": true},
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "42",
+              "right": "42",
+              "bottom": "42",
+              "left": "42",
+              "isLinked": true
+            },
             "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow": {"horizontal": 0, "vertical": 18, "blur": 40, "spread": 0, "color": "rgba(15, 23, 42, 0.08)"},
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 18,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(15, 23, 42, 0.08)"
+            },
             "flex_direction": "column",
-            "width": {"unit": "%", "size": 100}
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
           },
           "elements": [
             {
@@ -42,11 +79,27 @@
                 "align": "left",
                 "title_color": "#ffffff",
                 "typography_typography": "custom",
-                "typography_font_size": {"unit": "rem", "size": 2.4},
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 2.4
+                },
                 "typography_font_weight": "700",
-                "typography_line_height": {"unit": "em", "size": 1.15},
-                "typography_letter_spacing": {"unit": "em", "size": -0.02},
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "14", "left": "0", "isLinked": false}
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.02
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "14",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
@@ -57,9 +110,22 @@
                 "editor": "<p>Whether someone is looking for therapy, preventive care, chronic condition guidance, or virtual access to trusted professionals, this platform is designed to help them feel supported every step of the way.</p>",
                 "text_color": "rgba(255, 255, 255, 0.86)",
                 "typography_typography": "custom",
-                "typography_font_size": {"unit": "rem", "size": 1.05},
-                "max_width": {"unit": "px", "size": 760},
-                "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "26", "left": "0", "isLinked": false}
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1.05
+                },
+                "max_width": {
+                  "unit": "px",
+                  "size": 760
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "26",
+                  "left": "0",
+                  "isLinked": false
+                }
               }
             },
             {
@@ -68,7 +134,10 @@
               "settings": {
                 "flex_direction": "row",
                 "flex_wrap": "wrap",
-                "gap": {"unit": "px", "size": 14}
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
               },
               "elements": [
                 {
@@ -77,15 +146,34 @@
                   "widgetType": "button",
                   "settings": {
                     "text": "View Providers",
-                    "link": {"url": "#providers"},
+                    "link": {
+                      "url": "#providers"
+                    },
                     "background_color": "#2563eb",
                     "button_text_color": "#ffffff",
-                    "border_radius": {"unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true},
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
                     "typography_typography": "custom",
                     "typography_font_weight": "700",
-                    "padding": {"unit": "px", "top": "14", "right": "22", "bottom": "14", "left": "22", "isLinked": false},
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "22",
+                      "bottom": "14",
+                      "left": "22",
+                      "isLinked": false
+                    },
                     "hover_background_color": "#1d4ed8",
-                    "min_height": {"unit": "px", "size": 50}
+                    "min_height": {
+                      "unit": "px",
+                      "size": 50
+                    }
                   }
                 },
                 {
@@ -94,17 +182,43 @@
                   "widgetType": "button",
                   "settings": {
                     "text": "Learn More",
-                    "link": {"url": "#services"},
+                    "link": {
+                      "url": "#services"
+                    },
                     "background_color": "#ffffff",
                     "button_text_color": "#1f2937",
                     "border_border": "solid",
-                    "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
                     "border_color": "#e5e7eb",
-                    "border_radius": {"unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true},
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    },
                     "typography_typography": "custom",
                     "typography_font_weight": "700",
-                    "padding": {"unit": "px", "top": "14", "right": "22", "bottom": "14", "left": "22", "isLinked": false},
-                    "min_height": {"unit": "px", "size": 50}
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "22",
+                      "bottom": "14",
+                      "left": "22",
+                      "isLinked": false
+                    },
+                    "min_height": {
+                      "unit": "px",
+                      "size": 50
+                    }
                   }
                 }
               ]
