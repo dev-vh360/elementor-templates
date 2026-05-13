@@ -11,11 +11,11 @@
    CSS CUSTOM PROPERTIES (Design Tokens)
    ============================================================ */
 :root {
-  --cd-bg:           #f8fafc;
-  --cd-surface:      #ffffff;
+  --cd-bg:           var(--surface-1, #f8fafc);
+  --cd-surface:      var(--surface-2, #ffffff);
   --cd-surface-soft: #f1f5f9;
-  --cd-text:         #0f172a;
-  --cd-muted:        #64748b;
+  --cd-text:         var(--text-1, #0f172a);
+  --cd-muted:        var(--text-2, #64748b);
   --cd-primary:      #2563eb;
   --cd-primary-dark: #1d4ed8;
   --cd-accent:       #7c3aed;

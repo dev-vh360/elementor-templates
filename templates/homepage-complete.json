@@ -9,9 +9,6 @@
       "settings": {
         "background_background": "classic",
         "background_color": "",
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -542,8 +539,6 @@
       "id": "prov_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
@@ -1944,9 +1939,6 @@
       "id": "svc_section",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -2393,8 +2385,6 @@
       "id": "wcu_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
@@ -3065,9 +3055,6 @@
       "id": "stats_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -3410,8 +3397,6 @@
       "id": "testi_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
@@ -3787,9 +3772,6 @@
       "id": "cta_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
-        "_background_color_b": "#f4f8fc",
         "_background_gradient_angle": {
           "unit": "deg",
           "size": 180
@@ -4055,10 +4037,7 @@
       ]
     }
   ],
-  "page_settings": {
-    "background_background": "classic",
-    "background_color": "#f6f8fb"
-  },
+  "page_settings": {},
   "metadata": {
     "template_type": "page",
     "description": "Complete healthcare platform homepage combining all 7 sections: How It Works, Featured Providers, Services, Why Choose Us, Stats Bar, Testimonials, and CTA.",

@@ -7,8 +7,6 @@
       "id": "ab_hero_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -700,8 +698,6 @@
       "id": "ab_stats_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -1126,8 +1122,6 @@
       "id": "ab_svc_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -1541,8 +1535,6 @@
       "id": "ab_ben_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -2047,8 +2039,6 @@
       "id": "ab_team_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -2910,8 +2900,6 @@
       "id": "ab_mv_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -3194,8 +3182,6 @@
       "id": "ab_cta_outer",
       "elType": "container",
       "settings": {
-        "_background_background": "gradient",
-        "_background_color": "#f8fbff",
         "_background_color_b": "#f4f7fb",
         "_background_gradient_angle": {
           "unit": "deg",
@@ -3417,10 +3403,7 @@
       ]
     }
   ],
-  "page_settings": {
-    "background_background": "classic",
-    "background_color": "#f6f8fb"
-  },
+  "page_settings": {},
   "metadata": {
     "template_type": "page",
     "description": "Complete About Us page template for a virtual healthcare platform. Includes Hero, Stats, Services, Benefits, Team, Mission/Vision, and CTA sections.",

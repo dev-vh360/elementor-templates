@@ -1,14 +1,12 @@
 {
   "version": "0.4",
-  "title": "Pathway Academy — Online Course & Coaching Demo",
+  "title": "Pathway Academy \u2014 Online Course & Coaching Demo",
   "type": "page",
   "content": [
     {
       "id": "ch_hero_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "120",
@@ -561,8 +559,6 @@
       "id": "cs_stats_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -814,7 +810,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "4.9★",
+                    "title": "4.9\u2605",
                     "header_size": "p",
                     "align": "center",
                     "title_color": "#fffdf8",
@@ -864,8 +860,6 @@
       "id": "cfc_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fffdf8",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -1173,7 +1167,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "8 lessons  ·  Member Access",
+                        "title": "8 lessons  \u00b7  Member Access",
                         "header_size": "p",
                         "title_color": "#6b7280",
                         "typography_typography": "custom",
@@ -1375,7 +1369,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "10 lessons  ·  Coaching Included",
+                        "title": "10 lessons  \u00b7  Coaching Included",
                         "header_size": "p",
                         "title_color": "#6b7280",
                         "typography_typography": "custom",
@@ -1577,7 +1571,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "6 lessons  ·  Free Preview",
+                        "title": "6 lessons  \u00b7  Free Preview",
                         "header_size": "p",
                         "title_color": "#6b7280",
                         "typography_typography": "custom",
@@ -1779,7 +1773,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "14 lessons  ·  Member Access",
+                        "title": "14 lessons  \u00b7  Member Access",
                         "header_size": "p",
                         "title_color": "#6b7280",
                         "typography_typography": "custom",
@@ -1838,8 +1832,6 @@
       "id": "clp_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -1965,7 +1957,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Courses, coaching, and community — organized so students always know what to do next.</p>",
+                "editor": "<p>Courses, coaching, and community \u2014 organized so students always know what to do next.</p>",
                 "text_color": "#6b7280",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -2466,8 +2458,6 @@
       "id": "cco_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fffdf8",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -2660,7 +2650,7 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "●",
+                            "title": "\u25cf",
                             "header_size": "p",
                             "title_color": "#14532d",
                             "typography_typography": "custom",
@@ -2683,7 +2673,7 @@
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "settings": {
-                            "editor": "<p><strong>Live Group Sessions</strong> — Host group coaching calls, office hours, or live Q&amp;A events for your members.</p>",
+                            "editor": "<p><strong>Live Group Sessions</strong> \u2014 Host group coaching calls, office hours, or live Q&amp;A events for your members.</p>",
                             "text_color": "#6b7280",
                             "typography_typography": "custom",
                             "typography_font_size": {
@@ -2716,7 +2706,7 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "●",
+                            "title": "\u25cf",
                             "header_size": "p",
                             "title_color": "#14532d",
                             "typography_typography": "custom",
@@ -2739,7 +2729,7 @@
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "settings": {
-                            "editor": "<p><strong>Private Coaching Calls</strong> — Offer one-on-one video sessions or booked appointments for premium members.</p>",
+                            "editor": "<p><strong>Private Coaching Calls</strong> \u2014 Offer one-on-one video sessions or booked appointments for premium members.</p>",
                             "text_color": "#6b7280",
                             "typography_typography": "custom",
                             "typography_font_size": {
@@ -2772,7 +2762,7 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "●",
+                            "title": "\u25cf",
                             "header_size": "p",
                             "title_color": "#14532d",
                             "typography_typography": "custom",
@@ -2795,7 +2785,7 @@
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "settings": {
-                            "editor": "<p><strong>Workshop Replays</strong> — Make recorded workshops available for members who could not attend the live session.</p>",
+                            "editor": "<p><strong>Workshop Replays</strong> \u2014 Make recorded workshops available for members who could not attend the live session.</p>",
                             "text_color": "#6b7280",
                             "typography_typography": "custom",
                             "typography_font_size": {
@@ -2828,7 +2818,7 @@
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "●",
+                            "title": "\u25cf",
                             "header_size": "p",
                             "title_color": "#14532d",
                             "typography_typography": "custom",
@@ -2851,7 +2841,7 @@
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "settings": {
-                            "editor": "<p><strong>Member Q&amp;A</strong> — Let community members submit questions before and during sessions for direct answers.</p>",
+                            "editor": "<p><strong>Member Q&amp;A</strong> \u2014 Let community members submit questions before and during sessions for direct answers.</p>",
                             "text_color": "#6b7280",
                             "typography_typography": "custom",
                             "typography_font_size": {
@@ -3096,8 +3086,6 @@
       "id": "cpf_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -3338,7 +3326,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "▶",
+                        "title": "\u25b6",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#14532d",
@@ -3479,7 +3467,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "★",
+                        "title": "\u2605",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#c47f2c",
@@ -3620,7 +3608,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "◎",
+                        "title": "\u25ce",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#16a34a",
@@ -3761,7 +3749,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "◈",
+                        "title": "\u25c8",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#92400e",
@@ -3902,7 +3890,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "◉",
+                        "title": "\u25c9",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#14532d",
@@ -4043,7 +4031,7 @@
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "◱",
+                        "title": "\u25f1",
                         "header_size": "p",
                         "align": "center",
                         "title_color": "#16a34a",
@@ -4108,8 +4096,6 @@
       "id": "cin_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fffdf8",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -4730,8 +4716,6 @@
       "id": "cm_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -5450,8 +5434,6 @@
       "id": "ct_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fffdf8",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -5638,7 +5620,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "★★★★★",
+                    "title": "\u2605\u2605\u2605\u2605\u2605",
                     "header_size": "p",
                     "title_color": "#f59e0b",
                     "typography_typography": "custom",
@@ -5854,7 +5836,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "★★★★★",
+                    "title": "\u2605\u2605\u2605\u2605\u2605",
                     "header_size": "p",
                     "title_color": "#f59e0b",
                     "typography_typography": "custom",
@@ -6070,7 +6052,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "★★★★★",
+                    "title": "\u2605\u2605\u2605\u2605\u2605",
                     "header_size": "p",
                     "title_color": "#f59e0b",
                     "typography_typography": "custom",
@@ -6245,8 +6227,6 @@
       "id": "ccta_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#fbf7ef",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -6929,7 +6909,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>&copy; 2025 Creator Academy. Sample demo content — not a real platform.</p>",
+                "editor": "<p>&copy; 2025 Creator Academy. Sample demo content \u2014 not a real platform.</p>",
                 "text_color": "rgba(255,255,255,0.40)",
                 "typography_typography": "custom",
                 "typography_font_size": {
