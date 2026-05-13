@@ -3403,10 +3403,7 @@
       ]
     }
   ],
-  "page_settings": {
-    "background_background": "classic",
-    "background_color": "#f6f8fb"
-  },
+  "page_settings": {},
   "metadata": {
     "template_type": "page",
     "description": "Complete About Us page template for a virtual healthcare platform. Includes Hero, Stats, Services, Benefits, Team, Mission/Vision, and CTA sections.",

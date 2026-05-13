@@ -4037,10 +4037,7 @@
       ]
     }
   ],
-  "page_settings": {
-    "background_background": "classic",
-    "background_color": "#f6f8fb"
-  },
+  "page_settings": {},
   "metadata": {
     "template_type": "page",
     "description": "Complete healthcare platform homepage combining all 7 sections: How It Works, Featured Providers, Services, Why Choose Us, Stats Bar, Testimonials, and CTA.",

@@ -43,7 +43,11 @@
 }
 
 .hc-section-soft {
-  background: linear-gradient(180deg, #f8fbff 0%, #f4f8fc 100%) !important;
+  background: linear-gradient(
+    180deg,
+    var(--surface-1, #f8fbff) 0%,
+    var(--surface-2, #f4f8fc) 100%
+  ) !important;
 }
 
 
