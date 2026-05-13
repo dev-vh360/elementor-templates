@@ -7,8 +7,6 @@
       "id": "hero_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "120",
@@ -577,8 +575,6 @@
       "id": "stats_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -885,8 +881,6 @@
       "id": "why_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -1366,8 +1360,6 @@
       "id": "features_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -1962,8 +1954,6 @@
       "id": "meet_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -2404,8 +2394,6 @@
       "id": "how_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -3008,8 +2996,6 @@
       "id": "membership_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -3726,8 +3712,6 @@
       "id": "testimonials_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -4171,8 +4155,6 @@
       "id": "cta_outer",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#f8fafc",
         "padding": {
           "unit": "px",
           "top": "80",

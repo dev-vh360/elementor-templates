@@ -542,8 +542,6 @@
       "id": "prov_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
@@ -2393,8 +2391,6 @@
       "id": "wcu_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
@@ -3410,8 +3406,6 @@
       "id": "testi_section",
       "elType": "container",
       "settings": {
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "76",
