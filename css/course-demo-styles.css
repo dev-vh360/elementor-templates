@@ -16,11 +16,11 @@
    CSS CUSTOM PROPERTIES (Design Tokens — Academy Palette)
    ============================================================ */
 :root {
-  --course-bg:            #fbf7ef;
-  --course-surface:       #fffdf8;
-  --course-surface-soft:  #f3eadc;
-  --course-text:          #1f2933;
-  --course-muted:         #6b7280;
+  --course-bg:            var(--surface-1, #fbf7ef);
+  --course-surface:       var(--surface-2, #fffdf8);
+  --course-surface-soft:  var(--surface-2, #f3eadc);
+  --course-text:          var(--text-1, #1f2933);
+  --course-muted:         var(--text-2, #6b7280);
   --course-primary:       #14532d;
   --course-primary-dark:  #0f3f23;
   --course-accent:        #c47f2c;

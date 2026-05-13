@@ -4,6 +4,51 @@ This guide explains how to adapt the Healthcare Platform Elementor Templates to 
 
 ---
 
+## Theme Customizer Background Colors
+
+All demo templates are **theme-aware** for page background and surface colors. This means:
+
+- Changing the theme Customizer background color automatically updates the page canvas background on demo pages.
+- Cards and panels use the theme's surface system (`--surface-2`) where possible, so they also adapt when the theme changes.
+- Brand and accent colors (e.g. the deep green, blue, or teal used for buttons and CTAs) remain demo-specific and are not affected by the Customizer.
+
+### How it works
+
+Each demo CSS file maps its page/surface/text variables to theme CSS custom properties with safe fallbacks:
+
+```css
+/* Course demo */
+--course-bg:      var(--surface-1, #fbf7ef);  /* follows theme page background */
+--course-surface: var(--surface-2, #fffdf8);  /* follows theme surface color */
+--course-text:    var(--text-1, #1f2933);     /* follows theme text color */
+
+/* Creator demo */
+--cd-bg:      var(--surface-1, #f8fafc);
+--cd-surface: var(--surface-2, #ffffff);
+
+/* Healthcare demo */
+--hc-bg:      var(--surface-1, #f6f8fb);
+--hc-surface: var(--surface-2, #ffffff);
+```
+
+If the theme does not define `--surface-1`, `--surface-2`, `--text-1`, or `--text-2`, the demo falls back to its original hardcoded palette automatically.
+
+### What changes when you update the Customizer background
+
+| Element | Follows Customizer | Stays demo-specific |
+|---|---|---|
+| Page/section canvas background | ✅ | |
+| Card and panel backgrounds | ✅ | |
+| Body text color | ✅ | |
+| Muted/secondary text | ✅ | |
+| Primary/accent buttons | | ✅ |
+| CTA blocks | | ✅ |
+| Badges and icons | | ✅ |
+| Header overlay | | ✅ |
+| Footer background | | ✅ |
+
+---
+
 ## Changing Colors
 
 ### Method 1: Update CSS Variables (Recommended)

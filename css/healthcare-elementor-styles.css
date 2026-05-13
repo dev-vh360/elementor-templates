@@ -11,10 +11,10 @@
    CSS CUSTOM PROPERTIES (Design Tokens)
    ============================================================ */
 :root {
-  --hc-bg:           #f6f8fb;
-  --hc-surface:      #ffffff;
-  --hc-text:         #1f2937;
-  --hc-muted:        #6b7280;
+  --hc-bg:           var(--surface-1, #f6f8fb);
+  --hc-surface:      var(--surface-2, #ffffff);
+  --hc-text:         var(--text-1, #1f2937);
+  --hc-muted:        var(--text-2, #6b7280);
   --hc-primary:      #2563eb;
   --hc-primary-dark: #1d4ed8;
   --hc-secondary:    #0f766e;
