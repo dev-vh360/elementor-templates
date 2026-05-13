@@ -1,0 +1,390 @@
+{
+  "version": "0.4",
+  "title": "BEC Promo - Two-Column Grid Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "bec_grid_outer",
+      "elType": "container",
+      "settings": {
+        "_css_classes": "bec-block",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "elements": [
+        {
+          "id": "bec_grid_wrap",
+          "elType": "container",
+          "settings": {
+            "_css_classes": "bec-wrap",
+            "flex_direction": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1100
+            }
+          },
+          "elements": [
+            {
+              "id": "bec_grid_row",
+              "elType": "container",
+              "settings": {
+                "_css_classes": "bec-grid",
+                "container_type": "grid",
+                "grid_columns_grid": {
+                  "size": 12,
+                  "unit": "fr"
+                },
+                "gap": {
+                  "unit": "px",
+                  "column": "18",
+                  "row": "18"
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_tablet_grid_columns_grid": {
+                  "size": 1,
+                  "unit": "fr"
+                },
+                "_mobile_grid_columns_grid": {
+                  "size": 1,
+                  "unit": "fr"
+                }
+              },
+              "elements": [
+                {
+                  "id": "bec_grid_card_primary",
+                  "elType": "container",
+                  "settings": {
+                    "_css_classes": "bec-card bec-card--primary",
+                    "flex_direction": "column",
+                    "grid_column_end": "span 5",
+                    "_mobile_grid_column_end": "span 12"
+                  },
+                  "elements": [
+                    {
+                      "id": "bec_grid_mission_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "_css_classes": "bec-card-title",
+                        "title": "Our Mission",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.01
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "bec_grid_mission_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "_css_classes": "bec-text",
+                        "editor": "<p>Our mission is simple yet urgent: <strong>To empower and equip church leaders to study, teach, and preach God&#8217;s Word.</strong></p>",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.75
+                        }
+                      }
+                    },
+                    {
+                      "id": "bec_grid_cta_wrap",
+                      "elType": "container",
+                      "settings": {
+                        "_css_classes": "bec-cta",
+                        "flex_direction": "column",
+                        "margin": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "bec_grid_reg_btn",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "_css_classes": "bec-btn",
+                            "text": "Register Today",
+                            "link": {
+                              "url": "https://becchicago.com/registration/",
+                              "is_external": true,
+                              "nofollow": true
+                            },
+                            "align": "left",
+                            "background_color": "",
+                            "button_text_color": "#ffffff",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "12",
+                              "right": "12",
+                              "bottom": "12",
+                              "left": "12",
+                              "isLinked": true
+                            },
+                            "typography_typography": "custom",
+                            "typography_font_weight": "900",
+                            "padding": {
+                              "unit": "px",
+                              "top": "12",
+                              "right": "16",
+                              "bottom": "12",
+                              "left": "16",
+                              "isLinked": false
+                            }
+                          }
+                        },
+                        {
+                          "id": "bec_grid_reg_note",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-note",
+                            "editor": "<p>Save the date. Prepare your spirit. Get ready to be renewed! <strong>Registration is open now.</strong></p>",
+                            "typography_typography": "custom",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14
+                            },
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.65
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "bec_grid_card_details",
+                  "elType": "container",
+                  "settings": {
+                    "_css_classes": "bec-card",
+                    "flex_direction": "column",
+                    "grid_column_end": "span 7",
+                    "_mobile_grid_column_end": "span 12"
+                  },
+                  "elements": [
+                    {
+                      "id": "bec_grid_details_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "_css_classes": "bec-card-title",
+                        "title": "Conference Details",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": -0.01
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "bec_grid_detail_dates",
+                      "elType": "container",
+                      "settings": {
+                        "_css_classes": "bec-detail",
+                        "container_type": "grid",
+                        "grid_columns_grid": {
+                          "size": 2,
+                          "unit": "fr"
+                        },
+                        "gap": {
+                          "unit": "px",
+                          "column": "12",
+                          "row": "12"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "bec_grid_dates_label",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-label",
+                            "editor": "<p>Conference Dates</p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "900"
+                          }
+                        },
+                        {
+                          "id": "bec_grid_dates_value",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-value",
+                            "editor": "<p><strong>To be decided</strong></p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "700",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.6
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "bec_grid_detail_location",
+                      "elType": "container",
+                      "settings": {
+                        "_css_classes": "bec-detail",
+                        "container_type": "grid",
+                        "grid_columns_grid": {
+                          "size": 2,
+                          "unit": "fr"
+                        },
+                        "gap": {
+                          "unit": "px",
+                          "column": "12",
+                          "row": "12"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "bec_grid_location_label",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-label",
+                            "editor": "<p>Location</p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "900"
+                          }
+                        },
+                        {
+                          "id": "bec_grid_location_value",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-value",
+                            "editor": "<p>To be decided</p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "700",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.6
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "bec_grid_detail_hotel",
+                      "elType": "container",
+                      "settings": {
+                        "_css_classes": "bec-detail",
+                        "container_type": "grid",
+                        "grid_columns_grid": {
+                          "size": 2,
+                          "unit": "fr"
+                        },
+                        "gap": {
+                          "unit": "px",
+                          "column": "12",
+                          "row": "12"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "bec_grid_hotel_label",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-label",
+                            "editor": "<p>Book Your Room</p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "900"
+                          }
+                        },
+                        {
+                          "id": "bec_grid_hotel_value",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "_css_classes": "bec-value",
+                            "editor": "<p>To be decided<br />Group Rate ID: <strong>GRMGRMG</strong></p>",
+                            "typography_typography": "custom",
+                            "typography_font_weight": "700",
+                            "typography_line_height": {
+                              "unit": "em",
+                              "size": 1.6
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "BEC Promo Grid — two-column layout with Mission card (left, 5/12) containing CTA button and Details card (right, 7/12) listing conference dates, location, and hotel group rate.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}

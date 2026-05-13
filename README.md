@@ -4,6 +4,7 @@ A complete set of Elementor page templates including:
 - **Healthcare Platform** — Virtual healthcare platform with light theme (blue/teal)
 - **Creator Platform Demo** — Clean creator platform with light theme (blue/purple accent)
 - **Online Course / Coaching Demo** — Warm academy-style course and coaching platform (cream / deep green / gold)
+- **BEC Conference Promo Block** — Biblical Exposition Conference promo block (light, indigo/green accent)
 - Videohub360 community/streaming templates
 
 Includes full page templates, modular section templates, custom CSS, and comprehensive documentation.
@@ -69,6 +70,17 @@ Includes full page templates, modular section templates, custom CSS, and compreh
 | `css/course-demo-styles.css` | Warm academy stylesheet (cream/green/gold), `.course-*` class prefix |
 | `docs/COURSE-DEMO-GUIDE.md` | Design philosophy, customization tips, safe wording rules |
 | `docs/COURSE-DEMO-SETUP.md` | Step-by-step import and configuration instructions |
+
+### BEC Conference Promo Block Templates (Light Theme)
+
+| Path | Contents |
+|------|----------|
+| `bec-templates/bec-promo-complete.json` | Full BEC Promo Block (all sections combined) |
+| `bec-templates/bec-promo-hero.json` | Hero section — kicker badge, H2 title, lead paragraph |
+| `bec-templates/bec-promo-grid.json` | Two-column grid — Mission card (left) + Conference Details card (right) |
+| `bec-templates/bec-promo-registration.json` | Registration rates — full-width card with three pricing tiers |
+| `css/bec-styles.css` | Self-contained BEC stylesheet (indigo/green accent), `.bec-*` class prefix |
+| `docs/BEC-TEMPLATES-GUIDE.md` | BEC Promo Block setup, customization, and design tokens reference |
 
 ### Shared Resources
 

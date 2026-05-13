@@ -1,0 +1,156 @@
+{
+  "version": "0.4",
+  "title": "BEC Promo - Hero Section",
+  "type": "section",
+  "content": [
+    {
+      "id": "bec_hero_outer",
+      "elType": "container",
+      "settings": {
+        "_css_classes": "bec-block",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "elements": [
+        {
+          "id": "bec_hero_wrap",
+          "elType": "container",
+          "settings": {
+            "_css_classes": "bec-wrap",
+            "flex_direction": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1100
+            }
+          },
+          "elements": [
+            {
+              "id": "bec_hero_header",
+              "elType": "container",
+              "settings": {
+                "_css_classes": "bec-hero",
+                "flex_direction": "column",
+                "align_items": "center",
+                "text_align": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "bec_hero_kicker",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "_css_classes": "bec-kicker",
+                    "title": "Biblical Exposition Conference • April 2027",
+                    "header_size": "div",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "900",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.02
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "10",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "bec_hero_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "_css_classes": "bec-title",
+                    "title": "The Biblical Exposition Conference (BEC) returns in April 2027",
+                    "header_size": "h2",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 38
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.02
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.12
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "8",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "bec_hero_lead",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "_css_classes": "bec-lead",
+                    "editor": "<p>Gathering pastors, teachers, and believers for a transforming time in God&#8217;s Word.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "max_width": {
+                      "unit": "px",
+                      "size": 900
+                    },
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {},
+  "metadata": {
+    "template_type": "section",
+    "description": "BEC Promo Hero — centered kicker badge, H2 title, and lead paragraph introducing the Biblical Exposition Conference April 2027.",
+    "elementor_pro_required": false,
+    "version": "1.0.0"
+  }
+}
