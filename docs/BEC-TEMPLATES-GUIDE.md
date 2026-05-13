@@ -119,14 +119,22 @@ All visual tokens are defined as CSS custom properties on `.bec-block`:
 
 | Property | Default Value | Usage |
 |----------|---------------|-------|
-| `--bg` | `#f8fafc` | Section background (gradient end) |
+| `--bg` | `#f1f5f9` | Section background (gradient mesh base) |
 | `--card` | `#ffffff` | Card background |
-| `--border` | `#e5e7eb` | Card border color |
+| `--border` | `#e2e8f0` | Card border color |
 | `--text` | `#0f172a` | Primary text color |
 | `--muted` | `#475569` | Secondary / muted text color |
-| `--accent` | `#4f46e5` | Primary accent (indigo) — button gradient start, kicker border |
-| `--accent2` | `#16a34a` | Secondary accent (green) — button gradient end |
-| `--shadow` | `0 14px 36px rgba(2,6,23,.08)` | Card box shadow |
+| `--accent` | `#4f46e5` | Primary accent (indigo) — button, Standard tier, detail borders |
+| `--accent2` | `#16a34a` | Secondary accent (green) — Early tier, button gradient end |
+| `--accent-light` | `#eef2ff` | Light indigo tint — kicker badge background, Mission card background |
+| `--accent2-light` | `#dcfce7` | Light green tint |
+| `--gold` | `#d97706` | Amber accent — Onsite tier and registration rates card top bar |
+| `--gold-light` | `#fef3c7` | Light amber tint |
+| `--shadow-sm` | `0 2px 8px rgba(2,6,23,.06)` | Subtle tier card shadow |
+| `--shadow` | `0 8px 28px rgba(2,6,23,.10)` | Standard card shadow |
+| `--shadow-lg` | `0 20px 48px rgba(2,6,23,.14)` | Card hover-lift shadow |
+| `--radius` | `20px` | Card border radius |
+| `--radius-sm` | `14px` | Inner element border radius |
 
 ---
 

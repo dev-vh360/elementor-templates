@@ -1,7 +1,7 @@
 /*
  * bec-styles.css
  * BEC (Biblical Exposition Conference) Promo Block styles for Elementor Templates
- * Version: 1.0.0
+ * Version: 2.0.0
  *
  * USAGE: Paste this CSS into Elementor > Site Settings > Custom CSS
  *        or enqueue it via your child theme's functions.php
@@ -15,162 +15,494 @@
  *        after adding this CSS.
  */
 
-.bec-block{
-  --bg:#f8fafc;
-  --card:#ffffff;
-  --border:#e5e7eb;
-  --text:#0f172a;
-  --muted:#475569;
-  --accent:#4f46e5;
-  --accent2:#16a34a;
-  --shadow:0 14px 36px rgba(2,6,23,.08);
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+.bec-block {
+  --bg: #f1f5f9;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #4f46e5;
+  --accent2: #16a34a;
+  --accent-light: #eef2ff;
+  --accent2-light: #dcfce7;
+  --gold: #d97706;
+  --gold-light: #fef3c7;
+  --shadow-sm: 0 2px 8px rgba(2, 6, 23, .06);
+  --shadow: 0 8px 28px rgba(2, 6, 23, .10);
+  --shadow-lg: 0 20px 48px rgba(2, 6, 23, .14);
+  --radius: 20px;
+  --radius-sm: 14px;
+}
 
-  background: linear-gradient(180deg, #ffffff, var(--bg));
-  padding: clamp(28px, 4vw, 56px) 16px;
-  border-radius: 16px;
+
+/* ============================================================
+   BLOCK WRAPPER — mesh background + rainbow top bar
+   ============================================================ */
+.bec-block {
+  position: relative;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(79, 70, 229, .09), transparent),
+    radial-gradient(ellipse 50% 40% at 90% 80%,  rgba(22, 163, 74, .07),  transparent),
+    radial-gradient(ellipse 40% 30% at 10% 90%,  rgba(79, 70, 229, .06),  transparent);
+  padding: clamp(40px, 5vw, 72px) clamp(16px, 3vw, 32px);
   color: var(--text);
+  overflow: hidden;
 }
 
-.bec-wrap{max-width:1100px;margin:0 auto;}
-
-.bec-hero{text-align:center;margin-bottom:22px;}
-.bec-kicker{
-  display:inline-flex;align-items:center;justify-content:center;
-  padding:6px 12px;border-radius:999px;
-  background:#eef2ff;color:#3730a3;
-  border:1px solid rgba(79,70,229,.15);
-  font-weight:900;font-size:12px;letter-spacing:.02em;
-  margin-bottom:10px;
-}
-.bec-title{
-  margin:0 0 8px;
-  font-size:clamp(26px,2.6vw,38px);
-  letter-spacing:-.02em;
-  line-height:1.12;
-}
-.bec-lead{
-  margin:0 auto;
-  max-width:900px;
-  color:var(--muted);
-  font-size:17px;
-  line-height:1.75;
+/* Rainbow rule across the very top of the block */
+.bec-block::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent) 0%, #818cf8 40%, var(--accent2) 70%, #86efac 100%);
 }
 
-.bec-grid{
-  display:grid;
+/* Faint large circle in the background for depth */
+.bec-block::after {
+  content: "";
+  position: absolute;
+  top: -220px; right: -220px;
+  width: 560px; height: 560px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(79, 70, 229, .07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   WRAP
+   ============================================================ */
+.bec-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative; /* sit above ::after pseudo */
+  z-index: 1;
+}
+
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.bec-hero {
+  text-align: center;
+  margin-bottom: 36px;
+  padding: 0 clamp(0px, 4vw, 80px);
+}
+
+.bec-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: #3730a3;
+  border: 1px solid rgba(79, 70, 229, .25);
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, .12);
+}
+
+/* Small cross icon before the kicker text */
+.bec-kicker::before {
+  content: "✝";
+  font-size: 10px;
+  opacity: .7;
+}
+
+/* Gradient title text */
+.bec-title {
+  margin: 0 0 16px;
+  font-size: clamp(28px, 3.2vw, 46px);
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--text) 0%, #312e81 55%, var(--accent2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Decorative divider below the title */
+.bec-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 14px auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+
+.bec-lead {
+  margin: 0 auto;
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+
+/* ============================================================
+   GRID
+   ============================================================ */
+.bec-grid {
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 18px;
-  margin-top: 18px;
+  gap: 22px;
+  margin-top: 8px;
 }
 
-.bec-card{
+
+/* ============================================================
+   CARDS — base
+   ============================================================ */
+.bec-card {
   grid-column: span 12;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 22px;
+  border-radius: var(--radius);
+  padding: 28px 26px;
   box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.bec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Colored top accent bar on every card */
+.bec-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #818cf8);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.bec-card-title {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Accent dot before every card title */
+.bec-card-title::before {
+  content: "";
+  flex-shrink: 0;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+}
+
+
+/* ============================================================
+   PRIMARY CARD (Mission)
+   ============================================================ */
+.bec-card--primary {
+  background: linear-gradient(150deg, #fafafa 0%, var(--accent-light) 100%);
+  border-color: rgba(79, 70, 229, .2);
+}
+
+/* Override the top bar to use a stronger indigo-to-green */
+.bec-card--primary::before {
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  height: 4px;
+}
+
+.bec-card--primary > * {
+  position: relative;
+}
+
+.bec-text {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 15.5px;
+}
+
+.bec-text strong {
+  color: var(--text);
+  font-weight: 800;
+}
+
+
+/* ============================================================
+   CTA AREA
+   ============================================================ */
+.bec-cta {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(79, 70, 229, .15);
+}
+
+.bec-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: var(--radius-sm);
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: .02em;
+  color: #fff;
+  background: linear-gradient(90deg, var(--accent) 0%, #6d28d9 50%, var(--accent2) 100%);
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  box-shadow: 0 6px 24px rgba(79, 70, 229, .35);
+  transition: background-position .4s ease, transform .1s ease, box-shadow .2s ease;
   position: relative;
   overflow: hidden;
 }
 
-.bec-card--primary::before{
-  content:"";
-  position:absolute; inset:-2px;
-  background: radial-gradient(800px 170px at 15% 0%, rgba(79,70,229,.12), transparent 60%),
-              radial-gradient(700px 170px at 90% 0%, rgba(22,163,74,.10), transparent 60%);
-  pointer-events:none;
-}
-.bec-card--primary > *{position:relative;}
-
-.bec-card-title{
-  margin:0 0 10px;
-  font-size: 20px;
-  letter-spacing:-.01em;
+/* Arrow after button text */
+.bec-btn::after {
+  content: "→";
+  font-size: 16px;
+  transition: transform .2s ease;
 }
 
-.bec-text{
-  margin:0;
-  color:var(--muted);
-  line-height:1.75;
-  font-size:16px;
+.bec-btn:hover {
+  background-position: 100% 0%;
+  box-shadow: 0 10px 32px rgba(79, 70, 229, .45);
 }
 
-.bec-cta{margin-top:16px;}
-.bec-btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  text-decoration:none;
-  padding: 12px 16px;
-  border-radius: 12px;
-  font-weight: 900;
-  color: #fff;
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
-  box-shadow: 0 14px 28px rgba(79,70,229,.18);
-  transition: transform .08s ease, filter .2s ease;
+.bec-btn:hover::after {
+  transform: translateX(4px);
 }
-.bec-btn:hover{ filter: brightness(1.05); }
-.bec-btn:active{ transform: translateY(1px); }
-.bec-btn:focus{ outline: 2px solid rgba(79,70,229,.35); outline-offset: 2px; }
 
-.bec-note{
-  margin: 12px 0 0;
+.bec-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 16px rgba(79, 70, 229, .3);
+}
+
+.bec-btn:focus {
+  outline: 3px solid rgba(79, 70, 229, .4);
+  outline-offset: 3px;
+}
+
+.bec-note {
+  margin: 14px 0 0;
   color: var(--muted);
+  line-height: 1.65;
+  font-size: 13px;
+  background: rgba(255,255,255,.7);
+  border: 1px solid rgba(79,70,229,.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.bec-note strong {
+  color: var(--accent2);
+}
+
+
+/* ============================================================
+   CONFERENCE DETAIL ROWS
+   ============================================================ */
+.bec-detail {
+  display: grid;
+  grid-template-columns: 148px 1fr;
+  gap: 0 16px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  margin-top: 10px;
+  align-items: start;
+  transition: border-left-color .2s ease, background .2s ease;
+}
+
+.bec-detail:hover {
+  border-left-color: var(--accent2);
+  background: #f8fafc;
+}
+
+.bec-detail:nth-child(3) { border-left-color: #6d28d9; }
+.bec-detail:nth-child(4) { border-left-color: var(--accent2); }
+
+.bec-label {
+  font-weight: 800;
+  font-size: 13px;
+  color: var(--text);
+  letter-spacing: .01em;
+  padding-top: 1px;
+}
+
+.bec-value {
+  color: var(--muted);
+  font-weight: 600;
   line-height: 1.65;
   font-size: 14px;
 }
 
-.bec-detail{
-  display:grid;
-  grid-template-columns: 150px 1fr;
-  gap: 12px;
-  padding: 12px 14px;
-  border-radius: 14px;
-  background:#f8fafc;
-  border: 1px solid #e2e8f0;
-  margin-top: 10px;
+.bec-value strong {
+  color: var(--text);
+  font-weight: 800;
 }
-.bec-label{font-weight:900;color:var(--text);}
-.bec-value{color:var(--muted);font-weight:700;line-height:1.6;}
 
-.bec-card--full{grid-column: span 12;}
 
-.bec-tiers{
-  display:grid;
+/* ============================================================
+   REGISTRATION RATES — full-width card
+   ============================================================ */
+.bec-card--full {
+  grid-column: span 12;
+  background: linear-gradient(160deg, #ffffff 0%, #f8f9ff 100%);
+}
+
+/* Override the top bar to gold for the rates card */
+.bec-card--full::before {
+  background: linear-gradient(90deg, var(--gold), #fbbf24, var(--accent2));
+  height: 4px;
+}
+
+.bec-tiers {
+  display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+/* ---- Tier cards ---- */
+.bec-tier {
+  position: relative;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  border-radius: var(--radius-sm);
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.bec-tier:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+/* Colored top stripe per tier */
+.bec-tier::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+/* Early — green */
+.bec-tier:nth-child(1)::before {
+  background: linear-gradient(90deg, #16a34a, #4ade80);
+}
+
+/* Standard — indigo (featured) */
+.bec-tier:nth-child(2) {
+  background: linear-gradient(160deg, var(--accent-light) 0%, #ffffff 60%);
+  border-color: rgba(79, 70, 229, .3);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, .08), var(--shadow);
+}
+
+.bec-tier:nth-child(2)::before {
+  background: linear-gradient(90deg, var(--accent), #818cf8);
+}
+
+/* "Best Value" ribbon on Standard */
+.bec-tier:nth-child(2)::after {
+  content: "Best Value";
+  position: absolute;
+  top: 14px; right: -22px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 3px 28px;
+  transform: rotate(35deg);
+}
+
+/* Onsite — amber */
+.bec-tier:nth-child(3)::before {
+  background: linear-gradient(90deg, var(--gold), #fbbf24);
+}
+
+.bec-tier-title {
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--text);
+  letter-spacing: -.01em;
+  margin-top: 2px;
+}
+
+.bec-tier-sub {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: .01em;
+}
+
+.bec-tier-price {
   margin-top: 12px;
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: -.03em;
+  color: var(--text);
+  line-height: 1;
 }
 
-.bec-tier{
-  border: 1px solid #e2e8f0;
-  background: #f8fafc;
-  border-radius: 16px;
-  padding: 14px 14px;
-  display:flex;
-  flex-direction:column;
-  gap: 3px;
-}
-.bec-tier-title{font-weight:900;color:var(--text);}
-.bec-tier-sub{color:var(--muted);font-weight:700;}
-.bec-tier-price{
-  margin-top:6px;
-  font-weight: 1000;
-  font-size: 20px;
-  letter-spacing:-.01em;
+/* Accent color on price per tier */
+.bec-tier:nth-child(1) .bec-tier-price { color: #15803d; }
+.bec-tier:nth-child(2) .bec-tier-price { color: var(--accent); }
+.bec-tier:nth-child(3) .bec-tier-price { color: var(--gold); }
+
+
+/* ============================================================
+   RESPONSIVE — ≥ 900 px
+   ============================================================ */
+@media (min-width: 900px) {
+  .bec-grid > .bec-card:nth-child(1) { grid-column: span 5; }
+  .bec-grid > .bec-card:nth-child(2) { grid-column: span 7; }
+  .bec-card--full                     { grid-column: span 12; }
+
+  .bec-tiers { grid-template-columns: repeat(3, 1fr); }
 }
 
-@media (min-width: 900px){
-  .bec-grid > .bec-card:nth-child(1){ grid-column: span 5; }
-  .bec-grid > .bec-card:nth-child(2){ grid-column: span 7; }
-  .bec-card--full{ grid-column: span 12; }
 
-  .bec-tiers{
-    grid-template-columns: repeat(3, 1fr);
+/* ============================================================
+   RESPONSIVE — ≤ 640 px
+   ============================================================ */
+@media (max-width: 640px) {
+  .bec-hero { padding: 0; }
+
+  .bec-title {
+    font-size: clamp(24px, 7vw, 32px);
+    letter-spacing: -.02em;
   }
-}
 
-@media (max-width: 520px){
-  .bec-detail{ grid-template-columns: 1fr; }
+  .bec-detail { grid-template-columns: 1fr; gap: 4px; }
+
+  .bec-btn { width: 100%; justify-content: center; }
+
+  /* Disable the ribbon on very small screens to prevent overflow */
+  .bec-tier:nth-child(2)::after { display: none; }
 }
